@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file is part of Chummer5a.Chummer5a is free software: you can redistribute it and/or modifyit under the terms of the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License, or(at your option) any later version.Chummer5a is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See theGNU General Public License for more details.You should have received a copy of the GNU General Public Licensealong with Chummer5a. If not, see <http://www.gnu.org/licenses/>.You can obtain the full source code for Chummer5a athttps://github.com/chummer5a/chummer5a -->
+<!-- Changes the stats of various drones. -->
+<chummer>
+  <!--This creates Shifter Armor as an available item -->
+  <armors>
+    <armor>
+      <id>0d6fc100-bdf7-4341-8aa1-4c628011bf59</id>
+      <name>Shifter Armor</name>
+      <category>Armor</category>
+      <armor>12</armor>
+      <armorcapacity>18</armorcapacity>
+      <avail>8</avail>
+      <cost>4000</cost>
+      <mods>
+        <name>YNT Softweave Armor</name>
+      </mods>
+      <source>SR5</source>
+      <page>437</page>	
+      <notes>This special armor is made specifically for shifters out of YNT Softweave, and is designed to be useable in both their animal and metahuman forms. The armor is made to adjust as they shift to accomodate their shape. Because of this, it does not work for mages using the Shapeshift spell, as they simply 'pop' into their new form instead of morphing into it.</notes>
+    </armor>
+  </armors>
+</chummer>

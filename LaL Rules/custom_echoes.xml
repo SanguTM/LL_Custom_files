@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chummer>
+  <echoes>
+    <echo>
+      <id>c668d83e-681a-49ab-9f2d-348c43051e31</id>
+      <name>Depth of Connection</name>
+      <source>SR5</source>
+      <page>5</page>
+      <bonus>
+        <specificattribute>
+          <name>CHA</name>
+          <val>1</val>
+        </specificattribute>
+      </bonus>
+      <limit>3</limit>
+    </echo>
+		
+		<echo>
+      <id>d132bf85-c653-4d4e-ad50-6c15cf605f62</id>
+      <name>Innate Analytics</name>
+      <source>SR5</source>
+      <page>5</page>
+      <bonus>
+        <specificattribute>
+          <name>INT</name>
+          <val>1</val>
+        </specificattribute>
+      </bonus>
+      <limit>3</limit>
+			<required>
+        <oneof>
+					<echo>Neural Synergy</echo>
+					<echo>Will of the Resonance</echo>
+					<echo>Depth of Connection</echo>
+				</oneof>
+			</required>
+		</echo>
+  </echoes>
+</chummer>
+

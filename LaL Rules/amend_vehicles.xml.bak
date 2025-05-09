@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file is part of Chummer5a.Chummer5a is free software: you can redistribute it and/or modifyit under the terms of the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License, or(at your option) any later version.Chummer5a is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See theGNU General Public License for more details.You should have received a copy of the GNU General Public Licensealong with Chummer5a. If not, see <http://www.gnu.org/licenses/>.You can obtain the full source code for Chummer5a athttps://github.com/chummer5a/chummer5a -->
+<!-- Changes the stats of various drones. -->
+<chummer>
+
+  <categories>
+    <category blackmarket="Vehicles" amendoperation="addnode">Hovercraft</category>
+    <category blackmarket="Vehicles" amendoperation="addnode">Accessories</category>
+  </categories>
+
+  <vehicles>
+    <vehicle>
+      <id>b448855b-57e7-435a-b523-174adb276674</id>
+      <body amendoperation="replace">10</body>
+      <weaponmounts>
+        <weaponmount>
+          <size amendoperation="replace">Large (Drone)</size>
+        </weaponmount>
+        <weaponmount>
+          <size amendoperation="replace">Large (Drone)</size>
+        </weaponmount>
+      </weaponmounts>
+    </vehicle>
+    <vehicle>
+      <id>70916e91-a7ee-477f-a4b0-14bc125c1034</id>
+      <body amendoperation="replace">12</body>
+    </vehicle>
+    <vehicle>
+      <id>e4f82e1e-1bcb-4857-a693-80cea860150e</id>
+      <body amendoperation="replace">12</body>
+    </vehicle>
+    <vehicle>
+      <id>83dae489-5d31-4d39-b6fa-aefc83b3ff20</id>
+      <body amendoperation="replace">12</body>
+    </vehicle>
+    <vehicle>
+      <id>0f1b635b-59d8-4b43-b809-76eae7f0048c</id>
+      <body amendoperation="replace">10</body>
+    </vehicle>
+    <vehicle>
+      <id>50e6572c-ea59-4756-83e4-7c51f8f614c9</id>
+      <body amendoperation="replace">6</body>
+    </vehicle>
+	<vehicle>
+	  <id>63a915a3-b71b-4ee4-8638-8a24df833c14</id>
+	  <modslots amendoperation="replace">5</modslots>
+	  <seats amendoperation="remove" />
+	</vehicle>
+  </vehicles>
+<!-- Reduced Weapon Mount Prices. -->
+  <weaponmounts>
+    <weaponmount>
+      <id>4fdb0fb3-c987-41a0-b11e-d82fe6ac85b1</id>
+      <name>Micro (Drone)</name>
+      <cost>500</cost>
+    </weaponmount>
+    <weaponmount>
+      <id>94d06312-0487-4f3c-a8e9-e02ac2d04a2e</id>
+      <name>Mini (Drone)</name>
+      <cost>600</cost>
+    </weaponmount>
+    <weaponmount>
+      <id>9ee5e112-8ced-4266-9141-02ef18e33f43</id>
+      <name>Small (Drone)</name>
+      <cost>750</cost>
+      <weaponcategories>Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Laser Weapons,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols</weaponcategories>
+    </weaponmount>
+    <weaponmount>
+      <id>0ec991be-a888-4547-8ca2-ad43d7c7399e</id>
+      <name>Standard (Drone)</name>
+      <cost>1500</cost>
+      <weaponcategories>Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Laser Weapons,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Submachine Guns,Grenade Launchers</weaponcategories>
+    </weaponmount>
+    <weaponmount>
+      <id>2ab20ea4-441c-482d-977e-a5e90f37cb51</id>
+      <name>Large (Drone)</name>
+      <cost>2500</cost>
+      <weaponcategories>Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Laser Weapons,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Submachine Guns,Assault Rifles,Shotguns,Grenade Launchers,Sporting Rifles</weaponcategories>
+    </weaponmount>
+    <weaponmount>
+      <id>30099989-d8ca-4f9c-adf0-1de36b6f8ab6</id>
+      <name>Huge (Drone)</name>
+      <cost>3000</cost>
+    </weaponmount>
+    <weaponmount>
+      <id>52973ba7-3dbb-49fe-9a4c-8105eb6ab4bc</id>
+      <name>Heavy (Drone)</name>
+      <cost>4000</cost>
+    </weaponmount>
+  </weaponmounts>
+<!-- Weapon Mount Can use SMGs. -->
+    <weaponmounts>
+      <weaponmount>
+        <id>4e9da56b-622c-439f-9718-98ac3a792351</id>
+        <weaponcategories>Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Submachine Guns,Assault Rifles,Sniper Rifles,Shotguns,Exotic Ranged Weapons,Flamethrowers,Special Weapons</weaponcategories>
+      </weaponmount>
+      <weaponmount>
+        <id>73f6f721-9732-4773-8ce6-0e3f5222a49f</id>
+        <weaponcategories>Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Submachine Guns,Assault Rifles,Sniper Rifles,Shotguns,Exotic Ranged Weapons,Flamethrowers,Special Weapons,Light Machine Guns,Medium Machine Guns,Heavy Machine Guns,Assault Cannons,Grenade Launchers,Missile Launchers,Laser Weapons</weaponcategories>
+      </weaponmount>
+    </weaponmounts>
+</chummer>

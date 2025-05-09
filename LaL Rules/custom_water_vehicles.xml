@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file is part of Chummer5a.Chummer5a is free software: you can redistribute it and/or modifyit under the terms of the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License, or(at your option) any later version.Chummer5a is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See theGNU General Public License for more details.You should have received a copy of the GNU General Public Licensealong with Chummer5a. If not, see <http://www.gnu.org/licenses/>.You can obtain the full source code for Chummer5a athttps://github.com/chummer5a/chummer5a -->
+<!-- Creates new drones for water missions. -->
+<chummer>
+  
+  <vehicles>
+    <vehicle>
+      <id>1a5c73d7-b83d-4fba-a8be-0092c22f877d</id>
+      <name>Evo Minnow (Minidrone)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>0</armor>
+      <avail>8R</avail>
+      <body>1</body>
+      <category>Drones: Mini</category>
+      <cost>3000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Kamikaze Jet-Propelled Ram</name>
+        <name rating="2">Realistic Features</name>
+        <name>Submersible (Drone)</name>
+      </mods>
+    </vehicle>
+    <vehicle>
+      <id>e134e10b-0af7-4738-8730-57153582f83e</id>
+      <name>Evo Mantaray (Small)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>3</armor>
+      <avail>10</avail>
+      <body>2</body>
+      <category>Drones: Small</category>
+      <cost>7000</cost>
+      <handling>3</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Submersible (Drone)</name>
+      </mods>
+    </vehicle>
+    <vehicle>
+      <id>702f021c-57a3-4f66-b1e6-00b4932d889b</id>
+      <name>Lone Star Sea Eye (Mini)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>5</avail>
+      <body>1</body>
+      <category>Drones: Mini</category>
+      <cost>2500</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Submersible (Drone)</name>
+      </mods>
+      <modslots>0</modslots>
+    </vehicle>
+    <vehicle>
+      <id>1068cee1-2e5c-4718-94d3-ed10af5f4027</id>
+      <name>Evo Stingray (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>4</armor>
+      <avail>12R</avail>
+      <body>4</body>
+      <category>Drones: Medium</category>
+      <cost>8000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Submersible (Drone)</name>
+        <addslots>3</addslots>
+      </mods>
+      <modslots>7</modslots>
+      <weaponmodslots>3</weaponmodslots>
+    </vehicle>
+    <vehicle>
+      <id>5fbc9299-32fd-4c4f-922c-de1173c484fe</id>
+      <name>Triax Shallows Skiff (Small)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>2</armor>
+      <avail>6R</avail>
+      <body>4</body>
+      <category>Drones: Small</category>
+      <cost>14000</cost>
+      <handling>5</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <mods>
+	    <name>Retrans Unit</name>
+        <name>Submersible (Drone)</name>
+        <name>Drone Arm</name>
+        <name>Deployable Communication Buoy</name>
+      </mods>
+    </vehicle>
+    <vehicle>
+      <id>eca76247-431b-459c-af04-ab7bbd7fa6df</id>
+      <name>Automation Systems, Inc. Marine Crawler (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>4</armor>
+      <avail>8R</avail>
+      <body>6</body>
+      <category>Drones: Large</category>
+      <cost>30000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <mods>
+	    <name>Retrans Unit</name>
+        <name>Submersible (Drone)</name>
+        <name>Drone Arm</name>
+      </mods>
+    </vehicle>
+    <vehicle>
+      <id>f8f260d0-4abf-423f-b0ee-9b86ad12a744</id>
+      <name>Maritech Shark (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>12</armor>
+      <avail>12R</avail>
+      <body>6</body>
+      <category>Drones: Large</category>
+      <cost>20000</cost>
+      <handling>5</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>5</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Submersible (Drone)</name>
+      </mods>
+      <modslots>0</modslots>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Built-In</size>
+          <visibility>Concealed</visibility>
+        </weaponmount>
+      </weaponmounts>
+      <weapons>
+        <weapon>
+          <name>Large Jaws</name>
+        </weapon>
+      </weapons>
+    </vehicle>
+    <vehicle>
+      <id>ea4d2564-667a-4dbb-85a8-a055ae4ef440</id>
+      <name>Saeder-Krupp ROV (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>10</armor>
+      <avail>14R</avail>
+      <body>10</body>
+      <category>Drones: Large</category>
+      <cost>25000</cost>
+      <handling>3</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Submersible (Drone)</name>
+        <name>Drone Arm</name>
+        <name>Drone Arm</name>
+        <name>Searchlight</name>
+        <name>Deployable Communication Buoy</name>
+      </mods>
+      <modslots>0</modslots>
+    </vehicle>
+    <vehicle>
+      <id>61937391-91d7-4529-a895-32a88895a3e7</id>
+      <name>MCT Orca (Huge)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>14</armor>
+      <avail>16R</avail>
+      <body>12</body>
+      <category>Drones: Huge</category>
+      <cost>60000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Heavy [SR5]</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>
+      <weapons>
+        <weapon>
+          <name>Remote Cavitation System</name>
+        </weapon>
+      </weapons>
+      <mods>
+        <name>Submersible (Drone)</name>
+      </mods>
+      <modslots>0</modslots>
+    </vehicle>
+    <vehicle>
+      <id>08a08886-2bab-4f61-b47c-9762a7c74323</id>
+      <name>Shiawase i-Merrow</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>3</armor>
+      <avail>8</avail>
+      <body>3</body>
+      <category>Drones: Anthro</category>
+      <cost>15000</cost>
+      <handling>3</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+        <gear rating="3" select="Lemurian">Linguasoft</gear>
+      </gears>
+      <mods>
+        <name>Synthetic Drone Arm</name>
+        <name>Synthetic Drone Arm</name>
+        <name>Synthetic Drone Tail</name>
+        <name>Submersible (Drone)</name>
+        <name rating="1">Realistic Features (Drone)</name>
+      </mods>
+    </vehicle>
+    <vehicle>
+      <id>cfcc10fa-40c1-46e3-b1de-0ebc17715dea</id>
+      <name>Evo Rusalka</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>12</armor>
+      <avail>20F</avail>
+      <body>10</body>
+      <category>Drones: Anthro</category>
+      <cost>75000</cost>
+      <handling>3</handling>
+      <pilot>4</pilot>
+      <sensor>4</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>4</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Drone Arm</name>
+        <name>Drone Arm</name>
+        <name>Drone Tail</name>
+        <name>Submersible (Drone)</name>
+      </mods>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Large (Drone)</size>
+          <visibility>External</visibility>
+        </weaponmount>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Large (Drone)</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>
+    </vehicle>
+  </vehicles>
+  <mods>
+    <mod>
+      <id>2a0004f6-2d82-42e0-824a-1cf8952e58bf</id>
+      <name>Kamikaze Jet-Propelled Ram</name>
+      <page>?</page>
+      <source>SR5</source>
+      <avail>12R</avail>
+      <category>Model-Specific</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+      <required>
+        <vehicledetails>
+          <OR>
+            <name>Evo Minnow (Minidrone)</name>
+          </OR>
+        </vehicledetails>
+      </required>
+    </mod>
+    <mod>
+      <id>58c6f32d-394d-4bc2-be70-4cbdebbacc9c</id>
+      <name>Deployable Communication Buoy</name>
+      <page>?</page>
+      <source>SR5</source>
+      <avail>12R</avail>
+      <category>Model-Specific</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+      <required>
+        <vehicledetails>
+          <OR>
+            <name>Saeder-Krupp ROV (Large)</name>
+          </OR>
+        </vehicledetails>
+      </required>
+    </mod>
+    <mod>
+      <id>7f839d89-91af-444e-92b8-6e10a5b857e5</id>
+      <name>Synthetic Drone Tail</name>
+      <page>?</page>
+      <source>SR5</source>
+      <avail>8</avail>
+      <category>Model-Specific</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+      <required>
+        <vehicledetails>
+          <OR>
+            <name>Shiawase i-Merrow</name>
+          </OR>
+        </vehicledetails>
+      </required>
+    </mod>
+    <mod>
+      <id>61d4a589-78a4-46f8-a89b-1ca2be94b101</id>
+      <name>Drone Tail</name>
+      <page>?</page>
+      <source>SR5</source>
+      <avail>20F</avail>
+      <category>Model-Specific</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+      <required>
+        <vehicledetails>
+          <OR>
+            <name>Evo Rusalka</name>
+          </OR>
+        </vehicledetails>
+      </required>
+    </mod>
+  </mods>
+</chummer>

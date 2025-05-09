@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema powers.xsd">
+
+  <powers>
+    <!-- Region SR5 -->
+    <power>
+      <id>62c8f0eb-d5e7-4431-a7a4-af7eb93cc02a</id>
+      <name>Ritual Aid</name>
+      <points>0.25</points>
+      <levels>True</levels>
+      <limit>1</limit>
+      <source>SR5</source>
+      <page>5</page>
+    </power>
+	
+    <power>
+      <id>ced2c0ae-c6f6-46dc-9d9c-6f7734edb9a0</id>
+      <name>Fortitude</name>
+      <points>0.5</points>
+      <levels>True</levels>
+      <limit>1</limit>
+      <source>SR5</source>
+      <page>5</page>
+      <maxlevels>2</maxlevels>	  
+    </power>	
+
+  </powers>
+</chummer>

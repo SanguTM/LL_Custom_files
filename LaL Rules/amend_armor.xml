@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file increases the accuracy of Clubs by 1-->
+<chummer>
+  <armors>
+	<armor>
+	  <id>e11b7746-40e2-493a-b35d-87b0dec5f3ca</id>
+      <name>Hardened Mil-Spec Battle Armor: Light</name>
+      <avail amendoperation="replace">24F</avail>
+	</armor>
+	
+	<armor>
+      <id>1c5ad9bc-35af-4079-b27c-f29a75ffe02f</id>
+      <name>Hardened Mil-Spec Battle Armor: Medium</name>
+      <avail amendoperation="replace">26F</avail>
+	</armor>
+
+	<armor>
+      <id>5542ff34-3eb7-4482-806f-d5a1cd56064f</id>
+      <name>Hardened Mil-Spec Battle Armor: Heavy</name>
+      <avail amendoperation="replace">28F</avail>
+	</armor>
+	
+  </armors>	
+</chummer>

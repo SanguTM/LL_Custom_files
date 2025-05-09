@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<chummer>
+  <metatypes>
+    <metatype xpathfilter="name='Pixie'">
+      <karma amendoperation="replace">100</karma>
+       <powers addifnotfound="true">
+	      <power amendoperation="addnode" rating="3">Fragile</power>
+              <power amendoperation="addnode" select="Iron, Mild">Allergy</power>
+       </powers>
+    </metatype>
+  </metatypes>
+</chummer>

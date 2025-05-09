@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of LaL's version of Naga -->
+<chummer>
+  <categories>
+    <category whitelist="true">Naga</category>
+  </categories>
+  <powers>
+    <power>
+      <id>e1d196ea-2748-11eb-adc1-0242ac120002</id>
+      <name>Spitting Venom</name>
+      <category>Naga</category>
+      <toxic>True</toxic>
+      <type>P</type>
+      <action>Complex</action>
+      <range>20m</range>
+      <duration>Instant</duration>
+      <source>SR5</source>
+      <page>1</page>
+    </power>
+    <power>
+      <id>f8928f76-2746-11eb-adc1-0242ac120002</id>
+      <name>Threat Display</name>
+      <category>Naga</category>
+      <type>P</type>
+      <action>Complex</action>
+      <range>LOS</range>
+      <duration>Instant</duration>
+      <karma>5</karma>
+      <source>SR5</source>
+      <page>1</page>
+    </power>
+    <power>
+      <id>af4b8943-0a6e-4c96-9085-631b1b68a3dd</id>
+      <name>Humanoform</name>
+      <category>Naga</category>
+      <type>M</type>
+      <action>Complex</action>
+      <range>Self</range>
+      <duration>Special</duration>
+      <karma>25</karma>
+      <source>SR5</source>
+      <page>1</page>
+    </power>
+    <power>
+      <id>a7936569-302f-4250-a209-15983af9e1a2</id>
+      <name>Low Light Vision</name>
+      <category>Naga</category>
+      <type>P</type>
+      <action>Auto</action>
+      <range>Self</range>
+      <duration>Always</duration>
+      <karma>2</karma>
+      <source>RF</source>
+      <page>109</page>
+    </power>
+    <power>
+      <id>5104f0af-c9de-414a-8537-30cd1c561426</id>
+      <name>Thermographic Heat Pits</name>
+      <category>Naga</category>
+      <type>P</type>
+      <action>Auto</action>
+      <range>Self</range>
+      <duration>Always</duration>
+      <karma>3</karma>
+      <source>RF</source>
+      <page>109</page>
+    </power>
+  </powers>
+</chummer>

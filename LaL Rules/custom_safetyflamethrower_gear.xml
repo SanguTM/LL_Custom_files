@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--This file is part of Chummer5a. -->
+
+<chummer>
+<!--This creates The Safety Flamethrower as an available item -->
+  <gears>
+    <gear>
+      <id>190b9cc0-0f82-4f9c-9de2-185a06dd8261</id>
+      <name>DaVinci Corp Safety Flamethrower</name>
+      <category>Entertainment</category>
+      <rating>1</rating>
+      <avail>6</avail>
+      <cost>500</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <notes>The ‘Safety Flamethrower’ is by all legal standings, not actually a flamethrower. Marketed for clearing brush and gardening, it has found a surprising secondary market in children’s toys, which has led to some uproar among some parent groups. By all legal requirements of the Corporate Court and UCAS’ definitions of flamethrower, which has until now strictly been considered a weapon of war, the ‘Safety Flamethrower’ deftly sidesteps the technical definitions with a shorter flame and other safety precautions, including a proprietary sensor system that prevents it from firing flames at both living organisms and drones, making it surprisingly ‘safe’ unless you’re a plant. Of course the company takes no responsibility for private user error, such as burning your house down, so it may be wise to fireproof your child’s playroom. Best selling toy for Christmas 2079!</notes> 
+    </gear>
+  </gears>
+</chummer>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3.org/2001/XMLSchema metamagic.xsd">
+
+	<metamagics>
+    <metamagic>
+      <id>ca243655-e266-4bb3-9bcc-788589478b6b</id>
+      <name>Extended Cleansing</name>
+	  <adept>False</adept>
+      <magician>True</magician>
+      <required>
+        <allof>
+          <metamagic>Cleansing</metamagic>
+        </allof>
+      </required>	  
+      <source>SR5</source>
+      <page>5</page>
+    </metamagic>
+
+    <metamagic>
+      <id>1c2fe561-ca19-4529-b0cc-c22ff3b0cec5</id>
+      <name>Conduit</name>
+	  <adept>False</adept>	  
+      <magician>True</magician>
+      <required>
+        <allof>
+          <metamagic>Channeling</metamagic>
+        </allof>
+      </required>	  
+      <source>SR5</source>
+      <page>5</page>
+    </metamagic>		
+	
+    <metamagic>
+      <id>9bcc24fb-5aeb-45c7-b713-cb24347d41a3</id>
+      <name>Persistent Counterspelling</name>
+	  <adept>False</adept>	  
+      <magician>True</magician>
+      <required>
+        <allof>
+          <metamagic>Shielding</metamagic>
+        </allof>
+      </required>	  
+      <source>SR5</source>
+      <page>5</page>
+    </metamagic>
+
+    <metamagic>
+      <id>8d16aaf4-c604-42fa-a57d-7eae7ae11941</id>
+      <name>Astral Fortitude</name>
+	  <adept>False</adept>	  
+      <magician>True</magician>
+      <required>
+        <allof>
+          <metamagic>Improved Astral Form</metamagic>
+        </allof>
+      </required>	  
+      <source>SR5</source>
+      <page>5</page>
+    </metamagic>
+
+    <metamagic>
+      <id>f49759b9-e150-480c-b665-febd74f594f6</id>
+      <name>Astral Fortitude (Adept)</name>
+	  <adept>True</adept>	  
+      <magician>False</magician>  
+      <source>SR5</source>
+      <page>5</page>
+    </metamagic>	
+	
+	</metamagics>
+</chummer>

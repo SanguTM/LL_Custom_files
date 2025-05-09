@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of LaL's version of Naga -->
+<chummer>
+  <categories>
+    <category whitelist="true">Drake</category>
+  </categories>
+  <powers>
+    <power>
+      <id>45fe022b-5cd5-4918-ac70-2bc3124541aa</id>
+      <name>Pounce</name>
+      <category>Drake</category>
+      <type>P</type>
+      <action>Complex</action>
+      <range>Touch</range>
+      <duration>Instant</duration>
+      <source>HS</source>
+      <page>193</page>
+    </power>
+    <power>
+      <id>e4ecb2a7-0c34-4004-a14d-030664a8cde1</id>
+      <name>Dive Attack</name>
+      <category>Drake</category>
+      <type>P</type>
+      <action>Complex</action>
+      <range>Touch</range>
+      <duration>Instant</duration>
+      <source>HS</source>
+      <page>190</page>
+    </power>
+  </powers>
+</chummer>

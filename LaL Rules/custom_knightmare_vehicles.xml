@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is part of Chummer5a.Chummer5a is free software: you can redistribute it and/or modifyit under the terms of the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License, or(at your option) any later version.Chummer5a is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See theGNU General Public License for more details.You should have received a copy of the GNU General Public Licensealong with Chummer5a. If not, see <http://www.gnu.org/licenses/>.You can obtain the full source code for Chummer5a athttps://github.com/chummer5a/chummer5a -->
+<!-- Creates new drones for water missions. -->
+<chummer>
+	<vehicles>
+		<vehicle>
+			<id>917bd03d-0e83-4ef3-aa8b-bc82f9006301</id>
+			<name>Byakko Model 4</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>2</accel>
+			<armor>18</armor>
+			<avail>20F</avail>
+			<body>18</body>
+			<category>Walker</category>
+			<cost>150000</cost>
+			<handling>5</handling>
+			<pilot>2</pilot>
+			<sensor>5</sensor>
+			<speed>4</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>5</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Secondary Propulsion (Rotor)</name>
+				<name>Removed Manual Controls</name>
+				<name>Chameleon Coating</name>
+			</mods>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>af577e42-9fb7-421b-aae9-fd8c85f860ea</id>
+			<name>Genbu Model 3</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>1</accel>
+			<armor>20</armor>
+			<avail>20F</avail>
+			<body>22</body>
+			<category>Walker</category>
+			<cost>150000</cost>
+			<handling>3</handling>
+			<pilot>2</pilot>
+			<sensor>5</sensor>
+			<speed>2</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>5</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Secondary Propulsion (Treads)</name>
+				<name>Removed Manual Controls</name>
+				<name>Drone Rail</name>
+			</mods>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>59a5c1eb-bcb7-4d73-832a-5fa2064b5a0d</id>
+			<name>Suzaku Model 5</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>1</accel>
+			<armor>16</armor>
+			<avail>20F</avail>
+			<body>16</body>
+			<category>Fixed-Wing Aircraft</category>
+			<cost>200000</cost>
+			<handling>5</handling>
+			<pilot>2</pilot>
+			<sensor>5</sensor>
+			<speed>4</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>7</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Secondary Propulsion (Walker)</name>
+				<name>Removed Manual Controls</name>
+				<name>Mechanical Arm (Articulated)</name>
+				<name>Mechanical Arm (Articulated)</name>
+				<name>Rigger Cocoon</name>
+			</mods>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>e83a6f5e-b927-4de6-bddc-1c4bf8843b76</id>
+			<name>Tsuchinoko Model 7</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>2</accel>
+			<armor>18</armor>
+			<avail>20F</avail>
+			<body>18</body>
+			<category>Walker</category>
+			<cost>150000</cost>
+			<handling>3</handling>
+			<pilot>2</pilot>
+			<sensor>5</sensor>
+			<speed>3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>5</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Secondary Propulsion (Submersible)</name>
+				<name>Removed Manual Controls</name>
+			</mods>
+			<weaponmounts>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Fixed</flexibility>
+					<size>Built-In</size>
+					<visibility>Concealed</visibility>
+					<allowedweapons>Tsuchinoko Bite</allowedweapons>
+				</weaponmount>
+			</weaponmounts>
+			<weapons>
+				<weapon>
+					<name>Tsuchinoko Bite</name>
+				</weapon>
+			</weapons>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>545fea84-eb0c-4328-8ece-447d9e0095ba</id>
+			<name>AL Mark-I</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>3/6</accel>
+			<armor>12</armor>
+			<avail>12R</avail>
+			<body>12</body>
+			<category>Walker</category>
+			<cost>80000</cost>
+			<handling>5/3</handling>
+			<pilot>2</pilot>
+			<sensor>4</sensor>
+			<speed>3/6</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>4</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Rigger Interface</name>
+				<name>K-CID (Monocycle Mode)</name>
+				<name>Ram Plate</name>
+				<name>Drone Arm</name>
+				<name>Drone Arm</name>
+			</mods>
+			<weaponmounts>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Fixed</flexibility>
+					<size>Heavy</size>
+					<visibility>External</visibility>
+					<mods>
+						<mod>
+							<name>Ammo Bin</name>
+						</mod>
+					</mods>
+				</weaponmount>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Fixed</flexibility>
+					<size>Heavy</size>
+					<visibility>External</visibility>
+					<mods>
+						<mod>
+							<name>Ammo Bin</name>
+						</mod>
+					</mods>
+				</weaponmount>
+			</weaponmounts>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>7c485ba8-fe1e-4c57-b293-53f70c68e140</id>
+			<name>Gecko Mark-II</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>3</accel>
+			<armor>10</armor>
+			<avail>12R</avail>
+			<body>10</body>
+			<category>Walker</category>
+			<cost>60000</cost>
+			<handling>5</handling>
+			<pilot>2</pilot>
+			<sensor>4</sensor>
+			<speed>3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>4</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Lightweight Frame</name>
+				<name>Gecko Tips</name>
+				<name>Rigger Interface</name>
+				<name>Drone Arm</name>
+				<name>Drone Arm</name>
+			</mods>
+			<weaponmounts>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Fixed</flexibility>
+					<size>Standard</size>
+					<visibility>External</visibility>
+				</weaponmount>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Fixed</flexibility>
+					<size>Standard</size>
+					<visibility>External</visibility>
+				</weaponmount>
+			</weaponmounts>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>74ddfbb2-989b-4a11-a4a9-64b3ed75e631</id>
+			<name>Chameleon Mark-III</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>3</accel>
+			<armor>10</armor>
+			<avail>12R</avail>
+			<body>12</body>
+			<category>Walker</category>
+			<cost>60000</cost>
+			<handling>5</handling>
+			<pilot>2</pilot>
+			<sensor>4</sensor>
+			<speed>3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>4</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Chameleon Cloaking</name>
+				<name>Rigger Interface</name>
+				<name>Drone Arm</name>
+				<name>Drone Arm</name>
+			</mods>
+			<weaponmounts>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Fixed</flexibility>
+					<size>Heavy</size>
+					<visibility>External</visibility>
+				</weaponmount>
+			</weaponmounts>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>c8a393f1-982d-46cb-a883-320304ae8dc4</id>
+			<name>Byakko Model 4B</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>2/4</accel>
+			<armor>18</armor>
+			<avail>20F</avail>
+			<body>18</body>
+			<category>Walker</category>
+			<cost>200000</cost>
+			<handling>5/4</handling>
+			<pilot>2</pilot>
+			<sensor>5</sensor>
+			<speed>4/4</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>5</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Chameleon Cloaking</name>
+				<name>K-CID (Jet)</name>
+				<name>Rigger Interface</name>
+				<name>Secondary Propulsion (Rotor)</name>
+				<name>Removed Manual Controls</name>
+				<name>Legacy Knightmare</name>
+			</mods>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>de879076-ae14-4368-81b3-c69cb5151825</id>
+			<name>Tsuchinoko Model 7B</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>2/3</accel>
+			<armor>18</armor>
+			<avail>20F</avail>
+			<body>18</body>
+			<category>Walker</category>
+			<cost>200000</cost>
+			<handling>3/5</handling>
+			<pilot>2</pilot>
+			<sensor>5</sensor>
+			<speed>3/3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>5</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>K-CID (Submersible)</name>
+				<name>Rigger Interface</name>
+				<name>Secondary Propulsion (Submersible)</name>
+				<name>Removed Manual Controls</name>
+				<name>Legacy Knightmare</name>
+				<mod>
+					<name>Signature Masking</name>
+					<rating>6</rating>
+					<maxrating>6</maxrating>
+				</mod>
+			</mods>
+			<weaponmounts>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Fixed</flexibility>
+					<size>Built-In</size>
+					<visibility>Concealed</visibility>
+					<allowedweapons>Tsuchinoko Bite</allowedweapons>
+				</weaponmount>
+			</weaponmounts>
+			<weapons>
+				<weapon>
+					<name>Tsuchinoko Bite</name>
+				</weapon>
+			</weapons>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>4d42b225-98ae-42ad-8842-35bb6cb721f4</id>
+			<name>Sentinel Model K5</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>2/4</accel>
+			<armor>16</armor>
+			<avail>12R</avail>
+			<body>16</body>
+			<category>Walker</category>
+			<cost>100000</cost>
+			<handling>5/3</handling>
+			<pilot>2</pilot>
+			<sensor>5</sensor>
+			<speed>3/4</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>5</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Rigger Interface</name>
+				<name>K-CID (Ground)</name>
+				<name>Mechanical Arm (Articulated)</name>
+				<name>Mechanical Arm (Articulated)</name>
+			</mods>
+			<weaponmounts>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Flexible</flexibility>
+					<size>Standard</size>
+					<visibility>External</visibility>
+				</weaponmount>
+			</weaponmounts>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>f0536e16-892c-469b-ae9f-ebd743f08e22</id>
+			<name>Entelo Mark-1</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>3</accel>
+			<armor>12</armor>
+			<avail>14R</avail>
+			<body>14</body>
+			<category>Walker</category>
+			<cost>50000</cost>
+			<handling>5</handling>
+			<pilot>2</pilot>
+			<sensor>6</sensor>
+			<speed>4</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>6</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Rigger Interface</name>
+				<name>Burrowing Rotors</name>
+			</mods>
+			<weaponmounts>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Flexible</flexibility>
+					<size>Built-In</size>
+					<visibility>Internal</visibility>
+					<allowedweapons>Knightmare Close-Combat Weaponry</allowedweapons>
+				</weaponmount>
+			</weaponmounts>
+			<weapons>
+				<weapon>
+					<name>Knightmare Close-Combat Weaponry</name>
+				</weapon>
+			</weapons>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>27e75302-4d03-4372-94a9-e92ef4663fc1</id>
+			<name>Home Safety Plus Model A</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>1/2</accel>
+			<armor>8</armor>
+			<avail>10</avail>
+			<body>16</body>
+			<category>Walker</category>
+			<cost>50000</cost>
+			<handling>4/3</handling>
+			<pilot>2</pilot>
+			<sensor>2</sensor>
+			<speed>2/3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>2</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Rigger Interface</name>
+				<name>K-CID (Ground)</name>
+			</mods>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>31f974cb-d52e-49c3-af5d-f6d24a46768f</id>
+			<name>FRT-2</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>2</accel>
+			<armor>10</armor>
+			<avail>10R</avail>
+			<body>12</body>
+			<category>Walker</category>
+			<cost>50000</cost>
+			<handling>5</handling>
+			<pilot>2</pilot>
+			<sensor>2</sensor>
+			<speed>3</speed>
+			<mods>
+				<name>Rigger Interface</name>
+			</mods>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>2</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<weaponmounts>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Flexible</flexibility>
+					<size>Light</size>
+					<visibility>Internal</visibility>
+				</weaponmount>
+			</weaponmounts>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>5aa652c9-127b-4dd2-92c0-1e159062ba34</id>
+			<name>Endurance Rook-Class: Model B</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>1</accel>
+			<armor>26</armor>
+			<avail>20F</avail>
+			<body>24</body>
+			<category>Walker</category>
+			<cost>225000</cost>
+			<handling>2</handling>
+			<pilot>2</pilot>
+			<sensor>6</sensor>
+			<speed>1</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>6</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Rigger Interface</name>
+			</mods>
+			<weaponmounts>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Flexible</flexibility>
+					<size>Heavy</size>
+					<visibility>External</visibility>
+				</weaponmount>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Flexible</flexibility>
+					<size>Standard</size>
+					<visibility>External</visibility>
+				</weaponmount>
+			</weaponmounts>
+			<seats>2</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>c221cd7b-a739-4db8-b58e-f1e07cba2c99</id>
+			<name>King Crab Model-3 (KC-3)</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>2/2</accel>
+			<armor>20</armor>
+			<avail>20F</avail>
+			<body>20</body>
+			<category>Walker</category>
+			<cost>250000</cost>
+			<handling>5/3</handling>
+			<pilot>2</pilot>
+			<sensor>5</sensor>
+			<speed>2/3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>5</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Rigger Interface</name>
+				<name>Drone Arm</name>
+				<name>Drone Arm</name>
+				<name>K-CID (Submersible)</name>
+				<name>Rotary Chassis</name>
+			</mods>
+			<weaponmounts>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Flexible</flexibility>
+					<size>Heavy</size>
+					<visibility>External</visibility>
+				</weaponmount>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Flexible</flexibility>
+					<size>Heavy</size>
+					<visibility>External</visibility>
+				</weaponmount>
+			</weaponmounts>
+			<seats>2</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>4b161962-53a1-43d9-bf93-c4098fe8eeb2</id>
+			<name>Genbu Model 3B</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>2/0</accel>
+			<armor>22/26</armor>
+			<avail>20F</avail>
+			<body>22</body>
+			<category>Walker</category>
+			<cost>250000</cost>
+			<handling>3/0</handling>
+			<pilot>2</pilot>
+			<sensor>5</sensor>
+			<speed>2/0</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>5</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Removed Manual Controls</name>
+				<name>Drone Arm</name>
+				<name>Legacy Knightmare</name>
+				<name>Rigger Interface</name>
+				<name>Turret Mode</name>
+				<name>Drone Rail</name>
+			</mods>
+			<weaponmounts>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Flexible</flexibility>
+					<size>Heavy</size>
+					<visibility>Internal</visibility>
+				</weaponmount>
+			</weaponmounts>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>a4029814-903c-44ce-9710-33575416eb5e</id>
+			<name>Suzaku Model 5C</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>4</accel>
+			<armor>18</armor>
+			<avail>26F</avail>
+			<body>18</body>
+			<category>Walker</category>
+			<cost>250000</cost>
+			<handling>6</handling>
+			<pilot>2</pilot>
+			<sensor>5</sensor>
+			<speed>5</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>5</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>K-CID (Walker)</name>
+				<name>Removed Manual Controls</name>
+				<name>Rigger Interface</name>
+				<name>Mechanical Arm (Articulated)</name>
+				<name>Mechanical Arm (Articulated)</name>
+			</mods>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>1e0f1388-0ae7-4958-be48-074b31555a25</id>
+			<name>Shiawase Ursus Mark-IV</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>4</accel>
+			<armor>20</armor>
+			<avail>30F</avail>
+			<body>24</body>
+			<category>Walker</category>
+			<cost>300000</cost>
+			<handling>6</handling>
+			<pilot>2</pilot>
+			<sensor>5</sensor>
+			<speed>5</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>5</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Rigger Interface</name>
+			</mods>
+			<weaponmounts>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Flexible</flexibility>
+					<size>Built-In</size>
+					<visibility>Internal</visibility>
+					<allowedweapons>Amaterasu Energy Cannon</allowedweapons>
+				</weaponmount>
+			</weaponmounts>
+			<weapons>
+				<weapon>
+					<name>Amaterasu Energy Cannon</name>
+				</weapon>
+			</weapons>
+			<seats>2</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>adf0dcbe-35b2-4d4c-9ed0-ce71306334a8</id>
+			<name>Ironneck Model 2</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>2/3</accel>
+			<armor>8</armor>
+			<avail>20R</avail>
+			<body>20</body>
+			<category>Walker</category>
+			<cost>250000</cost>
+			<handling>5/3</handling>
+			<pilot>2</pilot>
+			<sensor>7</sensor>
+			<speed>2/3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>7</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Rigger Interface</name>
+				<name>Satellite Uplink</name>
+				<name>Collapsible Frame (K-CID Ground-Wheeled)</name>
+				<name>Noise Defragmenter</name>
+			</mods>
+			<seats>6</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>418e59dc-f529-4f5d-aa12-7fc9b8bcdc40</id>
+			<name>C&amp;C Mobile Network Boost Bunker(C&amp;C MNB2)</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>2/3</accel>
+			<armor>12</armor>
+			<avail>16R</avail>
+			<body>12</body>
+			<category>Walker</category>
+			<cost>125000</cost>
+			<handling>5/3</handling>
+			<pilot>2</pilot>
+			<sensor>5</sensor>
+			<speed>3/4</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>5</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Rigger Interface</name>
+				<name>C&amp;C Booster</name>
+				<name>K-CID (Ground)</name>
+			</mods>
+			<weaponmounts>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Flexible</flexibility>
+					<size>Standard</size>
+					<visibility>Internal</visibility>
+				</weaponmount>
+			</weaponmounts>
+			<seats>1</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>e1e67c9f-57f5-4007-af25-6d7dc57abb31</id>
+			<name>Hornet’s Nest Mark-2</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>2/4</accel>
+			<armor>20</armor>
+			<avail>16F</avail>
+			<body>16</body>
+			<category>Walker</category>
+			<cost>200000</cost>
+			<handling>2</handling>
+			<pilot>2</pilot>
+			<sensor>5</sensor>
+			<speed>2/4</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>5</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Rigger Interface</name>
+				<name>Wide-area Jammer</name>
+			</mods>
+			<weaponmounts>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Turret</flexibility>
+					<size>Standard</size>
+					<visibility>Internal</visibility>
+				</weaponmount>
+			</weaponmounts>
+			<seats>6</seats>
+		</vehicle>
+		
+		<vehicle>
+			<id>655225f7-4a6a-474c-a5ab-f24936051465</id>
+			<name>Project DE1</name>
+			<page>5</page>
+			<source>SR5</source>
+			<accel>5</accel>
+			<armor>40</armor>
+			<avail>0</avail>
+			<body>40</body>
+			<category>Walker</category>
+			<cost>0</cost>
+			<handling>5</handling>
+			<pilot>2</pilot>
+			<sensor>7</sensor>
+			<speed>9/5</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>7</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Rigger Interface</name>
+				<name>K-CID (Jet)</name>
+			</mods>
+			<seats>2</seats>
+		</vehicle>
+		
+	</vehicles>
+
+	<!--Mods-->
+  <mods>
+		<mod>
+      <id>36ac5e03-e679-4ecb-b203-aff2ca910f41</id>
+      <name>C&amp;C Booster</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+		
+		<mod>
+      <id>a8ec7265-e3d8-409c-aea4-779698e40d65</id>
+      <name>Wide-area Jammer</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+	
+    <mod>
+      <id>3df4a32d-a3bf-4473-b441-065594d3e772</id>
+      <name>K-CID (Monocycle Mode)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+		
+		<mod>
+      <id>a84a801d-ef38-4683-9eaf-22ff6cee9c70</id>
+      <name>Collapsible Frame (K-CID Ground-Wheeled)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+		
+		<mod>
+      <id>98f5767f-cbcd-4367-b25b-ee619eaf2196</id>
+      <name>Noise Defragmenter</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+		
+		<mod>
+      <id>c517d0ad-9083-4f21-82c9-cbeefc32c759</id>
+      <name>K-CID (Walker)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+		
+		<mod>
+      <id>5484576f-f97b-4037-bece-fa200347284f</id>
+      <name>K-CID (Jet)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+		
+		<mod>
+      <id>352b70be-7a14-4f69-a054-d9dd6c682825</id>
+      <name>K-CID (Ground)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+		
+		<mod>
+      <id>9af95b4b-cc61-4222-b4f9-82139121165e</id>
+      <name>K-CID (Submersible)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+		
+		<mod>
+      <id>1b7a7046-8a94-44f3-b0d3-bc8cdd97c3eb</id>
+      <name>K-CID (Underwater)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+		
+		<mod>
+      <id>18c0a75c-17fe-461f-892a-99b70911e593</id>
+      <name>Lightweight Frame</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+		
+		<mod>
+      <id>77456cd6-cc14-4061-b4cf-fc592504e748</id>
+      <name>Multifuel System</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+		
+		<mod>
+      <id>ae4c6b2e-180a-4ddb-8e37-fb9883314c8b</id>
+      <name>Rotary Chassis</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+		
+		<mod>
+      <id>882d3724-fa19-4348-b69d-3f2983d59316</id>
+      <name>Legacy Knightmare</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+		
+		<mod>
+      <id>dba05262-2203-43d7-9b52-ca264df792a9</id>
+      <name>Burrowing Rotors</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+		
+		<mod>
+      <id>aa301658-e1b1-419e-8f1a-03f0e67ab0c2</id>
+      <name>Turret Mode</name>
+      <page>5</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <category>Cosmetic</category>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+    </mod>
+  </mods>
+</chummer>

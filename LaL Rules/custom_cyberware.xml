@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<cyberwares>
+		<cyberware>
+		<id>7854712f-9d78-47b5-9aaf-4cc92881e297</id>
+		<name>EVO I.C.E.P.I.C.K.</name>
+		<limit>False</limit>
+		<category>Cyber Implant Weapon</category>
+		<ess>0.00</ess>
+		<capacity>[4]</capacity>
+		<avail>16F</avail>
+		<cost>10000</cost>
+		<source>SR5</source>
+		<page>5</page>
+		<addweapon>EVO I.C.E.P.I.C.K.</addweapon>
+		<allowsubsystems>
+			<category>Cyber Implant Weapon Accessory</category>
+		</allowsubsystems>
+		</cyberware>
+		
+		<cyberware>
+		<id>a0cc0141-a36b-4633-a9c8-e458149b1096</id>
+		<name>Mitsuhama Retrorocket Ascent System</name>
+		<limit>False</limit>
+      <category>Cyberlimb Accessory</category>
+		<ess>0.00</ess>
+		<capacity>[2]</capacity>
+		<avail>10</avail>
+		<cost>5000</cost>
+		<source>SR5</source>
+		<page>5</page>
+		</cyberware>
+
+		<cyberware>
+		<id>d4fa7db8-3d8c-4d79-8b9b-3ce1d0bc754b</id>
+		<name>ARES Daybreak</name>
+		<limit>False</limit>
+		<category>Cyber Implant Weapon</category>
+		<ess>0.00</ess>
+		<capacity>[4]</capacity>
+		<avail>22F</avail>
+		<cost>42000</cost>
+		<source>SR5</source>
+		<page>5</page>
+		<addweapon>ARES Daybreak</addweapon>
+		<allowsubsystems>
+			<category>Cyber Implant Weapon Accessory</category>
+		</allowsubsystems>
+		</cyberware>
+		
+		<cyberware>
+		<id>28056dd2-6349-497a-b604-71a31740de66</id>
+		<name>Horizon SHELLSHOCK</name>
+		<limit>False</limit>
+		<category>Headware</category>
+		<ess>0.30</ess>
+		<capacity>[1]</capacity>
+		<avail>22F</avail>
+		<cost>20000</cost>
+		<source>SR5</source>
+		<page>5</page>
+		<addweapon>Horizon SHELLSHOCK</addweapon>
+		<allowsubsystems>
+			<category>Cyber Implant Weapon Accessory</category>
+		</allowsubsystems>
+		</cyberware>
+
+	<cyberware>
+		<id>4c131482-3f01-490f-bade-f261f63995f6</id>
+		<name>Legion-Link</name>
+		<limit>False</limit>
+		<category>Headware</category>
+	  <required>
+	  <allof>
+		<cyberware>
+		<name>Control Rig</name>
+		</cyberware>
+	  </allof>
+	  </required>		
+		<ess>0.5</ess>
+		<capacity>[4]</capacity>
+		<avail>12R</avail>
+		<cost>100000</cost>
+		<source>SR5</source>
+		<page>5</page>
+		</cyberware>			
+
+    <cyberware>
+      <id>12c08a4b-0029-47f2-a9a4-18bcb353d651</id>
+      <name>Small Cybermount</name>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0.5</ess>
+      <capacity>[9]</capacity>
+      <avail>12R</avail>
+      <cost>9000</cost>
+      <source>SR5</source>
+      <page>5</page>
+    </cyberware>
+	
+    <cyberware>
+      <id>1ec77330-b376-47e5-a590-91bffb3340ab</id>
+      <name>Mini Cybermount</name>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0.3</ess>
+      <capacity>[6]</capacity>
+      <avail>12R</avail>
+      <cost>6000</cost>
+      <source>SR5</source>
+      <page>5</page>
+    </cyberware>	
+
+    <cyberware>
+      <id>6f6cb305-0dc9-4810-9c27-36fabfa74649</id>
+      <name>Micro Cybermount</name>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0.2</ess>
+      <capacity>[3]</capacity>
+      <avail>12R</avail>
+      <cost>3000</cost>
+      <source>SR5</source>
+      <page>5</page>
+    </cyberware>
+		
+	</cyberwares>	
+</chummer>

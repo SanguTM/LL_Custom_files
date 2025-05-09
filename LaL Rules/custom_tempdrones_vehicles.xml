@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file is a temp file which will be roled into the next update of the server file and will not be needed at that point--> 
+<chummer>
+  <vehicles>
+    <vehicle>
+      <id>509d46d9-64fe-4b2d-b6d8-8d5e3bab1a23</id>
+      <name>Pantheon Industries Predator (CCOB Turret Drone) (Small)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>0</accel>
+      <armor>6</armor>
+      <avail>10R</avail>
+      <body>3</body>
+      <category>Drones: Small</category>
+      <cost>4600</cost>
+      <handling>0</handling>
+      <pilot>4</pilot>
+      <sensor>4</sensor>
+      <speed>0</speed>
+      <weaponmodslots>4</weaponmodslots>
+    </vehicle>	
+  </vehicles>
+</chummer>

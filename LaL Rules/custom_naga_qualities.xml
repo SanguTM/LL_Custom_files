@@ -1,0 +1,21 @@
+<!-- Custom Awakened non-mage status for creatures such as Naga -->
+<chummer>
+  <qualities>
+    <quality>
+      <id>2dcf5451-958d-45ca-8941-5bdd44b221e7</id>
+      <name>Awakened</name>
+      <karma>0</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <onlyprioritygiven />
+      <bonus useselected="False">
+        <enableattribute>
+          <name>MAG</name>
+        </enableattribute>
+      </bonus>
+      <source>SR5</source>
+      <page>1</page>
+      <nameonpage>Awakened</nameonpage>
+    </quality>
+  </qualities>
+</chummer>

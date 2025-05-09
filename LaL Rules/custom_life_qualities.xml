@@ -1,0 +1,25 @@
+<!-- Custom legal status for SINs -->
+<chummer>
+  <qualities>
+    <quality>
+      <id>cda47498-65fa-4b46-947f-a94d9b5fac74</id>
+      <name>Citizen</name>
+      <karma>0</karma>
+      <category>Positive</category>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <forbidden>
+        <oneof>
+          <quality>SINner (Criminal)</quality>
+          <quality>SINner (National)</quality>
+          <quality>SINner (Corporate)</quality>
+          <quality>SINner (Corporate Limited)</quality>
+        </oneof>
+      </forbidden>
+      <source>SR5</source>
+      <page>1</page>
+      <nameonpage>Citizen</nameonpage>
+    </quality>
+  </qualities>
+</chummer>

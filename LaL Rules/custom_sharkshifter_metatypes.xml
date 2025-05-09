@@ -1,0 +1,1779 @@
+<chummer>
+  <metatypes>
+    <metatype>
+      <id>4636768c-2f24-4f3b-b6a6-cbc0a73ae491</id>
+      <name>Shapeshifter: Osteicine</name>
+      <karma>80</karma>
+      <category>Shapeshifter</category>
+      <bodmin>3</bodmin>
+      <bodmax>8</bodmax>
+      <bodaug>12</bodaug>
+      <agimin>1</agimin>
+      <agimax>6</agimax>
+      <agiaug>10</agiaug>
+      <reamin>1</reamin>
+      <reamax>6</reamax>
+      <reaaug>10</reaaug>
+      <strmin>3</strmin>
+      <strmax>8</strmax>
+      <straug>12</straug>
+      <chamin>1</chamin>
+      <chamax>6</chamax>
+      <chaaug>11</chaaug>
+      <intmin>1</intmin>
+      <intmax>6</intmax>
+      <intaug>10</intaug>
+      <logmin>1</logmin>
+      <logmax>6</logmax>
+      <logaug>10</logaug>
+      <wilmin>1</wilmin>
+      <wilmax>6</wilmax>
+      <wilaug>10</wilaug>
+      <inimin>2</inimin>
+      <inimax>12</inimax>
+      <iniaug>20</iniaug>
+      <edgmin>1</edgmin>
+      <edgmax>5</edgmax>
+      <edgaug>5</edgaug>
+      <magmin>1</magmin>
+      <magmax>6</magmax>
+      <magaug>6</magaug>
+      <resmin>1</resmin>
+      <resmax>6</resmax>
+      <resaug>6</resaug>
+      <essmin>0</essmin>
+      <essmax>6</essmax>
+      <essaug>6</essaug>
+      <depmin>0</depmin>
+      <depmax>0</depmax>
+      <depaug>0</depaug>
+      <walk>0/0/0</walk>
+      <run>0/0/0</run>
+      <sprint>0/0/0</sprint>
+	  <swim>4/8/0</swim>
+      <source>RF</source>
+      <page>105</page>
+      <metavariants>
+        <metavariant>
+          <id>5efeda75-20d1-41ba-8455-8d4060fc085d</id>
+          <name>Human</name>
+          <karma>80</karma>
+          <bodmin>1</bodmin>
+          <bodmax>6</bodmax>
+          <bodaug>10</bodaug>
+          <agimin>1</agimin>
+          <agimax>6</agimax>
+          <agiaug>10</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>1</strmin>
+          <strmax>6</strmax>
+          <straug>10</straug>
+          <chamin>1</chamin>
+          <chamax>6</chamax>
+          <chaaug>10</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>1</logmin>
+          <logmax>6</logmax>
+          <logaug>10</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>2</inimin>
+          <inimax>12</inimax>
+          <iniaug>20</iniaug>
+          <edgmin>2</edgmin>
+          <edgmax>7</edgmax>
+          <edgaug>7</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="2/1/0">1/1/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <source>SR5</source>
+          <page>50</page>
+        </metavariant>
+        <metavariant>
+          <id>b4f1d9ad-386b-4bb5-970e-23030c598396</id>
+          <name>Nartaki</name>
+          <karma>80</karma>
+          <bodmin>1</bodmin>
+          <bodmax>6</bodmax>
+		  <bodaug>10</bodaug>
+		  <agimin>1</agimin>
+		  <agimax>6</agimax>
+          <agiaug>10</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>1</strmin>
+          <strmax>6</strmax>
+          <straug>10</straug>
+          <chamin>1</chamin>
+          <chamax>6</chamax>
+          <chaaug>10</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>1</logmin>
+          <logmax>6</logmax>
+          <logaug>10</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>2</inimin>
+          <inimax>12</inimax>
+          <iniaug>20</iniaug>
+          <edgmin>2</edgmin>
+          <edgmax>7</edgmax>
+          <edgaug>7</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="2/1/0">1/1/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Shiva Arms (Pair)</quality>			  
+            </positive>
+            <negative>
+              <quality select="Metahuman Form Only">Striking Skin Pigmentation</quality>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <source>RF</source>
+          <page>104</page>
+        </metavariant>
+        <metavariant>
+          <id>cb026a13-463f-4ada-baa1-bacab5d73794</id>
+          <name>Elf</name>
+          <karma>85</karma>
+          <bodmin>1</bodmin>
+          <bodmax>6</bodmax>
+          <bodaug>10</bodaug>
+          <agimin>2</agimin>
+          <agimax>7</agimax>
+          <agiaug>11</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>1</strmin>
+          <strmax>6</strmax>
+          <straug>10</straug>
+          <chamin>3</chamin>
+          <chamax>8</chamax>
+          <chaaug>12</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>1</logmin>
+          <logmax>6</logmax>
+          <logaug>10</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>2</inimin>
+          <inimax>12</inimax>
+          <iniaug>20</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="2/1/0">1/1/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Low-Light Vision</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <source>SR5</source>
+          <page>50</page>
+        </metavariant>
+        <metavariant>
+          <id>d66a12c2-be6c-4fa0-bb18-70007c9a9108</id>
+          <name>Dryad</name>
+          <karma>82</karma>
+          <bodmin>1</bodmin>
+          <bodmax>6</bodmax>
+          <bodaug>10</bodaug>
+          <agimin>2</agimin>
+          <agimax>7</agimax>
+          <agiaug>11</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>1</strmin>
+          <strmax>5</strmax>
+          <straug>9</straug>
+          <chamin>3</chamin>
+          <chamax>8</chamax>
+          <chaaug>12</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>1</logmin>
+          <logmax>6</logmax>
+          <logaug>10</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>2</inimin>
+          <inimax>12</inimax>
+          <iniaug>20</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="2/1/0">1/1/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Low-Light Vision</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+              <quality>Symbiosis</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <source>RF</source>
+          <page>104</page>
+        </metavariant>
+        <metavariant>
+          <id>47adc8b4-97c5-4168-88e6-5699b6e70ad6</id>
+          <name>Nocturna</name>
+          <karma>90</karma>
+          <bodmin>1</bodmin>
+          <bodmax>5</bodmax>
+          <bodaug>9</bodaug>
+          <agimin>3</agimin>
+          <agimax>8</agimax>
+          <agiaug>12</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>1</strmin>
+          <strmax>6</strmax>
+          <straug>10</straug>
+          <chamin>2</chamin>
+          <chamax>7</chamax>
+          <chaaug>11</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>1</logmin>
+          <logmax>6</logmax>
+          <logaug>10</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>2</inimin>
+          <inimax>12</inimax>
+          <iniaug>20</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="2/1/0">1/1/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Low-Light Vision</quality>
+              <quality select="Metahuman Form Only">Keen-Eared</quality>
+            </positive>
+            <negative>
+              <quality select="Sunlight">Allergy (Common, Mild)</quality>
+              <quality select="Metahuman Form Only">Nocturnal</quality>
+              <quality select="Colored Fur; Metahuman Form Only">Unusual Hair</quality>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <source>RF</source>
+          <page>104</page>
+        </metavariant>
+        <metavariant>
+          <id>39b590cc-f540-40ce-8a9f-35195175c6e3</id>
+          <name>Xapiri Thëpë</name>
+          <bodmin>1</bodmin>
+          <bodmax>6</bodmax>
+          <karma>88</karma>
+          <bodaug>10</bodaug>
+          <agimin>2</agimin>
+          <agimax>7</agimax>
+          <agiaug>11</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>1</strmin>
+          <strmax>6</strmax>
+          <straug>10</straug>
+          <chamin>2</chamin>
+          <chamax>7</chamax>
+          <chaaug>11</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>1</logmin>
+          <logmax>5</logmax>
+          <logaug>9</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>2</inimin>
+          <inimax>12</inimax>
+          <iniaug>20</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="2/1/0">1/1/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Low-Light Vision</quality>
+			  </positive>
+            <negative>
+              <quality select="Pollution">Allergy (Common, Mild)</quality>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <source>RF</source>
+          <page>104</page>
+        </metavariant>
+        <metavariant>
+          <id>87e92829-dbd5-4033-a7dc-d31f6b25bc95</id>
+          <name>Wakyambi</name>
+          <bodmin>1</bodmin>
+          <bodmax>6</bodmax>
+          <bodaug>10</bodaug>
+          <agimin>2</agimin>
+          <agimax>7</agimax>
+          <agiaug>11</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>1</strmin>
+          <strmax>6</strmax>
+          <straug>10</straug>
+          <chamin>1</chamin>
+          <chamax>6</chamax>
+          <chaaug>10</chaaug>
+          <intmin>2</intmin>
+          <intmax>7</intmax>
+          <intaug>11</intaug>
+          <logmin>1</logmin>
+          <logmax>5</logmax>
+          <logaug>9</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>2</inimin>
+          <inimax>13</inimax>
+          <iniaug>21</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="2/1/0">1/1/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Low-Light Vision</quality>
+              <quality select="Metahuman Form Only">Celerity</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <karma>95</karma>
+          <source>RF</source>
+          <page>104</page>
+        </metavariant>
+        <metavariant>
+          <id>6fcfa4d6-a61d-4251-b00e-b075da9b96f4</id>
+          <name>Dwarf</name>
+          <karma>93</karma>
+          <bodmin>3</bodmin>
+          <bodmax>8</bodmax>
+          <bodaug>12</bodaug>
+          <agimin>1</agimin>
+          <agimax>6</agimax>
+          <agiaug>10</agiaug>
+          <reamin>1</reamin>
+          <reamax>5</reamax>
+          <reaaug>9</reaaug>
+          <strmin>3</strmin>
+          <strmax>8</strmax>
+          <straug>12</straug>
+          <chamin>1</chamin>
+          <chamax>6</chamax>
+          <chaaug>10</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>1</logmin>
+          <logmax>6</logmax>
+          <logaug>10</logaug>
+          <wilmin>2</wilmin>
+          <wilmax>7</wilmax>
+          <wilaug>11</wilaug>
+          <inimin>2</inimin>
+          <inimax>11</inimax>
+          <iniaug>19</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>5</edgmax>
+          <edgaug>5</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="1/1/0">1/1/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Thermographic Vision</quality>
+              <quality select="Metahuman Form Only">Resistance to Pathogens/Toxins</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <lifestylecost>20</lifestylecost>
+          </bonus>
+          <source>SR5</source>
+          <page>50</page>
+        </metavariant>
+        <metavariant>
+          <id>f922c5a3-f37b-4c29-9cc6-a3303cc82188</id>
+          <name>Gnome</name>
+          <karma>90</karma>
+          <bodmin>1</bodmin>
+          <bodmax>4</bodmax>
+          <bodaug>8</bodaug>
+          <agimin>2</agimin>
+          <agimax>7</agimax>
+          <agiaug>11</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>1</strmin>
+          <strmax>4</strmax>
+          <straug>8</straug>
+          <chamin>1</chamin>
+          <chamax>6</chamax>
+          <chaaug>10</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>2</logmin>
+          <logmax>7</logmax>
+          <logaug>11</logaug>
+          <wilmin>2</wilmin>
+          <wilmax>7</wilmax>
+          <wilaug>11</wilaug>
+          <inimin>2</inimin>
+          <inimax>12</inimax>
+          <iniaug>20</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="1/1/0">1/1/0</sprint>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <lifestylecost>20</lifestylecost>
+          </bonus>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Thermographic Vision</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+              <quality select="Metahuman Form Only">Neoteny</quality>
+            </negative>
+          </qualities>
+          <source>RF</source>
+          <page>89</page>
+        </metavariant>
+        <metavariant>
+          <id>959fa72b-38f2-44e5-8783-331016f459a8</id>
+          <name>Hanuman</name>
+          <karma>93</karma>
+          <bodmin>1</bodmin>
+          <bodmax>6</bodmax>
+          <bodaug>10</bodaug>
+          <agimin>2</agimin>
+          <agimax>7</agimax>
+          <agiaug>11</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>2</strmin>
+          <strmax>7</strmax>
+          <straug>11</straug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <logmin>1</logmin>
+          <logmax>5</logmax>
+          <logaug>9</logaug>
+          <intmin>2</intmin>
+          <intmax>7</intmax>
+          <intaug>11</intaug>
+          <chamin>1</chamin>
+          <chamax>5</chamax>
+          <chaaug>9</chaaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <inimin>3</inimin>
+          <inimax>13</inimax>
+          <iniaug>21</iniaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="1/1/0">1/1/0</sprint>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <lifestylecost>20</lifestylecost>
+          </bonus>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Thermographic Vision</quality>
+              <quality select="Metahuman Form Only">Functional Tail (Prehensile)</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+              <quality select="Body; Metahuman Form Only">Unusual Hair</quality>
+            </negative>
+          </qualities>
+          <source>RF</source>
+          <page>89</page>
+        </metavariant>
+        <metavariant>
+          <id>34ed32a4-e89d-44a9-b3b1-70825502ac03</id>
+          <name>Koborokuru</name>
+          <karma>93</karma>
+          <bodmin>2</bodmin>
+          <bodmax>7</bodmax>
+          <bodaug>11</bodaug>
+          <agimin>1</agimin>
+          <agimax>6</agimax>
+          <agiaug>10</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>2</strmin>
+          <strmax>7</strmax>
+          <straug>11</straug>
+          <chamin>1</chamin>
+          <chamax>6</chamax>
+          <chaaug>10</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>1</logmin>
+          <logmax>6</logmax>
+          <logaug>10</logaug>
+          <wilmin>2</wilmin>
+          <wilmax>7</wilmax>
+          <wilaug>11</wilaug>
+          <inimin>2</inimin>
+          <inimax>12</inimax>
+          <iniaug>20</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="1/1/0">4/1/0</sprint>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <lifestylecost>20</lifestylecost>
+          </bonus>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Celerity</quality>
+              <quality select="Metahuman Form Only">Resistance to Pathogens/Toxins</quality>
+              <quality select="Metahuman Form Only">Thermographic Vision</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+              <quality select="Metahuman Form Only">Unusual Hair</quality>
+            </negative>
+          </qualities>
+          <source>RF</source>
+          <page>90</page>
+        </metavariant>
+        <metavariant>
+          <id>db5e7c8a-7e0d-4a85-9e3f-bf1da0be8fde</id>
+          <name>Menehune</name>
+          <karma>90</karma>
+          <bodmin>2</bodmin>
+          <bodmax>7</bodmax>
+          <bodaug>11</bodaug>
+          <agimin>2</agimin>
+          <agimax>7</agimax>
+          <agiaug>11</agiaug>
+          <reamin>1</reamin>
+          <reamax>5</reamax>
+          <reaaug>9</reaaug>
+          <strmin>2</strmin>
+          <strmax>7</strmax>
+          <straug>11</straug>
+          <chamin>1</chamin>
+          <chamax>6</chamax>
+          <chaaug>10</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>1</logmin>
+          <logmax>6</logmax>
+          <logaug>10</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>2</inimin>
+          <inimax>11</inimax>
+          <iniaug>19</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="1/1/0">4/1/0</sprint>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Resistance to Pathogens</quality>
+              <quality select="Metahuman Form Only">Thermographic Vision</quality>
+              <quality select="Metahuman Form Only">Underwater Vision</quality>
+              <quality select="Metahuman Form Only">Webbed Digits</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <lifestylecost>20</lifestylecost>
+          </bonus>
+           <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <source>RF</source>
+          <page>90</page>
+        </metavariant>
+        <metavariant>
+          <id>f56b09af-dba4-4665-8ecb-4a3f1fc3fa7b</id>
+          <name>Ork</name>
+          <karma>90</karma>
+          <bodmin>4</bodmin>
+          <bodmax>9</bodmax>
+          <bodaug>13</bodaug>
+          <agimin>1</agimin>
+          <agimax>6</agimax>
+          <agiaug>10</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>3</strmin>
+          <strmax>8</strmax>
+          <straug>12</straug>
+          <chamin>1</chamin>
+          <chamax>5</chamax>
+          <chaaug>9</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>1</logmin>
+          <logmax>5</logmax>
+          <logaug>9</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>2</inimin>
+          <inimax>12</inimax>
+          <iniaug>20</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="2/1/0">1/1/0</sprint>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Low-Light Vision</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>			
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+           <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <source>SR5</source>
+          <page>50</page>
+        </metavariant>
+        <metavariant>
+          <id>1d474e00-0bde-4de3-92e4-9e9581d56c12</id>
+          <name>Hobgoblin</name>
+          <karma>90</karma>
+          <bodmin>3</bodmin>
+          <bodmax>8</bodmax>
+          <bodaug>12</bodaug>
+          <agimin>1</agimin>
+          <agimax>6</agimax>
+          <agiaug>10</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>2</strmin>
+          <strmax>7</strmax>
+          <straug>11</straug>
+          <chamin>1</chamin>
+          <chamax>5</chamax>
+          <chaaug>9</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>1</logmin>
+          <logmax>5</logmax>
+          <logaug>9</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>2</inimin>
+          <inimax>12</inimax>
+          <iniaug>20</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="2/1/0">1/1/0</sprint>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Low-Light Vision</quality>
+              <quality select="Metahuman Form Only">Fangs</quality>
+              <quality select="Metahuman Form Only">Keen-Eared</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>			
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <source>RF</source>
+          <page>104</page>
+        </metavariant>
+        <metavariant>
+          <id>8367a39e-745d-4cb9-b49d-ca681f5b40c0</id>
+          <name>Ogre</name>
+          <karma>93</karma>
+          <bodmin>4</bodmin>
+          <bodmax>9</bodmax>
+          <bodaug>13</bodaug>
+          <agimin>1</agimin>
+          <agimax>6</agimax>
+          <agiaug>10</agiaug>
+          <reamin>1</reamin>
+          <reamax>5</reamax>
+          <reaaug>9</reaaug>
+          <strmin>3</strmin>
+          <strmax>8</strmax>
+          <straug>12</straug>
+          <chamin>1</chamin>
+          <chamax>4</chamax>
+          <chaaug>8</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>1</logmin>
+          <logmax>5</logmax>
+          <logaug>9</logaug>
+          <wilmin>2</wilmin>
+          <wilmax>7</wilmax>
+          <wilaug>11</wilaug>
+          <inimin>2</inimin>
+          <inimax>11</inimax>
+          <iniaug>19</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="2/1/0">1/1/0</sprint>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Low-Light Vision</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>			
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <source>RF</source>
+          <page>104</page>
+        </metavariant>
+        <metavariant>
+          <id>d2d6d4ea-2c5d-4c02-a3bb-3e9000bdd6a7</id>
+          <name>Oni</name>
+          <karma>90</karma>
+          <bodmin>3</bodmin>
+          <bodmax>8</bodmax>
+          <bodaug>12</bodaug>
+          <agimin>2</agimin>
+          <agimax>7</agimax>
+          <agiaug>11</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>2</strmin>
+          <strmax>7</strmax>
+          <straug>11</straug>
+          <chamin>2</chamin>
+          <chamax>7</chamax>
+          <chaaug>11</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>1</logmin>
+          <logmax>5</logmax>
+          <logaug>9</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>2</inimin>
+          <inimax>12</inimax>
+          <iniaug>20</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="2/1/0">1/1/0</sprint>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Low-Light Vision</quality>
+            </positive>
+            <negative>
+              <quality select="Metahuman Form Only">Striking Skin Pigmentation</quality>
+            </negative>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>			
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <source>RF</source>
+          <page>104</page>
+        </metavariant>
+        <metavariant>
+          <id>aa4ff416-f5b8-4085-abe2-0e05da9d091c</id>
+          <name>Satyr</name>
+          <bodmin>2</bodmin>
+          <bodmax>7</bodmax>
+          <bodaug>11</bodaug>
+          <agimin>1</agimin>
+          <agimax>6</agimax>
+          <agiaug>10</agiaug>
+          <reamin>2</reamin>
+          <reamax>7</reamax>
+          <reaaug>11</reaaug>
+          <strmin>2</strmin>
+          <strmax>7</strmax>
+          <straug>11</straug>
+          <chamin>1</chamin>
+          <chamax>5</chamax>
+          <chaaug>9</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>1</logmin>
+          <logmax>6</logmax>
+          <logaug>10</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>3</inimin>
+          <inimax>13</inimax>
+          <iniaug>21</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="2/1/0">1/1/0</sprint>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Low-Light Vision</quality>
+              <quality select="Metahuman Form Only">Satyr Legs</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>			
+          </qualities>
+          <karma>100</karma>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <source>RF</source>
+          <page>104</page>
+        </metavariant>
+        <metavariant>
+          <id>ffddef70-b014-49e4-a4f0-c0e4b4612bda</id>
+          <name>Troll</name>
+          <karma>100</karma>
+          <bodmin>5</bodmin>
+          <bodmax>10</bodmax>
+          <bodaug>14</bodaug>
+          <agimin>1</agimin>
+          <agimax>5</agimax>
+          <agiaug>9</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>5</strmin>
+          <strmax>10</strmax>
+          <straug>14</straug>
+          <chamin>1</chamin>
+          <chamax>4</chamax>
+          <chaaug>8</chaaug>
+          <intmin>1</intmin>
+          <intmax>5</intmax>
+          <intaug>9</intaug>
+          <logmin>1</logmin>
+          <logmax>5</logmax>
+          <logaug>9</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>2</inimin>
+          <inimax>11</inimax>
+          <iniaug>19</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="1/1/0">1/1/0</sprint>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Thermographic Vision</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>			
+          </qualities>
+          <bonus>
+            <armor group="0">1</armor>
+            <reach>1</reach>
+            <lifestylecost>100</lifestylecost>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <source>SR5</source>
+          <page>50</page>
+          <forms />
+        </metavariant>
+        <metavariant>
+          <id>d62771bd-1841-4ba5-854b-9e6efaaeb04e</id>
+          <name>Cyclops</name>
+          <karma>105</karma>
+          <bodmin>5</bodmin>
+          <bodmax>10</bodmax>
+          <bodaug>14</bodaug>
+          <agimin>1</agimin>
+          <agimax>5</agimax>
+          <agiaug>9</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>6</strmin>
+          <strmax>11</strmax>
+          <straug>15</straug>
+          <chamin>1</chamin>
+          <chamax>4</chamax>
+          <chaaug>8</chaaug>
+          <intmin>1</intmin>
+          <intmax>5</intmax>
+          <intaug>9</intaug>
+          <logmin>1</logmin>
+          <logmax>4</logmax>
+          <logaug>8</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>2</inimin>
+          <inimax>11</inimax>
+          <iniaug>19</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="1/1/0">1/1/0</sprint>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Thermographic Vision</quality>
+            </positive>
+            <negative>
+              <quality select="Metahuman Form Only">Cyclopean Eye</quality>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <reach>1</reach>
+            <lifestylecost>100</lifestylecost>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <source>RF</source>
+          <page>104</page>
+        </metavariant>
+        <metavariant>
+          <id>1ab2af14-7f20-401b-bea9-f3c922b2860d</id>
+          <name>Fomorian</name>
+          <karma>108</karma>
+          <bodmin>4</bodmin>
+          <bodmax>9</bodmax>
+          <bodaug>13</bodaug>
+          <agimin>1</agimin>
+          <agimax>5</agimax>
+          <agiaug>9</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>5</strmin>
+          <strmax>10</strmax>
+          <straug>14</straug>
+          <chamin>1</chamin>
+          <chamax>5</chamax>
+          <chaaug>9</chaaug>
+          <intmin>1</intmin>
+          <intmax>4</intmax>
+          <intaug>8</intaug>
+          <logmin>1</logmin>
+          <logmax>4</logmax>
+          <logaug>8</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>5</wilmax>
+          <wilaug>9</wilaug>
+          <inimin>2</inimin>
+          <inimax>10</inimax>
+          <iniaug>18</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="1/1/0">1/1/0</sprint>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Thermographic Vision</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <reach>1</reach>
+            <lifestylecost>100</lifestylecost>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <source>RF</source>
+          <page>104</page>
+        </metavariant>
+        <metavariant>
+          <id>46a4fac9-b097-4ecf-b117-47a32d46ccad</id>
+          <name>Giant</name>
+          <karma>110</karma>
+          <bodmin>5</bodmin>
+          <bodmax>10</bodmax>
+          <bodaug>14</bodaug>
+          <agimin>1</agimin>
+          <agimax>5</agimax>
+          <agiaug>9</agiaug>
+          <reamin>1</reamin>
+          <reamax>5</reamax>
+          <reaaug>9</reaaug>
+          <strmin>5</strmin>
+          <strmax>10</strmax>
+          <straug>14</straug>
+          <chamin>1</chamin>
+          <chamax>5</chamax>
+          <chaaug>9</chaaug>
+          <intmin>1</intmin>
+          <intmax>5</intmax>
+          <intaug>9</intaug>
+          <logmin>1</logmin>
+          <logmax>5</logmax>
+          <logaug>9</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>2</inimin>
+          <inimax>10</inimax>
+          <iniaug>18</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="1/1/0">1/1/0</sprint>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Thermographic Vision</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <reach>1</reach>
+            <lifestylecost>100</lifestylecost>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+            <power>Regeneration</power>					
+          </powers>
+          <source>RF</source>
+          <page>104</page>
+        </metavariant>
+        <metavariant>
+          <id>2183560f-1514-410c-8e63-2bf767a7d866</id>
+          <name>Minotaur</name>
+          <karma>110</karma>
+          <bodmin>6</bodmin>
+          <bodmax>11</bodmax>
+          <bodaug>15</bodaug>
+          <agimin>1</agimin>
+          <agimax>5</agimax>
+          <agiaug>9</agiaug>
+          <reamin>1</reamin>
+          <reamax>6</reamax>
+          <reaaug>10</reaaug>
+          <strmin>5</strmin>
+          <strmax>10</strmax>
+          <straug>14</straug>
+          <chamin>1</chamin>
+          <chamax>4</chamax>
+          <chaaug>8</chaaug>
+          <intmin>1</intmin>
+          <intmax>6</intmax>
+          <intaug>10</intaug>
+          <logmin>1</logmin>
+          <logmax>5</logmax>
+          <logaug>9</logaug>
+          <wilmin>1</wilmin>
+          <wilmax>6</wilmax>
+          <wilaug>10</wilaug>
+          <inimin>2</inimin>
+          <inimax>12</inimax>
+          <iniaug>20</iniaug>
+          <edgmin>1</edgmin>
+          <edgmax>6</edgmax>
+          <edgaug>6</edgaug>
+          <magmin>1</magmin>
+          <magmax>6</magmax>
+          <magaug>6</magaug>
+          <resmin>1</resmin>
+          <resmax>6</resmax>
+          <resaug>6</resaug>
+          <essmin>0</essmin>
+          <essmax>6</essmax>
+          <essaug>6</essaug>
+          <depmin>0</depmin>
+          <depmax>0</depmax>
+          <depaug>0</depaug>
+          <initiativedice>1</initiativedice>
+          <walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="1/1/0">1/1/0</sprint>
+          <qualities>
+            <positive>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Water Sprite</quality>
+			  <quality>Gills (Aqua)</quality>
+              <quality select="Metahuman Form Only">Thermographic Vision</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>			
+          </qualities>
+          <karma>2</karma>
+          <bonus>
+            <reach>1</reach>
+            <lifestylecost>100</lifestylecost>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+          </powers>
+          <source>RF</source>
+          <page>104</page>
+        </metavariant>
+      </metavariants>
+    </metatype>
+  </metatypes>
+</chummer>

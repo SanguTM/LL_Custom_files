@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file is part of Chummer5a.Chummer5a is free software: you can redistribute it and/or modifyit under the terms of the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License, or(at your option) any later version.Chummer5a is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See theGNU General Public License for more details.You should have received a copy of the GNU General Public Licensealong with Chummer5a. If not, see <http://www.gnu.org/licenses/>.You can obtain the full source code for Chummer5a athttps://github.com/chummer5a/chummer5a -->
+
+
+<!-- Changes Lightning Reflexes to Mastery and allows purchase of BMP after gen. -->
+
+<chummer>
+  <qualities>
+    <quality>
+      <id>3564b678-7721-4a8d-ac79-1600cf92dc14</id>
+      <name>Lightning Reflexes</name>
+        <doublecareer amendoperation="addnode">False</doublecareer>
+    </quality>
+    <quality>
+      <id>a68a897e-412f-4659-a637-4848f39a9c90</id>
+      <name>Black Market Pipeline</name>
+        <chargenonly amendoperation="remove" />
+    </quality>
+<!-- Fix double reach for Mutaqua -->
+    <quality>
+      <id>818bfd22-7dec-4e50-8189-7fed09fbcfed</id>
+      <name>Infected: Mutaqua</name>
+	<bonus>
+          <reach amendoperation="remove" />
+        </bonus>
+    </quality>
+<!-- Education Qualities Apply Karma Discount in Create Mode -->
+    <quality>
+      <id>604aea10-3f13-4f28-a87b-25b8bf677276</id>
+      <name>College Education</name>
+      <bonus>
+        <skillcategorykarmacost>
+          <name>Academic</name>
+          <condition amendoperation="remove" />
+        </skillcategorykarmacost>
+      </bonus>
+    </quality>
+    <quality>
+      <name>Linguist</name>
+      <bonus>
+        <skillcategorykarmacost>
+          <name>Language</name>
+          <condition amendoperation="remove" />
+        </skillcategorykarmacost>
+      </bonus>
+    </quality>
+    <quality>
+      <name>School of Hard Knocks</name>
+      <bonus>
+        <skillcategorykarmacost>
+          <name>Street</name>
+          <condition amendoperation="remove" />
+        </skillcategorykarmacost>
+      </bonus>
+    </quality>
+    <quality>
+      <name>Technical School Education</name>
+      <bonus>
+        <skillcategorykarmacost>
+          <name>Professional</name>
+          <condition amendoperation="remove" />
+        </skillcategorykarmacost>
+      </bonus>
+    </quality>
+  </qualities>
+<!-- Unrestricted Kill Code Qualities -->
+  <qualities>
+    <quality>
+      <name>Brilliant Heuristics</name>
+      <required amendoperation="remove"></required>
+    </quality>
+    <quality>
+      <name>Hold the Door</name>
+      <required amendoperation="remove"></required>
+    </quality>
+    <quality>
+      <name>Lone Wolf</name>
+      <required amendoperation="remove"></required>
+    </quality>
+    <quality>
+      <name>Team Player</name>
+      <required amendoperation="remove"></required>
+    </quality>
+    <quality>
+      <name>Trust Data, Not Lore</name>
+      <required amendoperation="remove"></required>
+    </quality>
+    <quality>
+      <name>Trust Lore, Not Data</name>
+      <required amendoperation="remove"></required>
+    </quality>
+    <quality>
+      <name>Unique Avatar</name>
+      <required amendoperation="remove"></required>
+    </quality>
+    <quality>
+      <name>Code of Honor: Black Hat</name>
+      <required amendoperation="remove"></required>
+    </quality>
+    <quality>
+      <name>Data Hog</name>
+      <required amendoperation="remove"></required>
+    </quality>
+    <quality>
+      <name>Escaped Custody</name>
+      <required>
+        <allof>
+          <quality amendoperation="remove">Technomancer</quality>
+        </allof>
+      </required>
+    </quality>
+    <quality>
+      <name>On the Wagon</name>
+      <required amendoperation="remove" />
+    </quality>
+    <quality>
+      <name>Wired User</name>
+      <required amendoperation="remove" />
+    </quality>
+  </qualities>
+<!-- Non KC Techno Qualities -->
+  <qualities>
+    <quality>
+      <name>Hair Trigger</name>
+      <required amendoperation="remove"></required>
+    </quality>
+    <quality>
+      <name>Hi-Rez</name>
+      <required amendoperation="remove"></required>
+    </quality>
+    <quality>
+      <name>Fractal Punch</name>
+      <required amendoperation="remove"></required>
+    </quality>
+  </qualities>
+<!-- Stolen Gear and In Debt Contribute to BP -->
+  <qualities>
+    <quality>
+      <name>In Debt</name>
+      <contributetobp amendoperation="remove"/>
+    </quality>
+    <quality>
+      <name>Stolen Gear</name>
+      <contributetobp amendoperation="remove"/>
+    </quality>
+  </qualities>
+<!-- Set AI Pilot Origins to a flat 12 karma at all times -->
+  <qualities>
+    <quality>
+      <name>Pilot Origins</name>
+      <karma amendoperation="replace">12</karma>
+        <doublecareer amendoperation="addnode">False</doublecareer>
+        <notes amendoperation="addnode">PILOT ORIGINS
+COST: 12 KARMA PER LEVEL (MAX 3 PER TYPE)
+An AI with this quality may have evolved from a vehicle Pilot program and retained its abilities, or may have developed an affinity to controlling certain vehicles over time. The AI may jump into drones and vehicles of a particular type (aircraft, groundcraft, watercraft, or walker; chosen when the quality is selected), controlling them like a rigger even if the vehicle does not have rigger adaptation. Each level of this quality grants the bonuses of a control rig of an equal rating for the particular vehicle type chosen. The AI is also capable of learning vehicle autosofts as Advanced Programs (AI-driven drones use the attributes, skills, and Matrix Initiative of the AI). Note that AIs must control any type of vehicle they do not have this quality for using the Control Device action, as if they were remote even if not.</notes>
+    </quality>
+  </qualities>
+<!-- Set Drake costs to 75 at all times -->
+  <qualities>
+    <quality>
+      <name>Dracoform (Eastern Drake)</name>
+        <doublecareer amendoperation="addnode">False</doublecareer>
+    </quality>
+    <quality>
+      <name>Dracoform (Western Drake)</name>
+        <doublecareer amendoperation="addnode">False</doublecareer>
+    </quality>
+    <quality>
+      <name>Dracoform (Feathered Drake)</name>
+        <doublecareer amendoperation="addnode">False</doublecareer>
+    </quality>
+    <quality>
+      <name>Dracoform (Sea Drake)</name>
+        <doublecareer amendoperation="addnode">False</doublecareer>
+    </quality>
+<!-- Human Lifespan is a 2 karma mastery for trolls/etc -->
+<!-- Human Lifespan is a 0 karma mastery for trolls/etc -->
+    <quality>
+      <name>Human Lifespan</name>
+        <karma amendoperation="replace">0</karma>
+        <doublecareer amendoperation="addnode">False</doublecareer>
+        <required>
+            <oneof>
+              <metatype>Troll</metatype>
+              <metatype>Ork</metatype>
+            </oneof>
+        </required>
+    </quality>  
+		
+	<!-- Metagenic Improvements available after chargen -->
+  <qualities>
+    <quality>
+      <name>Metagenic Improvement (Agility)</name>
+      <required amendoperation="remove"></required>
+    </quality>
+    <quality>
+      <name>Metagenic Improvement (Charisma)</name>
+      <required amendoperation="remove"></required>
+    </quality>
+    <quality>
+      <name>Metagenic Improvement (Body)</name>
+      <required amendoperation="remove"></required>
+    </quality>
+    <quality>
+      <name>Metagenic Improvement (Intuition)</name>
+      <required amendoperation="remove"></required>
+    </quality>
+		<quality>
+			<name>Metagenic Improvement (Logic)</name>
+			<required amendoperation="remove"></required>
+		</quality>
+		<quality>
+			<name>Metagenic Improvement (Reaction)</name>
+			<required amendoperation="remove"></required>
+		</quality>
+		<quality>
+			<name>Metagenic Improvement (Strength)</name>
+			<required amendoperation="remove"></required>
+		</quality>
+		<quality>
+			<name>Metagenic Improvement (Willpower)</name>
+			<required amendoperation="remove"></required>
+		</quality>
+  </qualities>
+
+<!-- Adept Ways don't count towards Quality Cap in gen -->
+    <quality>
+      <id>15b8fbbd-9d6f-43e4-acf3-97badf073ac4</id>
+      <name>The Artisan's Way</name>
+	  <contributetolimit amendoperation="addnode">False</contributetolimit>
+	</quality>
+	
+	<quality>
+      <id>a61e2873-fe15-40f5-9ce3-07caa1f824d2</id>
+      <name>The Artist's Way</name>
+	  <contributetolimit amendoperation="addnode">False</contributetolimit>
+	</quality>
+
+	<quality>
+      <id>3f536570-2f0c-40b1-a056-d310e29e983d</id>
+      <name>The Athlete's Way</name>
+	  <contributetolimit amendoperation="addnode">False</contributetolimit>
+	</quality>
+
+	<quality>
+      <id>2e7424d3-5d11-4c9d-ba92-f0431bb86786</id>
+      <name>The Beast's Way</name>
+	  <contributetolimit amendoperation="addnode">False</contributetolimit>
+	</quality>
+
+	<quality>
+      <id>7da60a93-aa53-478c-8d08-18b5638d9b87</id>
+      <name>The Burnout's Way</name>
+	  <contributetolimit amendoperation="addnode">False</contributetolimit>
+	</quality>	
+	
+	<quality>
+      <id>01181bb0-2a94-43f1-8a97-41347eac3843</id>
+      <name>The Invisible Way</name>
+	  <contributetolimit amendoperation="addnode">False</contributetolimit>
+	</quality>		
+	
+	<quality>
+      <id>64165b48-d67e-4bb8-b662-ca45fbf5b3c0</id>
+      <name>The Magician's Way</name>
+	  <contributetolimit amendoperation="addnode">False</contributetolimit>
+	</quality>		
+	
+	<quality>
+      <id>88dd98ab-2f09-4ba9-b5c1-ff788c31fbac</id>
+      <name>The Speaker's Way</name>
+	  <contributetolimit amendoperation="addnode">False</contributetolimit>
+	</quality>		
+	
+	<quality>
+      <id>1a530492-7036-49fe-9ff1-ff84c9ed5d0a</id>
+      <name>The Spiritual Way</name>
+	  <contributetolimit amendoperation="addnode">False</contributetolimit>
+	</quality>		
+
+	<quality>
+      <id>32d0d753-9dad-4074-ab38-2d1ff5069a6a</id>
+      <name>The Warrior's Way</name>
+	  <contributetolimit amendoperation="addnode">False</contributetolimit>
+	</quality>	
+	
+		<!-- Resonant Streams don't count towards Quality Cap in gen -->
+
+	<quality>
+      <id>d2873478-d265-45bb-8a9f-320b8d0d33d3</id>
+      <name>Resonant Stream: Cyberadept</name>
+	  <contributetolimit amendoperation="addnode">False</contributetolimit>
+	</quality>	
+
+	<quality>
+      <id>e3d04705-b90a-4d94-90d0-4ad2c7adfa79</id>
+      <name>Resonant Stream: Machinist</name>
+	  <contributetolimit amendoperation="addnode">False</contributetolimit>
+	</quality>	
+	
+	
+	<quality>
+      <id>11d6c3b6-47c4-4765-a625-7a5907ba1b4a</id>
+      <name>Resonant Stream: Sourceror</name>
+	  <contributetolimit amendoperation="addnode">False</contributetolimit>
+	</quality>		
+
+	<quality>
+      <id>71511c8f-85f1-4e35-aeaa-be8fa3a45331</id>
+      <name>Resonant Stream: Technoshaman</name>
+	  <contributetolimit amendoperation="addnode">False</contributetolimit>
+	</quality>		
+	
+	<!-- Sprawl Tamer allowed for everyone -->
+	<quality>
+	  <id>c1145d3c-a9e2-4e91-8f1f-49f69a1f219e</id>
+      <name>Sprawl Tamer</name>
+      <required amendoperation="remove"></required>
+    </quality>
+	
+	<!-- Witness My Hate works for mystic adept -->
+	<quality>
+      <id>f8af38e2-e79a-44f9-8e72-57aba35b7056</id>
+      <required>
+        <oneof amendoperation="replace">
+          <quality>Aspected Magician</quality>
+          <quality>Magician</quality>
+		  <quality>Mystic Adept</quality>
+        </oneof>
+      </required>
+	</quality>
+  </qualities> 
+</chummer>

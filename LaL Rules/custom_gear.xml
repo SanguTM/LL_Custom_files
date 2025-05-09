@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<gears>
+	
+	<!-- Ammo -->
+	
+	<gear>
+      <id>e5cc8543-a57b-4f2d-9ce1-5170bd836d02</id>
+      <name>Ammo: Witch Hunter</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>14F</avail>
+      <cost>160</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-3</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+
+    <gear>
+      <id>464b924d-5299-4a56-ad60-cfc281d5fffe</id>
+      <name>Ammo: Dragon's Breath</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>11F</avail>
+      <cost>90</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <apreplace>-6</apreplace>
+        <accuracy>-1</accuracy>
+        <damage>-1</damage>
+        <damagetype>P(f)</damagetype>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+
+	<gear>
+      <id>1ef512f3-cf83-4da3-bf3c-214069611a6b</id>
+      <name>Ammo: Wooden Bullet</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>6R</avail>
+      <cost>50</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damagetype>S</damagetype>		  
+	  <damage>-1</damage>
+        <ap>+2</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+
+    <gear>
+      <id>87134c9c-96e3-4b16-a1eb-0ca8a895060d</id>
+      <name>Ammo: Witch Hunter Cannon</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>12F</avail>
+      <cost>532</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-3</ap>
+      </weaponbonus>	  
+      <ammoforweapontype>cannon</ammoforweapontype>
+    </gear>	
+	
+	<!-- B&E -->
+
+	<gear>
+      <id>f147d736-6a53-4d3d-9638-53f547cffb19</id>
+      <name>Spectral Viewers</name>
+      <category>Breaking and Entering Gear</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>10R</avail>
+      <cost>3000</cost>
+    </gear>
+
+	<gear>
+      <id>5d94a87c-602f-4758-9b63-8354ec89890d</id>
+      <name>Alchemisol</name>
+      <category>Breaking and Entering Gear</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>8</avail>
+      <cost>70</cost>
+    </gear>	
+
+	<!-- NOT!BDSM GEAR -->
+	
+	<gear>
+      <id>08f15612-8913-454c-9baf-bcf55bbd0037</id>
+      <name>Hoodwink Helmet</name>
+      <category>Breaking and Entering Gear</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>8</avail>
+      <cost>5000</cost>
+    </gear>		
+	
+	<!-- Commlink Accessories -->
+	
+    <gear>
+      <id>48105758-e867-455a-9a61-0cc7daef3b10</id>
+      <name>RS-Marlboro Lactifer</name>
+      <category>Commlink Accessories</category>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>0</avail>
+      <cost>180</cost>
+      <devicerating>0</devicerating>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Commlinks</category>
+            <category>Cyberterminals</category>
+            <category>Custom</category>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+
+    <gear>
+      <id>05464256-d39d-4714-8995-f1462f01f091</id>
+      <name>Lactifer Pod</name>
+      <category>Commlink Accessories</category>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>0</avail>
+      <cost>5</cost>
+    </gear>	
+	
+	<!-- Cyberdecks -->
+	
+	<gear>
+      <id>583d4f65-4de7-4298-a54c-a98d05d59447</id>
+      <name>Shiawase Genjitsu</name>
+      <category>Cyberdecks</category>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>10R</avail>
+      <cost>154700</cost>
+      <devicerating>3</devicerating>
+     <attributearray>6,6,4,2</attributearray>	  
+      <programs>3</programs>
+      <canformpersona>Self</canformpersona>
+      <gears>
+        <usegear>
+          <name>Sim Module, Hot</name>
+          <category>Commlink Accessories</category>
+        </usegear>
+        <usegear>
+          <name>Universal Connector Cord (Meter)</name>
+          <category>Tools</category>
+        </usegear>
+        <usegear>
+          <name>Commlink Functionality</name>
+          <category>Electronics Accessories</category>
+        </usegear>
+      </gears>
+    </gear>	
+	<!-- Drugs --> 
+	
+	<gear>
+      <id>d0a8ad77-4811-46f6-8785-d5c2f764411c</id>
+      <name>Himbo</name>
+      <category>Drugs</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>4</avail>
+      <cost>75</cost>
+    </gear>	
+	
+	<gear>
+      <id>0b5f8444-13b5-4035-bc9c-047d5d9fc24e</id>
+      <name>Sex1B@ck</name>
+      <category>BTLs</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>10F</avail>
+      <cost>200</cost>
+    </gear>
+	
+	<gear>
+      <id>058f2eaa-e2a0-486e-84d3-f73e905462b4</id>
+      <name>Healthy You</name>
+      <category>BTLs</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>4</avail>
+      <cost>100</cost>
+    </gear>	
+	
+	<gear>
+      <id>7111fc9e-0eeb-41f5-9fb6-c0582859cded</id>
+      <name>Kinbaku Specialized</name>
+      <category>BTLs</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>10F</avail>
+      <cost>200</cost>
+    </gear>
+
+	<gear>
+      <id>ee417df4-2c1d-4895-aeef-4d6c377a5329</id>
+      <name>Boost</name>
+      <category>Drugs</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>10F</avail>
+      <cost>120</cost>
+    </gear>
+
+	<gear>
+      <id>89e3e754-fe50-47db-9ff0-f3248d36187e</id>
+      <name>Death Lotus</name>
+      <category>Drugs</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>14F</avail>
+      <cost>300</cost>
+    </gear>	
+	
+	<!-- Thrown -->
+	
+    <gear>
+      <id>2c1e2ae9-ae98-4c8e-8779-cf664d732964</id>
+      <name>Stick 'n' Shock Darts</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>6R</avail>
+      <addweapon>Stick n' Shock Darts</addweapon>
+      <cost>50</cost>
+    </gear>
+
+    <gear>
+      <id>fc55667e-f9bc-4a21-b276-b60c09a81b0d</id>
+      <name>Static Shaft</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>6R</avail>
+      <addweapon>Static Shaft</addweapon>
+      <cost>100</cost>
+    </gear>		
+
+	<!-- RCC's -->
+	
+	<gear>
+      <id>d0a00ba7-536c-446b-8870-26f9893c779a</id>
+      <name>Maersk Conqueror</name>
+      <category>Rigger Command Consoles</category>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>24F</avail>
+      <cost>160000</cost>
+      <devicerating>7</devicerating>
+	  <sleaze>6</sleaze>
+      <dataprocessing>9</dataprocessing>
+      <firewall>8</firewall>
+      <programs>7</programs>
+      <canformpersona>Self</canformpersona>
+      <gears>
+        <usegear>
+          <name>Commlink Functionality</name>
+          <category>Electronics Accessories</category>
+        </usegear>
+      </gears>	  
+    </gear>	
+	
+	<!-- Explosives -->
+	
+	<gear>
+      <id>f1f1f529-78c7-45a5-bbed-39977ecac810</id>
+      <name>Blast Pak</name>
+      <category>Explosives</category>
+      <rating>0</rating>
+	  <capacity>1</capacity>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>12R</avail>
+      <cost>1000</cost>
+    </gear>
+
+	<gear>
+      <id>666522c9-f6d3-4610-afd5-5b58939fdbea</id>
+      <name>Turbo Blast Pak</name>
+      <category>Explosives</category>
+      <rating>0</rating>
+	  <capacity>1</capacity>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>12R</avail>
+      <cost>2000</cost>
+    </gear>	
+
+	<gear>
+      <id>43d75d26-29fa-47e5-856f-cabf2283b5ad</id>
+      <name>Krime Blast Pak (Addon Only)</name>
+      <category>Explosives</category>
+      <rating>0</rating>
+	  <capacity>[1]</capacity>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>+2</avail>
+      <cost>1000</cost>
+    </gear>
+
+	<!-- Toxins -->
+
+    <gear>
+      <id>13d575ea-dd09-431f-bb66-06a634d3063b</id>
+      <name>Atrolysin</name>
+      <category>Toxins</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>14F</avail>
+      <cost>200</cost>
+	</gear>  
+
+    <gear>
+      <id>2ef09756-1417-433e-8c87-6ede603dcaef</id>
+      <name>Bungarotoxin</name>
+      <category>Toxins</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>18F</avail>
+      <cost>800</cost>
+	</gear>  
+	
+    <gear>
+      <id>3fcef1eb-662f-44ba-84e1-88e464fb1e30</id>
+      <name>Ochratoxin</name>
+      <category>Toxins</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>12F</avail>
+      <cost>180</cost>		  
+	</gear>  
+	
+	<!-- Misc -->
+	
+	<gear>
+      <id>9ca3fa37-8e11-483c-8c46-fa5f3d64b1d3</id>
+      <name>Limb Padding</name>
+      <category>Survival Gear</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>0</avail>
+      <cost>50</cost>
+    </gear>
+	
+    <gear>
+      <id>343e8dd1-9014-4f91-a78a-f022681c965a</id>
+      <name>Synthlink (Vision Enhancement)</name>
+      <category>Vision Enhancements</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>+2</avail>
+      <armorcapacity>[1]</armorcapacity>
+      <bonus>
+        <limitmodifier>
+          <limit>Social</limit>
+          <value>2</value>
+          <condition>LimitCondition_SkillsActivePerformanceSynthtrument</condition>
+        </limitmodifier>        
+      </bonus>
+      <capacity>[1]</capacity>
+      <requireparent />
+      <cost>2000</cost>
+    </gear>	
+
+	<!-- Grenades -->
+	
+    <!--<gear>
+      <id>3d4fff74-9692-403a-bf57-233a6f6dd26a</id>
+      <name>Grenade: Rubber Grenade</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>5R</avail>
+      <addweapon>Grenade: Rubber Grenade</addweapon>
+      <cost>80</cost>
+      <costfor>1</costfor>
+    </gear>
+
+    <gear>
+      <id>f473dc4c-7c4c-492d-ac82-c115f7458ec8</id>
+      <name>Grenade: Rubber Grenade (Aerodynamic)</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>5R</avail>
+      <addweapon>Grenade: Rubber Grenade (Aerodynamic)</addweapon>
+      <cost>80</cost>
+      <costfor>1</costfor>
+    </gear>		-->
+		
+		<gear>
+      <id>697e1709-f816-4618-992d-3d72a326df7d</id>
+      <name>Minigrenade: Rubber Grenade</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>5R</avail>
+      <addweapon>Minigrenade: Rubber Grenade</addweapon>
+      <cost>80</cost>
+      <costfor>1</costfor>
+			<weaponbonus>
+					<ap>2</ap>
+			</weaponbonus>
+			<ammoforweapontype>glauncher</ammoforweapontype>
+    </gear>
+
+    <gear>
+      <id>30cb8e98-5c8c-4089-a172-2a3ff7870d9b</id>
+      <name>Minigrenade: Rubber Grenade (Aerodynamic)</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>5</page>
+      <avail>5R</avail>
+      <addweapon>Minigrenade: Rubber Grenade (Aerodynamic)</addweapon>
+      <cost>80</cost>
+      <costfor>1</costfor>
+			<weaponbonus>
+					<ap>2</ap>
+			</weaponbonus>
+			<ammoforweapontype>glauncher</ammoforweapontype>
+    </gear>		
+	
+	</gears>
+</chummer>

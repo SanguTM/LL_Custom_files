@@ -1,0 +1,1904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file is part of Chummer5a.Chummer5a is free software: you can redistribute it and/or modifyit under the terms of the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License, or(at your option) any later version.Chummer5a is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See theGNU General Public License for more details.You should have received a copy of the GNU General Public Licensealong with Chummer5a. If not, see <http://www.gnu.org/licenses/>.You can obtain the full source code for Chummer5a athttps://github.com/chummer5a/chummer5a -->
+<!-- Creates new drones. -->
+<chummer>
+  <vehicles>
+
+<!-- Microdrones. --> 
+
+    <vehicle>
+      <id>dd182d65-1b73-496d-9579-c9dfca4a02b3</id>
+      <name>Stonebrooke Smokecloud (Wheeled Distraction Microdrone)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>14R</avail>
+      <body>0</body>
+      <category>Drones: Micro</category>
+      <cost>1500</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>1</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>2</maxrating>
+        </gear>
+      </gears>	  
+      <modslots>0</modslots>
+    </vehicle>
+    <vehicle>
+      <id>76cc070e-3d68-4c07-a87a-b3e14020b150</id>
+      <name>Toyota MK-Centipede (Search and Rescue Walker Drone) (Microdrone)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>1</armor>
+      <avail>4</avail>
+      <body>0</body>
+      <category>Drones: Micro</category>
+      <cost>1000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>1</sensor>
+      <speed>1</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name rating="4">Special Armor Modification (Chemical)</name>
+        <name rating="4">Special Armor Modification (Fire)</name>
+        <name rating="4">Special Armor Modification (Insulation)</name>
+      </mods>		  
+      <modslots>0</modslots>
+    </vehicle>
+    <vehicle>
+      <id>fbbd65ce-78bd-4561-85b7-d694262077fb</id>
+      <name>Renraku Arachnoid Micro-Drone (Microdrone)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>8</avail>
+      <body>0</body>
+      <category>Drones: Micro</category>
+      <cost>1000</cost>
+      <handling>3</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>2</maxrating>
+        </gear>
+      </gears>		  
+    </vehicle>	
+
+<!-- Minidrones. --> 
+
+    <vehicle>
+      <id>c35afe40-e746-4b7e-a073-a40887f1d9a7</id>
+      <name>Aztechnology GCR-655 (Minidrone)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>6R</avail>
+      <body>1</body>
+      <category>Drones: Mini</category>
+      <cost>4000</cost>
+      <handling>1</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>3</maxrating>
+          <gears>
+            <gear rating="2">Laser Range Finder</gear>
+		  </gears>
+        </gear>
+		<gear>Mobile CNC</gear>
+      </gears>
+      <modslots>0</modslots>
+    </vehicle>
+    <vehicle>
+      <id>f04f33b6-2faa-4e53-8b7d-d0689a1a10c2</id>
+      <name>Renraku Evening Mist (Minidrone)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>4</avail>
+      <body>2</body>
+      <category>Drones: Mini</category>
+      <cost>2000</cost>
+      <handling>2</handling>
+      <pilot>2</pilot>
+      <sensor>1</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>2</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Smoke Projector</name>
+      </mods>		  
+      <modslots>0</modslots>
+    </vehicle>
+    <vehicle>
+      <id>1df8606f-86e1-48e9-b29a-78d4ee77d379</id>
+      <name>GM-Nissan Spotter (Minidrone)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>4</avail>
+      <body>2</body>
+      <category>Drones: Mini</category>
+      <cost>3000</cost>
+      <handling>4</handling>
+      <pilot>2</pilot>
+      <sensor>1</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>2</maxrating>
+        </gear>
+      </gears>		  
+      <modslots>0</modslots>
+    </vehicle>	
+
+<!-- Small drones. -->
+
+    <vehicle>
+      <id>81cffe75-4b31-4bcc-a35e-2d27878c856b</id>
+      <name>Ares Sentinel “T” Series Drone (Small)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>6</armor>
+      <avail>4R</avail>
+      <body>2</body>
+      <category>Drones: Small</category>
+      <cost>2000</cost>
+      <handling>4/0</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>1</speed>
+      <gears>
+        <gear>Smartsoft</gear>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>3</maxrating>
+        </gear>
+      </gears>
+      <modslots>0</modslots>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Flexible</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>
+    </vehicle>
+    <vehicle>
+      <id>762fa59e-d1e3-4e16-9892-14ada896554b</id>
+      <name>Yamatetsu Watcher 4890 (Small)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>0</armor>
+      <avail>6</avail>
+      <body>2</body>
+      <category>Drones: Small</category>
+      <cost>1750</cost>
+      <handling>1/3</handling>
+      <pilot>1</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name rating="6">Off-Road Tires</name>
+      </mods>	  
+      <modslots>0</modslots>
+    </vehicle>			
+    <vehicle>
+      <id>c6c78736-a081-4376-a853-fba6169a204e</id>
+      <name>Éireann-Tir Prospero (Small)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>2</armor>
+      <avail>8</avail>
+      <body>2</body>
+      <category>Drones: Small</category>
+      <cost>2000</cost>
+      <handling>5</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+    </vehicle>
+    <vehicle>
+      <id>309c9868-78d6-4fc2-aa91-0d8ab71433d6</id>
+      <name>A70 (Small)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>1</armor>
+      <avail>14F</avail>
+      <body>2</body>
+      <category>Drones: Small</category>
+      <cost>10000</cost>
+      <handling>4</handling>
+      <pilot>4</pilot>
+      <sensor>5</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>5</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+    </vehicle>
+    <vehicle>
+      <id>c0ad740d-d4e7-43ea-ba32-7ee935ac72c9</id>
+      <name>Aztechnology Armadillo (Aerial EW Drone) (Small)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>6</armor>
+      <avail>4R</avail>
+      <body>2</body>
+      <category>Drones: Small</category>
+      <cost>2000</cost>
+      <handling>3</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>
+		<gear rating="4">Jammer, Area</gear>
+		<gear rating="3">Jammer, Directional</gear>
+      </gears>
+      <mods>
+        <name rating="3">ECM</name>
+      </mods>
+    </vehicle>
+    <vehicle>
+      <id>6ffe358d-dd98-4b66-ab9f-f2cd0b1b1994</id>
+      <name>Entertainment Systems Falcon (Aerial Pet Drone) (Small)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>2</armor>
+      <avail>16</avail>
+      <body>2</body>
+      <category>Drones: Small</category>
+      <cost>59000</cost>
+      <handling>5</handling>
+      <pilot>3</pilot>
+      <sensor>1</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name rating="4">Realistic Features</name>
+      </mods>
+    </vehicle>
+    <vehicle>
+      <id>56376829-bd40-422e-95c3-10153b256976</id>
+      <name>FMC-Stonebrooke TADS Salamander (Small)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>2</armor>
+      <avail>8</avail>
+      <body>3</body>
+      <category>Drones: Small</category>
+      <cost>5000</cost>
+      <handling>4</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+          <gears>
+            <gear rating="2">Laser Range Finder</gear>
+		  </gears>
+        </gear>
+		<gear>Pantheon Industries Mobile CNC</gear> 
+      </gears>		
+    </vehicle>
+ 
+<!-- Medium drones. --> 
+
+    <vehicle>
+      <id>d86ce07b-74b5-43b7-9417-f6fef77e7cb1</id>
+      <name>MCT Hachiman (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>8</armor>
+      <avail>8F</avail>
+      <body>4</body>
+      <category>Drones: Medium</category>
+      <cost>10000</cost>
+      <handling>3</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>
+        <gear rating="4" select="Ultamax MMG">[Weapon] Targeting Autosoft</gear>
+		<gear>Ballistic Shield</gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Turret</flexibility>
+          <size>Heavy</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>
+	  <weapons>
+        <weapon>
+          <name>Ultamax MMG</name>
+        </weapon>
+      </weapons>
+	  <accessories>
+        <accessory>
+          <name>Safe Target System, Base</name>
+        </accessory>
+	  </accessories>	  
+      <mods>
+        <name>Searchlight</name>
+      </mods>	  
+    </vehicle>
+    <vehicle>
+      <id>8ae1e925-da5f-41d1-9e89-f7de3362e04b</id>
+      <name>FMC-Stonebrooke TADS Firebird (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>2</armor>
+      <avail>9</avail>
+      <body>3</body>
+      <category>Drones: Medium</category>
+      <cost>5500</cost>
+      <handling>4</handling>
+      <pilot>2</pilot>
+      <sensor>3</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+          <gears>
+            <gear rating="3">Laser Range Finder</gear>
+		  </gears>
+        </gear>
+		<gear>Pantheon Industries Mobile CNC</gear> 
+      </gears>		
+      <modslots>0</modslots>
+    </vehicle>		
+    <vehicle>
+      <id>7116344a-5d78-47e5-a0d3-042674140725</id>
+      <name>GTW-Ford Retrans Unit (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>6</avail>
+      <body>3</body>
+      <category>Drones: Medium</category>
+      <cost>6000</cost>
+      <handling>3</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>		
+      <mods>
+        <name>Retrans Unit</name>
+	  </mods>
+    </vehicle>
+    <vehicle>
+      <id>6e202f6f-f5f3-4e96-8e2d-e0f1266adf17</id>
+      <name>Lone Star Strato-9 Surveillance Drone (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>2</armor>
+      <avail>8F</avail>
+      <body>3</body>
+      <category>Drones: Medium</category>
+      <cost>4000</cost>
+      <handling>5</handling>
+      <pilot>2</pilot>
+      <sensor>4</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>4</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>	
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Flexible</flexibility>
+          <size>Heavy</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>  	  
+      <mods>
+        <name rating="1">ECM</name>
+	  </mods>
+    </vehicle>
+    <vehicle>
+      <id>662c9951-8300-4761-939e-1c66a994a422</id>
+      <name>Ares Guardian Drone (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>8</armor>
+      <avail>9R</avail>
+      <body>4</body>
+      <category>Drones: Medium</category>
+      <cost>10000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>4</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>4</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>	
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Turret</flexibility>
+          <size>Heavy</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>  	  
+      <mods>
+        <name>Secondary Propulsion (Hovercraft)</name>
+	  </mods>
+    </vehicle>
+    <vehicle>
+      <id>f36556ea-893c-46d1-b11d-0311770ea678</id>
+      <name>General Atomics MQ-1 Predator (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>12R</avail>
+      <body>2</body>
+      <category>Drones: Medium</category>
+      <cost>10000</cost>
+      <handling>1</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>
+		<weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts> 	  
+      <mods>
+        <name>Satellite Link</name>
+      </mods>	  
+    </vehicle>
+    <vehicle>
+      <id>944065f4-13d7-4fe5-b65a-6a146fba162b</id>
+      <name>Dassault Electron (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>16F</avail>
+      <body>3</body>
+      <category>Drones: Medium</category>
+      <cost>45000</cost>
+      <handling>1</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>6</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>Internal</visibility>
+        </weaponmount>
+      </weaponmounts> 	   
+    </vehicle>
+    <vehicle>
+      <id>b40adff7-e3e3-42bf-9a09-36b317c8edf7</id>
+      <name>Northrop Grumman MQ-8 Fire Scout (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>12F</avail>
+      <body>3</body>
+      <category>Drones: Medium</category>
+      <cost>15000</cost>
+      <handling>1</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears> 	   
+    </vehicle>
+    <vehicle>
+      <id>e92deef1-fc21-4f4a-8bf5-ce8feb38be3b</id>
+      <name>Lockheed Martin M1216 MULE (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>1</armor>
+      <avail>10F</avail>
+      <body>3</body>
+      <category>Drones: Medium</category>
+      <cost>10000</cost>
+      <handling>1</handling>
+      <pilot>2</pilot>
+      <sensor>1</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears> 	   
+    </vehicle>
+    <vehicle>
+      <id>e5a78702-e55b-408d-829e-48e397256814</id>
+      <name>Ares Arbalest (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>7</armor>
+      <avail>12F</avail>
+      <body>4</body>
+      <category>Drones: Medium</category>
+      <cost>180000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>		
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>Internal</visibility>
+        </weaponmount>
+      </weaponmounts> 	  
+      <mods>
+        <name>Improved Economy</name>
+        <name>Satellite Link</name>
+        <name rating="2">Signature Masking</name>		
+      </mods>	  
+    </vehicle>		
+    <vehicle>
+      <id>10bb8ce6-fd74-4e15-96b5-24bc4bde3eb1</id>
+      <name>Hawker-Siddeley Popocatepetl (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>2</armor>
+      <avail>12F</avail>
+      <body>3</body>
+      <category>Drones: Medium</category>
+      <cost>6000</cost>
+      <handling>3</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>		
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Flexible</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts> 	  	  
+    </vehicle>
+    <vehicle>
+      <id>792e8714-c225-4881-a3ed-43a81caea48c</id>
+      <name>Hawker-Siddeley Mixcoatl (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>6</armor>
+      <avail>9R</avail>
+      <body>3</body>
+      <category>Drones: Medium</category>
+      <cost>17000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>		
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Flexible</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts> 
+      <mods>
+        <name>SunCell</name>	
+      </mods>	  
+    </vehicle>
+    <vehicle>
+      <id>ddfa3571-1c2e-4028-9b3a-20e4a9584040</id>
+      <name>Blood Scythe (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>1</armor>
+      <avail>15F</avail>
+      <body>3</body>
+      <category>Drones: Medium</category>
+      <cost>18000</cost>
+      <handling>5</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>		
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Turret</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+		  <mods>
+		    <mod>
+			  <name>Ammo Bin</name>
+		    </mod>
+		  </mods>			  
+        </weaponmount>
+      </weaponmounts> 
+      <mods>
+        <name rating="5">[Weapon] Targeting Autosoft</name>	
+      </mods>	  
+    </vehicle>
+    <vehicle>
+      <id>a21aa5bb-033d-46f0-a904-895ff71229ab</id>
+      <name>GMC Sandal (Wheeled Delivery Drone) (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>4</armor>
+      <avail>4</avail>
+      <body>4</body>
+      <category>Drones: Medium</category>
+      <cost>6000</cost>
+      <handling>3</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>		
+      </gears>  
+    </vehicle>
+    <vehicle>
+      <id>4ff7f616-d5d2-486a-842a-7d8197b54931</id>
+      <name>Modified GMC Chariot (Disguised Combat Drone) (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>2</armor>
+      <avail>8F</avail>
+      <body>4</body>
+      <category>Drones: Medium</category>
+      <cost>8000</cost>
+      <handling>3</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>		
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>Concealed</visibility>			  
+        </weaponmount>
+      </weaponmounts> 	  
+    </vehicle>
+    <vehicle>
+      <id>92636365-416d-4691-a0c5-98598798015a</id>
+      <name>Ford LEBD-1 (Aerial Law Enforcement Backup Drone) (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>6</armor>
+      <avail>6R</avail>
+      <body>4</body>
+      <category>Drones: Medium</category>
+      <cost>9000</cost>
+      <handling>3</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>		
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>			  
+        </weaponmount>
+      </weaponmounts> 
+      <mods>
+        <name>Mechanical Arm (Basic)</name>	
+      </mods>	  
+    </vehicle>
+    <vehicle>
+      <id>2e161b93-2471-45fb-a041-e54f025aa7a2</id>
+      <name>Evo Orderly (Med-Assistant Walker Drone) (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>3</armor>
+      <avail>4</avail>
+      <body>3</body>
+      <category>Drones: Medium</category>
+      <cost>6000</cost>
+      <handling>3</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>	
+		<gear rating="6">Medkit</gear>
+      </gears>
+      <mods>
+        <name>Mechanical Arm (Articulated)</name>
+        <name>Mechanical Arm (Articulated)</name>	
+      </mods>	  
+    </vehicle>
+    <vehicle>
+      <id>7c2d0c63-bc1a-40a3-97b7-3d7baeedd956</id>
+      <name>Gaz-Niki GNRD-81 BIS Snooper (Medium)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>2</armor>
+      <avail>6</avail>
+      <body>4</body>
+      <category>Drones: Medium</category>
+      <cost>8000</cost>
+      <handling>3/5</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>6</maxrating>
+        </gear>	
+      </gears>
+      <mods>
+        <name rating="6">Off-Road Tires</name>
+      </mods>	  
+    </vehicle>
+
+<!-- Large drones. -->
+
+    <vehicle>
+      <id>0dfc5427-dac3-44e9-bd3e-23325f45e4c1</id>
+      <name>Aztechnology Liebre Surveillance/Pursuit RPV (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>4</armor>
+      <avail>16F</avail>
+      <body>4</body>
+      <category>Drones: Large</category>
+      <cost>20000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>6</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Heavy</size>
+          <visibility>External</visibility>
+        </weaponmount>
+		<weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Heavy</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>   
+    </vehicle>
+    <vehicle>
+      <id>4eda0e22-34ac-446b-87f5-8b0d7a3ba31e</id>
+      <name>CAS Wandjina RPV (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>3</accel>
+      <armor>8</armor>
+      <avail>12F</avail>
+      <body>4</body>
+      <category>Drones: Large</category>
+      <cost>15000</cost>
+      <handling>5</handling>
+      <pilot>2</pilot>
+      <sensor>3</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Heavy</size>
+          <visibility>External</visibility>
+        </weaponmount>
+		<weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Heavy</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>   
+    </vehicle>	
+    <vehicle>
+      <id>ef74a4dd-5fe9-4486-8749-a287a2ff97df</id>
+      <name>Aeroquip “Redball Express” Long-Range Resupply Drone (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>4</accel>
+      <armor>2</armor>
+      <avail>8R</avail>
+      <body>6</body>
+      <category>Drones: Large</category>
+      <cost>9000</cost>
+      <handling>3</handling>
+      <pilot>2</pilot>
+      <sensor>3</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+    </vehicle>	
+    <vehicle>
+      <id>64fa1865-ef4d-4074-96b3-2930f9a9b180</id>
+      <name>Northrop Grumman RQ-4 Global Hawk (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>18F</avail>
+      <body>3</body>
+      <category>Drones: Large</category>
+      <cost>30000</cost>
+      <handling>1</handling>
+      <pilot>2</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Satellite Link</name>
+      </mods>	  
+    </vehicle>	
+    <vehicle>
+      <id>22cb26a6-2438-4a4c-8d33-1a21b06c56c0</id>
+      <name>General Atomics MQ-9 Reaper (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>12F</avail>
+      <body>2</body>
+      <category>Drones: Large</category>
+      <cost>22000</cost>
+      <handling>1</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>
+		<weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>
+		<weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts> 	  
+      <mods>
+        <name>Satellite Link</name>
+      </mods>	  
+    </vehicle>	
+    <vehicle>
+      <id>61ae4c58-14f7-4f97-9e3a-183084f52dfe</id>
+      <name>BAE Systems Taranis Mk IV (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>0</armor>
+      <avail>18F</avail>
+      <body>4</body>
+      <category>Drones: Large</category>
+      <cost>35000</cost>
+      <handling>1</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>
+		<weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts> 	  
+      <mods>
+        <name>Satellite Link</name>
+        <name rating="1">Signature Masking</name>		
+      </mods>	  
+    </vehicle>
+    <vehicle>
+      <id>8bedcdba-34f3-4e24-a80b-be9b7547f8f2</id>
+      <name>Northrop Grumman A-47D Pegasus (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>16F</avail>
+      <body>4</body>
+      <category>Drones: Large</category>
+      <cost>30000</cost>
+      <handling>1</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>Internal</visibility>
+        </weaponmount>
+		<weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>Internal</visibility>
+        </weaponmount>
+      </weaponmounts> 	  
+      <mods>
+        <name>Satellite Link</name>
+        <name rating="1">Signature Masking</name>		
+      </mods>	  
+    </vehicle>
+    <vehicle>
+      <id>5093b8ef-f0b3-4d6f-835f-b1c3cb9eebad</id>
+      <name>RSK MiG SKaT (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>0</armor>
+      <avail>20F</avail>
+      <body>4</body>
+      <category>Drones: Large</category>
+      <cost>27000</cost>
+      <handling>1</handling>
+      <pilot>2</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>Internal</visibility>
+        </weaponmount>
+      </weaponmounts> 	  
+      <mods>
+        <name rating="1">Signature Masking</name>		
+      </mods>	  
+    </vehicle>	
+    <vehicle>
+      <id>da5a4cd1-d1ff-4ec3-8f64-7144ab78b63c</id>
+      <name>EADS Talarion (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>20F</avail>
+      <body>3</body>
+      <category>Drones: Large</category>
+      <cost>40000</cost>
+      <handling>1</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>	  
+      <mods>
+        <name>Satellite Link</name>		
+      </mods>	  
+    </vehicle>
+    <vehicle>
+      <id>0c310211-3cd1-45aa-b5ac-e73341baff5d</id>
+      <name>EADS Barrakuda (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>18F</avail>
+      <body>3</body>
+      <category>Drones: Large</category>
+      <cost>25000</cost>
+      <handling>1</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>5</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>Internal</visibility>
+        </weaponmount>
+      </weaponmounts>
+      <mods>
+        <name>Satellite Link</name>		
+      </mods>	  
+    </vehicle>	
+    <vehicle>
+      <id>84f1f287-49ee-44e5-9887-469aa7c1f0dd</id>
+      <name>BAE Systems Black Knight (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>2</armor>
+      <avail>20F</avail>
+      <body>14</body>
+      <category>Drones: Large</category>
+      <cost>40000</cost>
+      <handling>1</handling>
+      <pilot>2</pilot>
+      <sensor>1</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>  
+    </vehicle>
+    <vehicle>
+      <id>186f0d5f-95b1-4691-9354-9d4ca88dd3c3</id>
+      <name>Federated-Boeing Unicorn (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>3</accel>
+      <armor>8</armor>
+      <avail>20F</avail>
+      <body>4</body>
+      <category>Drones: Large</category>
+      <cost>215000</cost>
+      <handling>5</handling>
+      <pilot>4</pilot>
+      <sensor>3</sensor>
+      <speed>5</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+		<gear rating="1">Electronic Warfare Autosoft</gear>
+		<gear rating="4">[Weapon] Targeting Autosoft</gear>		
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>Internal</visibility>
+        </weaponmount>
+		<weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>Internal</visibility>
+        </weaponmount>
+      </weaponmounts> 	  
+      <mods>
+        <name>Improved Economy</name>
+		<name rating="2">ECM</name>
+        <name>Satellite Link</name>
+        <name rating="5">Signature Masking</name>		
+      </mods>	  
+    </vehicle>	
+    <vehicle>
+      <id>7d3a1420-5336-4a38-8848-8273cf9c5468</id>
+      <name>Saeder-Krupp Blitz (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>3</accel>
+      <armor>9</armor>
+      <avail>14F</avail>
+      <body>4</body>
+      <category>Drones: Large</category>
+      <cost>100000</cost>
+      <handling>5</handling>
+      <pilot>4</pilot>
+      <sensor>4</sensor>
+      <speed>6</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>4</rating>
+          <maxrating>6</maxrating>
+        </gear>		
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>Internal</visibility>
+        </weaponmount>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>Internal</visibility>
+        </weaponmount>		
+		<weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>Internal</visibility>
+        </weaponmount>
+      </weaponmounts> 	  
+      <mods>
+		<name rating="2">ECM</name>	
+      </mods>	  
+    </vehicle>
+    <vehicle>
+      <id>bf233a2a-26a6-4fc8-bb99-1295e0f49129</id>
+      <name>Hawker-Siddeley Huitzilopochtli (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>10</armor>
+      <avail>12F</avail>
+      <body>4</body>
+      <category>Drones: Large</category>
+      <cost>10500</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>		
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Turret</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts> 	  
+      <mods>
+		<name rating="1">[Weapon] Targeting Autosoft</name>	
+      </mods>	  
+    </vehicle>
+    <vehicle>
+      <id>7d4654e5-40ec-492f-9cc2-9640449ce5b3</id>
+      <name>XM-E3 (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>3</accel>
+      <armor>4</armor>
+      <avail>12F</avail>
+      <body>4</body>
+      <category>Drones: Large</category>
+      <cost>24000</cost>
+      <handling>5</handling>
+      <pilot>5</pilot>
+      <sensor>5</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>5</rating>
+          <maxrating>6</maxrating>
+        </gear>		
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Flexible</flexibility>
+          <size>Standard</size>
+          <visibility>Internal</visibility>
+        </weaponmount>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Flexible</flexibility>
+          <size>Standard</size>
+          <visibility>Internal</visibility>
+        </weaponmount>		
+      </weaponmounts> 	  
+      <mods>
+	    <name>Improved Economy</name>
+		<name rating="1">Signature Masking</name>	
+      </mods>	  
+    </vehicle>
+    <vehicle>
+      <id>20db9a9c-6b64-4565-b66f-1e6ae67b7d9d</id>
+      <name>A-74 MK 2 (Vehicle Drone)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>10</armor>
+      <avail>20F</avail>
+      <body>20</body>
+      <category>Drones: Large</category>
+      <cost>650000</cost>
+      <handling>2</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>		
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Turret</flexibility>
+          <size>Heavy</size>
+          <visibility>External</visibility>
+        </weaponmount>		  
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>
+         <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>		
+      </weaponmounts> 	  
+      <mods>
+	    <name>Secondary Propulsion (Amphibious, Surface)</name>
+		<name>Electromagnetic Shielding</name>
+		<name rating="3">[Weapon] Targeting Autosoft</name>	
+      </mods>	  
+    </vehicle>
+    <vehicle>
+      <id>0801f2a7-c8ed-4c84-8224-58aa6b9837b3</id>
+      <name>Wuxing Crimson Samurai (Wheeled Centauroid Combat Drone) (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>12</armor>
+      <avail>10R</avail>
+      <body>6</body>
+      <category>Drones: Large</category>
+      <cost>11000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>		
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Turret</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>
+        </weaponmount>		  	
+      </weaponmounts> 	    
+    </vehicle>
+    <vehicle>
+      <id>d0c5fc88-a26b-458a-9e39-9cb0d517b61d</id>
+      <name>Integrated Weapons System DLK MK 7 Utility Machine (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>8</armor>
+      <avail>6</avail>
+      <body>6</body>
+      <category>Drones: Large</category>
+      <cost>10000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>	
+        <gear>Tool Kit</gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>External</visibility>	
+		  <mods>
+		    <mod>
+			  <name>Ammo Bin</name>
+		    </mod>
+		  </mods>			  
+        </weaponmount>
+      </weaponmounts> 
+      <mods>
+        <name>Mechanical Arm (Basic)</name>
+        <name>Mechanical Arm (Basic)</name>		
+      </mods>		  
+    </vehicle>
+    <vehicle>
+      <id>6f2b896e-1462-4b92-8221-456eafe97663</id>
+      <name>Lockheed Vulcan (Wheeled Maintenance Drone) (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>8</armor>
+      <avail>4</avail>
+      <body>6</body>
+      <category>Drones: Large</category>
+      <cost>8000</cost>
+      <handling>2</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>	
+        <gear select="Aeronautics Mechanic">Tool Kit</gear>
+        <gear rating="3" select="Aeronautics Mechanic">Skill Autosoft</gear>
+      </gears>
+      <mods>
+        <name>Mechanical Arm (Basic)</name>		
+      </mods>		  
+    </vehicle>
+    <vehicle>
+      <id>e04b0892-6fa5-436c-9b46-71934c2e179c</id>
+      <name>McDonnell-Douglas Nimrod (Aerial Combat Drone) (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>3</accel>
+      <armor>10</armor>
+      <avail>18F</avail>
+      <body>6</body>
+      <category>Drones: Large</category>
+      <cost>30000</cost>
+      <handling>5</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>6</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>	
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>Internal</visibility>
+        </weaponmount>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard</size>
+          <visibility>Internal</visibility>
+        </weaponmount>		
+      </weaponmounts> 		  
+    </vehicle>
+    <vehicle>
+      <id>62046dac-984f-4446-951f-e80109fd8bcc</id>
+      <name>Toyota MK-Guyver Search and Rescue Robot (Large)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>12</armor>
+      <avail>10</avail>
+      <body>10</body>
+      <category>Drones: Large</category>
+      <cost>45000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>	
+        <gear rating="3" select="Demolitions">Skill Autosoft (Restricted)</gear>
+      </gears>
+      <mods>
+        <name>Mechanical Arm (Articulated)</name>
+        <name>Mechanical Arm (Articulated)</name>		
+      </mods>		  
+    </vehicle>
+
+<!-- Huge drones. -->  
+
+    <vehicle>
+      <id>dfbf2d38-f57c-447e-a2da-51ef194d59e1</id>
+      <name>Ares Auxilia Mk3 (Tracked Military Backup Drone) (Huge)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>12</armor>
+      <avail>10F</avail>
+      <body>8</body>
+      <category>Drones: Huge</category>
+      <cost>10000</cost>
+      <handling>2</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>		
+      </gears>  
+    </vehicle>
+    <vehicle>
+      <id>4e568636-454c-43b7-9fd8-7b7f2e32ddae</id>
+      <name>Mesametric Beaver (Walker Construction Drone) (Huge)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>8</armor>
+      <avail>0</avail>
+      <body>10</body>
+      <category>Drones: Huge</category>
+      <cost>8000</cost>
+      <handling>2</handling>
+      <pilot>3</pilot>
+      <sensor>1</sensor>
+      <speed>1</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>6</maxrating>
+        </gear>		
+      </gears>  
+      <mods>
+	    <name>Mechanical Arm (Basic)</name>
+	    <name>Mechanical Arm (Basic)</name>
+      </mods>	
+    </vehicle>
+    <vehicle>
+      <id>f130d2ca-58d4-4e74-befb-778b3ac757bc</id>
+      <name>Saeder-Krupp Schildkröte (Hazmat Drone) (Huge)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>6</armor>
+      <avail>10</avail>
+      <body>12</body>
+      <category>Drones: Huge</category>
+      <cost>10000</cost>
+      <handling>2</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>		
+      </gears>  
+      <mods>
+	    <name>Mechanical Arm (Basic)</name>
+	    <name>Mechanical Arm (Basic)</name>
+        <name rating="4">Special Armor Modification (Chemical)</name>
+      </mods>	
+    </vehicle>
+ 
+<!-- Anthrodrones. --> 
+
+    <vehicle>
+      <id>d46097f6-5a24-47ef-a2aa-e18ee1f7555c</id>
+      <name>Mitsuhama Otomo (Cyborg Anthroform Walker Drone) (Anthrodrone)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>2</armor>
+      <avail>24R</avail>
+      <body>6</body>
+      <category>Drones: Anthro</category>
+      <cost>90000</cost>
+      <handling>4</handling>
+      <pilot>0</pilot>
+      <sensor>3</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Touch Sensors</name>
+        <name>Drone Arm</name>
+        <name>Drone Arm</name>
+        <name>Drone Leg</name>
+        <name>Drone Leg</name>
+		<name rating="1">Realistic Features</name>
+      </mods>
+    </vehicle>
+	
+    <vehicle>
+      <id>09667b54-de60-4c26-92a4-4d0e80b1bb04</id>
+      <name>TAN DEM (Anthrodrone)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>2</armor>
+      <avail>16F</avail>
+      <body>3</body>
+      <category>Drones: Anthro</category>
+      <cost>5900</cost>
+      <handling>6</handling>
+      <pilot>2</pilot>
+      <sensor>3</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>3</maxrating>
+        </gear>
+        <gear rating="2">[Weapon] Targeting Autosoft</gear>
+      </gears>
+      <mods>
+        <name>Drone Arm</name>
+        <name>Drone Arm</name>
+        <name>Drone Leg</name>
+        <name>Drone Leg</name>
+      </mods>
+      <weaponmounts>	  
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Standard (Drone)</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>		
+    </vehicle>
+    <vehicle>
+      <id>46bc0df8-45e9-4345-9533-2e14bd8636df</id>
+      <name>Mitsuhama Tomino (Cyborg Walker Combat Drone) (Anthrodrone)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>10</armor>
+      <avail>24R</avail>
+      <body>10</body>
+      <category>Drones: Anthro</category>
+      <cost>350000</cost>
+      <handling>5</handling>
+      <pilot>0</pilot>
+      <sensor>3</sensor>
+      <speed>2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>3</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Drone Arm</name>
+        <name>Drone Arm</name>
+        <name>Drone Leg</name>
+        <name>Drone Leg</name>
+		<name rating="2">Nanomaintenance System</name>
+		<name>Touch Sensors</name>
+      </mods>		
+    </vehicle>
+	
+<!-- Drone Missiles. -->  
+
+    <vehicle>
+      <id>b4cbfc15-0a9d-4c7d-8510-a5e94d36dbff</id>
+      <name>Ares Heimdall (Drone Missile)</name>
+      <page>5</page>
+      <source>SR5</source>
+      <accel>10</accel>
+      <armor>1</armor>
+      <avail>14F</avail>
+      <body>1</body>
+      <category>Drones: Missile</category>
+      <cost>8000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>10</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>		
+    </vehicle>	
+	
+  </vehicles>
+
+</chummer>

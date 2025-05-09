@@ -1,0 +1,200 @@
+<!-- Custom Nanomancer Quality -->
+<chummer>
+  <qualities>
+    <quality>
+      <id>08a26a17-dfde-4cd1-841f-75328bb2df4b</id>
+      <name>Nanomancer</name>
+      <karma>40</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <onlyprioritygiven />
+      <bonus>
+        <addgear>
+          <name>Living Persona</name>
+          <category>Commlinks</category>
+        </addgear>
+        <enableattribute>
+          <name>RES</name>
+        </enableattribute>
+        <enabletab>
+          <name>technomancer</name>
+        </enabletab>
+        <unlockskills>Technomancer</unlockskills>
+          <selectattribute>
+            <attribute>CHA</attribute>
+            <max>1</max>
+          </selectattribute>
+          <selectattribute>
+            <attribute>LOG</attribute>
+            <max>1</max>
+          </selectattribute>	
+          <selectattribute>
+            <attribute>INT</attribute>
+            <max>1</max>
+          </selectattribute>	
+          <selectattribute>
+            <attribute>WIL</attribute>
+            <max>1</max>
+          </selectattribute>			  
+      </bonus>
+      <forbidden>
+        <oneof>
+          <quality>Latent Dracomorphosis</quality>
+		  <quality>Technomancer</quality>
+		  <quality>Technomancer to Nanomancer</quality>
+          <magenabled />
+          <depenabled />
+        </oneof>
+      </forbidden>
+      <source>SR5</source>
+      <page>5</page>
+    </quality>
+	
+<!-- Technomancer to Nanomancer-->
+
+    <quality>
+      <id>ceb1abd6-db96-490f-9edb-422da745207c</id>
+      <name>Technomancer to Nanomancer</name>
+      <karma>25</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <onlyprioritygiven />
+	  <required>
+	  <oneof>
+	  <quality>Technomancer</quality>
+	  </oneof>
+	  </required>
+      <bonus>
+          <selectattribute>
+            <attribute>CHA</attribute>
+            <max>1</max>
+          </selectattribute>
+          <selectattribute>
+            <attribute>LOG</attribute>
+            <max>1</max>
+          </selectattribute>	
+          <selectattribute>
+            <attribute>INT</attribute>
+            <max>1</max>
+          </selectattribute>	
+          <selectattribute>
+            <attribute>WIL</attribute>
+            <max>1</max>
+          </selectattribute>			  
+      </bonus>	  
+      <forbidden>
+        <oneof>
+          <quality>Latent Dracomorphosis</quality>
+		  <quality>Nanomancer</quality>
+          <magenabled />
+          <depenabled />
+        </oneof>
+      </forbidden>
+      <source>SR5</source>
+      <page>5</page>
+    </quality>
+	
+<!-- Nanite Mastery-->
+
+    <quality>
+      <id>e64bebf0-46a4-4dfc-9032-8008937246e8</id>
+      <name>Chrome Hide</name>
+      <karma>15</karma>
+      <category>Positive</category>
+	  <doublecareer>False</doublecareer>
+      <onlyprioritygiven />
+	  <required>
+	  <oneof>
+	  <quality>Nanomancer</quality>
+	  <quality>Technomancer to Nanomancer</quality>	  
+	  </oneof>
+	  </required>
+      <forbidden>
+        <oneof>
+          <quality>Latent Dracomorphosis</quality>
+          <magenabled />
+          <depenabled />
+        </oneof>
+      </forbidden>
+      <source>SR5</source>
+      <page>5</page>
+    </quality>
+	
+    <quality>
+      <id>500f456a-e1a8-4fa3-bbe2-f754a1ac9ca3</id>
+      <name>Hive-Share</name>
+      <karma>15</karma>
+      <category>Positive</category>
+	  <doublecareer>False</doublecareer>
+      <onlyprioritygiven />
+	  <required>
+	  <oneof>
+	  <quality>Nanomancer</quality>
+	  <quality>Technomancer to Nanomancer</quality>	  
+	  </oneof>
+	  </required>
+      <forbidden>
+        <oneof>
+          <quality>Latent Dracomorphosis</quality>
+          <magenabled />
+          <depenabled />
+        </oneof>
+      </forbidden>
+      <source>SR5</source>
+      <page>5</page>
+    </quality>	
+	
+    <quality>
+      <id>4e277cd5-e4fb-4463-a515-0367e3aa626a</id>
+      <name>Frankensprite</name>
+      <karma>15</karma>
+      <category>Positive</category>
+	  <doublecareer>False</doublecareer>
+      <onlyprioritygiven />
+	  <required>
+	  <oneof>
+	  <quality>Nanomancer</quality>
+	  <quality>Technomancer to Nanomancer</quality>	  
+	  </oneof>
+	  </required>
+      <forbidden>
+        <oneof>
+          <quality>Latent Dracomorphosis</quality>
+          <magenabled />
+          <depenabled />
+        </oneof>
+      </forbidden>
+      <source>SR5</source>
+      <page>5</page>
+    </quality>	
+	
+    <quality>
+      <id>f682af86-a556-4688-8e2e-574e6224687c</id>
+      <name>Chrome Chameleon</name>
+      <karma>15</karma>
+      <category>Positive</category>
+	  <doublecareer>False</doublecareer>
+      <onlyprioritygiven />
+	  <required>
+	  <oneof>
+	  <quality>Nanomancer</quality>
+	  <quality>Technomancer to Nanomancer</quality>	  
+	  </oneof>
+	  </required>
+      <forbidden>
+        <oneof>
+          <quality>Latent Dracomorphosis</quality>
+          <magenabled />
+          <depenabled />
+        </oneof>
+      </forbidden>
+      <source>SR5</source>
+      <page>5</page>
+    </quality>
+
+<!-- Nanite Qualities-->	
+
+
+	
+	 </qualities>
+</chummer>

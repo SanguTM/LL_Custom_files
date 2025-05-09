@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file is part of Chummer5a.Chummer5a is free software: you can redistribute it and/or modifyit under the terms of the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License, or(at your option) any later version.Chummer5a is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See theGNU General Public License for more details.You should have received a copy of the GNU General Public Licensealong with Chummer5a. If not, see <http://www.gnu.org/licenses/>.You can obtain the full source code for Chummer5a athttps://github.com/chummer5a/chummer5a -->
+<!-- Changes the stats of various drones. -->
+<chummer>
+  <weapons>
+    <weapon>
+      <id>2a6e9ad1-9e4d-4c47-87e0-e6bcfdf120cf</id>
+      <name>Large Jaws</name>
+      <category>Unarmed</category>
+      <type>Melee</type>
+      <conceal>0</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-4</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>5</page>
+      <hide />
+    </weapon>
+    <weapon>
+      <id>1c4886d8-3baa-4497-9290-84f9cd3eda51</id>
+      <name>Remote Cavitation System</name>
+      <category>Exotic Ranged Weapons</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>9S</damage>
+      <ap>-</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>10(c)</ammo>
+      <avail>16R</avail>
+      <cost>8000</cost>
+      <source>SR5</source>
+      <page>5</page>
+      <accessorymounts>
+        <mount>Top</mount>
+        <mount>Under</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+      <range>Shotguns (flechette)</range>
+      <sizecategory>Assault Rifles</sizecategory>
+      <useskill>Exotic Ranged Weapon</useskill>
+      <weapontype>energy</weapontype>
+      <hide />
+    </weapon>
+  </weapons>
+</chummer>

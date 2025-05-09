@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+    <cyberwares>
+        <cyberware>
+            <id>ba93ab8d-fd7f-4fc4-bfa3-5f987fd15d77</id>
+            <limit>False</limit>
+            <blocksmounts amendoperation="remove">wrist,elbow,shoulder</blocksmounts>
+            <required amendoperation="remove" />
+        </cyberware>
+        <cyberware>
+            <id>923d1629-5267-4093-a978-34eb4543cb15</id>
+            <limit>False</limit>
+            <blocksmounts amendoperation="remove">wrist,elbow,shoulder</blocksmounts>
+            <required amendoperation="remove" />
+        </cyberware>
+        <cyberware>
+            <id>1aa7fe36-10ab-4c3c-9a4f-f26e8460c0a8</id>
+            <limit>False</limit>
+            <blocksmounts amendoperation="remove">wrist,elbow,shoulder</blocksmounts>
+            <required amendoperation="remove" />
+        </cyberware>
+    </cyberwares>
+
+<!--
+  Hide the German skilljack because it's stupid
+  Set skilljack to flat 0.1 ess and R*1000 cost
+  Set skillwires to R*0.1 ess
+-->
+
+  <cyberwares>
+    <cyberware>
+      <id>c533c0db-3a04-4fdd-95f9-d4d9781a3e79</id>
+      <hide />
+    </cyberware>
+    <cyberware>
+      <id>d31497dd-2be9-4b8a-808f-3ced36287c0c</id>
+      <ess>0.1</ess>
+      <avail>Rating * 2</avail>
+      <cost>Rating * 1000</cost>
+    </cyberware>
+    <cyberware>
+      <id>60485c4e-042f-44f6-ad89-324003223f73</id>
+      <ess>Rating * 0.1</ess>
+    </cyberware>
+  </cyberwares>
+
+<!-- Bone Lacing adds to Body -->
+
+    <cyberwares>
+        <cyberware>
+            <id>76523da7-271d-459a-9502-3f7c8d54be6a</id>
+            <!-- <name>Bone Lacing (Aluminum)</name> -->
+            <bonus>
+                <damageresistance amendoperation="remove" />
+                <specificattribute amendoperation="addnode">
+                    <name>BOD</name>
+                    <val>2</val>
+                </specificattribute>
+            </bonus>
+            <notes />
+        </cyberware>
+        <cyberware>
+            <id>4fd033ab-9a43-4ee0-9675-47414af3c8f4</id>
+            <!-- <name>Bone Lacing (Plastic)</name>-->
+            <bonus>
+                <damageresistance amendoperation="remove" />
+                <specificattribute amendoperation="addnode">
+                    <name>BOD</name>
+                    <val>1</val>
+                </specificattribute>
+            </bonus>
+            <notes />
+        </cyberware>
+        <cyberware>
+            <id>2ecc8684-5a9f-4523-beb8-d3abc886a233</id>
+            <!-- <name>Bone Lacing (Titanium)</name> -->
+            <bonus>
+                <damageresistance amendoperation="remove" />
+                <specificattribute amendoperation="addnode">
+                    <name>BOD</name>
+                    <val>3</val>
+                </specificattribute>
+            </bonus>
+            <notes />
+        </cyberware>
+    </cyberwares>
+	
+
+<!-- Change cost of Rigs, Wired Reflexes, and Move-by-Wire -->	
+
+    <cyberwares>
+        <cyberware>
+		<!-- Control Rig -->	
+		    <id>16b45886-2916-48eb-aea5-ecb74da835bd</id>
+			<cost amendoperation="replace">FixedValues(21500,48500,104000)</cost>
+        </cyberware>
+        <cyberware>
+		<!-- Wired Reflexes -->	
+		    <id>bea0ded3-821f-449c-9507-815088f68b86</id>
+			<cost amendoperation="replace">FixedValues(19500,74500,108500)</cost>		
+        </cyberware>
+        <cyberware>
+		<!-- Move-by-Wire System -->	
+		    <id>31d32ab0-107c-4410-9148-7b2501db12be</id>
+			<cost amendoperation="replace">FixedValues(20000,62500,102500)</cost>		
+        </cyberware>		
+		        <cyberware>
+		<!-- Muscle Replacement -->	
+		    <id>46f80a44-80ae-41d7-a7c8-a119c4cff70f</id>
+			<cost amendoperation="replace">Rating * 20000</cost>		
+        </cyberware>	
+    </cyberwares>
+
+<!-- Removes Grade Cost from Cyberware Customization Addins -->
+
+  <cyberwares>
+    <cyberware>
+      <id>7d61f860-0637-4214-914d-c68022361d24</id>
+      <forcegrade amendoperation="addnode">None</forcegrade>
+    </cyberware>
+    <cyberware>
+      <id>7afb23c7-435f-450c-9d1c-f7a0e7e631a6</id>
+      <forcegrade amendoperation="addnode">None</forcegrade>
+    </cyberware>
+  </cyberwares>
+  
+  <!-- Removes Grade Cost from Cyberware Add-Ins that aren't Customization -->
+	<cyberwares>
+		<cyberware>
+		<id>8ea736c6-5a90-471c-9320-18432ec9aaf0</id>
+		<forcegrade amendoperation="addnode">None</forcegrade>
+		</cyberware>
+	</cyberwares>	
+
+<!-- Lowers Cybertorso Essence and increases capacity -->
+	<cyberwares>
+		<cyberware>
+		<id>48e490fb-fe6a-482c-a47d-40cb04985897</id>
+		<ess amendoperation="replace">1</ess>
+		<capacity amendoperation="replace">20</capacity>
+		</cyberware>
+	</cyberwares>
+
+<!-- Amends Improved Synthskin to take 0 capacity -->
+<cyberwares>
+    <cyberware>
+      <id>7232f861-ccba-4ebf-95ef-c5baa76afb1b</id>
+      <capacity amendoperation="replace">[0]</capacity>
+      <cost amendoperation="replace">Rating * 2500</cost>	  
+    </cyberware>	
+
+    <!-- Arms, full to hand -->
+    <cyberware>
+    <id>f4a48c40-29df-4435-8d09-b1f3153d61ee</id>
+    <capacity amendoperation="replace">11</capacity>
+    </cyberware>
+		
+        <cyberware>
+          <id>bf29ff5e-839a-4fd3-8063-371ce05065d6</id>
+          <name>Synthetic Full Leg</name>
+          <capacity amendoperation="replace">14</capacity>
+		</cyberware>
+
+</cyberwares>
+</chummer>

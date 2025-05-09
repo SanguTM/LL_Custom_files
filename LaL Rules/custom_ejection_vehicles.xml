@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file is part of Chummer5a.Chummer5a is free software: you can redistribute it and/or modifyit under the terms of the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License, or(at your option) any later version.Chummer5a is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See theGNU General Public License for more details.You should have received a copy of the GNU General Public Licensealong with Chummer5a. If not, see <http://www.gnu.org/licenses/>.You can obtain the full source code for Chummer5a athttps://github.com/chummer5a/chummer5a -->
+<!-- Changes the stats of various drones. -->
+<chummer>
+  
+  <mods>
+    <mod>
+
+    <!-- Adding Ejection Seat Stats -->
+    <id>c99152a9-8113-40cd-b880-9dac6e018db4</id>
+      <name>Ejection Seat</name>
+      <page>164</page>
+      <source>R5</source>
+      <avail>8R</avail>
+      <category>Protection</category>
+      <cost>800</cost>
+      <rating>0</rating>
+      <slots>1</slots>
+      <required>
+        <vehicledetails>
+          <OR>
+            <category>Bikes</category>
+            <category>Cars</category>
+            <category>Trucks</category>
+            <category>Municipal/Construction</category>
+            <category>Corpsec/Police/Military</category>
+            <category>Boats</category>
+            <category>Submarines</category>
+            <category>Fixed-Wing Aircraft</category>
+            <category>LTAV</category>
+            <category>Rotorcraft</category>
+            <category>VTOL/VSTOL</category>
+          </OR>
+        </vehicledetails>
+      </required>
+    </mod>
+    <mod>
+    <id>45971fc8-73c4-4b18-8e3c-6c19861a5951</id>
+      <name>Ejection Seat with Parachute</name>
+      <page>164</page>
+      <source>R5</source>
+      <avail>8R</avail>
+      <category>Protection</category>
+      <cost>1000</cost>
+      <rating>0</rating>
+      <slots>2</slots>
+      <required>
+        <vehicledetails>
+          <OR>
+            <category>Bikes</category>
+            <category>Cars</category>
+            <category>Trucks</category>
+            <category>Municipal/Construction</category>
+            <category>Corpsec/Police/Military</category>
+            <category>Boats</category>
+            <category>Submarines</category>
+            <category>Fixed-Wing Aircraft</category>
+            <category>LTAV</category>
+            <category>Rotorcraft</category>
+            <category>VTOL/VSTOL</category>
+          </OR>
+        </vehicledetails>
+      </required>
+    </mod>
+  </mods>
+</chummer>

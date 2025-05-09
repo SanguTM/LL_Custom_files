@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file is part of Chummer5a.Chummer5a is free software: you can redistribute it and/or modifyit under the terms of the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License, or(at your option) any later version.Chummer5a is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See theGNU General Public License for more details.You should have received a copy of the GNU General Public Licensealong with Chummer5a. If not, see <http://www.gnu.org/licenses/>.You can obtain the full source code for Chummer5a athttps://github.com/chummer5a/chummer5a -->
+
+
+<!-- Removes powers available to Drakes. -->
+
+<chummer>
+  <powers>
+    <power>
+      <id>31ad1e6d-3e95-42cc-af61-5b59c8e745e6</id>
+      <name>Dracoform Mastery</name>
+      <category amendoperation="remove">Drake</category>
+    </power>
+    <power>
+      <id>185aa4ff-7975-4d06-8fbc-52a07caeb9e2</id>
+      <name>Animal Control</name>
+      <category amendoperation="remove">Drake</category>
+    </power>
+    <power>
+      <id>79bb0c32-985c-47c8-a6ba-a9666884599f</id>
+      <name>Compulsion</name>
+      <category amendoperation="remove">Drake</category>
+    </power>
+    <power>
+      <id>dd6b0eda-44a9-4411-b471-d78e76f495fb</id>
+      <name>Fear</name>
+      <category amendoperation="remove">Drake</category>
+    </power>
+    <power>
+      <id>61a58161-f28d-49fb-b24d-e04588f6cdd5</id>
+      <name>Noxious Breath</name>
+      <category amendoperation="remove">Drake</category>
+    </power>
+    <power>
+      <id>96eab5ca-4d3b-4b5a-a8dd-5430c0513d31</id>
+      <name>Venom</name>
+      <category amendoperation="remove">Drake</category>
+      <category amendoperation="append">Naga</category>
+    </power>
+  </powers>
+</chummer>
+
+<!-- Changes Transcend Form's Cost to 15 Karma. -->

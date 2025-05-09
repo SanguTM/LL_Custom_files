@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file increases the accuracy of Clubs by 1-->
+<chummer>
+  <weapons>
+    <weapon xpathfilter="name='Club'">
+      <accuracy amendoperation="replace">5</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Extendable Baton'">
+      <accuracy amendoperation="replace">6</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Fluid-Motion Mace'">
+      <accuracy amendoperation="replace">5</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Gunstock War Club'">
+      <accuracy amendoperation="replace">6</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Gunstock War Club (Thrown)'">
+      <accuracy amendoperation="replace">6</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Krime Stun-O-Net'">
+      <accuracy amendoperation="replace">5</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Nemesis Arms Maul Stun Staff'">
+      <accuracy amendoperation="replace">7</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Nunchaku'">
+      <accuracy amendoperation="replace">6</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Osmium Mace'">
+      <accuracy amendoperation="replace">5</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Pitchfork'">
+      <accuracy amendoperation="replace">4</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Sap'">
+      <accuracy amendoperation="replace">6</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Sap Cap'">
+      <accuracy amendoperation="replace">5</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Staff'">
+      <accuracy amendoperation="replace">7</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Stun Baton'">
+      <accuracy amendoperation="replace">5</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Telescoping Staff'">
+      <accuracy amendoperation="replace">5</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Tonfa'">
+      <accuracy amendoperation="replace">5</accuracy>
+    </weapon>
+    <weapon xpathfilter="name='Torch'">
+      <accuracy amendoperation="replace">4</accuracy>
+    </weapon>
+  </weapons>
+</chummer>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--We don't use a manifest, but this file has to exist.
+-->
+  <manifest xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema ../manifest.xsd">
+    <guid>b8399e05-2379-4cd8-86f2-9a960e94891e</guid>
+    <version>2.2.0</version>
+    <authors>
+      <author>
+        <name>chummer5a</name>
+        <main>true</main>
+      </author>
+    </authors>
+    <descriptions>
+      <description>
+        <text>This ruleset is the complete set of rules changes for use with LaL. All other rules should be disabled while using this rules set.</text>
+        <lang>en-us</lang>
+      </description>
+    </descriptions>
+  </manifest>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of LaL's Chummer file to make Naga work in Priority and STT-->
+
+<chummer>
+  <priorities>
+    <priority>
+      <name>A - Any metatype</name>
+      <value>A,4</value>
+      <metatypes>
+        <metatype amendoperation="replace">
+          <name>Naga</name>
+          <value>4</value>
+          <karma>25</karma>
+          <metavariants>
+            <metavariant>
+              <name>Constrictor</name>
+              <value>4</value>
+              <karma>25</karma>
+           </metavariant>
+           <metavariant>
+              <name>Venomous</name>
+              <value>4</value>
+              <karma>25</karma>
+           </metavariant>
+           <metavariant>
+              <name>Spitting</name>
+              <value>4</value>
+              <karma>25</karma>
+           </metavariant>
+          </metavariants>
+        </metatype>
+      </metatypes>
+    </priority>
+    <priority>
+      <name>B - Any metatype</name>
+      <value>B,3</value>
+      <metatypes>
+        <metatype amendoperation="replace">
+          <name>Naga</name>
+          <value>2</value>
+          <karma>25</karma>
+          <metavariants>
+            <metavariant>
+              <name>Constrictor</name>
+              <value>2</value>
+              <karma>25</karma>
+           </metavariant>
+           <metavariant>
+              <name>Venomous</name>
+              <value>2</value>
+              <karma>25</karma>
+           </metavariant>
+           <metavariant>
+              <name>Spitting</name>
+              <value>2</value>
+              <karma>25</karma>
+           </metavariant>
+          </metavariants>
+        </metatype>
+      </metatypes>
+    </priority>
+    <priority>
+      <name>C - Human, Dwarf, Elf, Ork, or A.I.</name>
+      <value>C,2</value>
+      <metatypes>
+        <metatype amendoperation="replace">
+          <name>Naga</name>
+          <value>0</value>
+          <karma>25</karma>
+          <metavariants>
+            <metavariant>
+              <name>Constrictor</name>
+              <value>0</value>
+              <karma>25</karma>
+           </metavariant>
+           <metavariant>
+              <name>Venomous</name>
+              <value>0</value>
+              <karma>25</karma>
+           </metavariant>
+           <metavariant>
+              <name>Spitting</name>
+              <value>0</value>
+              <karma>25</karma>
+           </metavariant>
+          </metavariants>
+        </metatype>
+      </metatypes>
+    </priority>
+  </priorities>
+</chummer>

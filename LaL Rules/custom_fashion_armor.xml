@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file is part of Chummer5a.Chummer5a is free software: you can redistribute it and/or modifyit under the terms of the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License, or(at your option) any later version.Chummer5a is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See theGNU General Public License for more details.You should have received a copy of the GNU General Public Licensealong with Chummer5a. If not, see <http://www.gnu.org/licenses/>.You can obtain the full source code for Chummer5a athttps://github.com/chummer5a/chummer5a -->
+<!-- Creates new fashion armors. -->
+<chummer>
+  <armors>
+    <armor>
+      <id>cd32ffa8-c69b-4040-b60f-9c6ec1eb2fe5</id>
+      <name>Arenreich Femme Fatale</name>
+      <category>High-Fashion Armor Clothing</category>
+      <armor>12</armor>
+      <armorcapacity>10</armorcapacity>
+      <avail>12</avail>
+      <cost>10000</cost>
+      <bonus>
+        <limitmodifier>
+          <limit>Social</limit>
+          <value>2</value>
+          <condition>LimitCondition_Visible</condition>
+        </limitmodifier>
+      </bonus>
+      <wirelessbonus>
+        <skillcategory>
+          <name>Social Active</name>
+          <bonus>1</bonus>
+        </skillcategory>
+      </wirelessbonus>
+      <mods>
+        <name>Custom Fit</name>
+        <name>AR Fashion</name>
+        <name>Electrochromic Clothing</name>
+        <name>Attachable Gear Access</name>
+      </mods>
+      <source>SR5</source>
+      <page>5</page>
+    </armor>  
+    <armor>
+      <id>b6545e61-9f01-4a21-bff3-30c1bed596a0</id>
+      <name>Arenreich Debonair</name>
+      <category>High-Fashion Armor Clothing</category>
+      <armor>9</armor>
+      <armorcapacity>9</armorcapacity>
+      <avail>2</avail>
+      <cost>500</cost>
+      <wirelessbonus>
+        <skillcategory>
+          <name>Social Active</name>
+          <bonus>1</bonus>
+        </skillcategory>
+      </wirelessbonus>
+      <mods>
+        <name>AR Fashion</name>
+        <name>Electrochromic Clothing</name>
+        <name>Concealability</name>
+      </mods>
+      <gears>
+        <usegear>Holster</usegear>
+      </gears>
+      <source>SR5</source>
+      <page>5</page>
+    </armor>  
+    <armor>
+      <id>7108b5c0-0ae6-4b7a-93d1-e1d94608a4c0</id>
+      <name>Améthyste Liaison</name>
+      <category>High-Fashion Armor Clothing</category>
+      <armor>10</armor>
+      <armorcapacity>8</armorcapacity>
+      <avail>2</avail>
+      <cost>4000</cost>
+      <bonus>
+        <limitmodifier>
+          <limit>Social</limit>
+          <value>1</value>
+          <condition>LimitCondition_Visible</condition>
+        </limitmodifier>
+      </bonus>
+      <wirelessbonus>
+        <skillcategory>
+          <name>Social Active</name>
+          <bonus>2</bonus>
+        </skillcategory>
+      </wirelessbonus>
+      <mods>
+        <name>AR Fashion</name>
+        <name>Auto-Injector</name>
+        <name>Custom Fit</name>
+        <name>Electrochromic Clothing</name>
+        <name rating="6">Nonconductivity</name>
+      </mods>
+      <gears>
+        <usegear>Biomonitor</usegear>
+      </gears>
+      <source>SR5</source>
+      <page>5</page>
+    </armor>
+    <armor>
+      <id>3bda1e64-c5d5-4eee-a9d0-0b9c81b24c05</id>
+      <name>Améthyste Emissary</name>
+      <category>High-Fashion Armor Clothing</category>
+      <armor>13</armor>
+      <armorcapacity>10</armorcapacity>
+      <avail>12</avail>
+      <cost>12000</cost>
+      <bonus>
+        <limitmodifier>
+          <limit>Social</limit>
+          <value>2</value>
+          <condition>LimitCondition_Visible</condition>
+        </limitmodifier>
+      </bonus>
+      <wirelessbonus>
+        <skillcategory>
+          <name>Social Active</name>
+          <bonus>1</bonus>
+        </skillcategory>
+      </wirelessbonus>
+      <mods>
+        <name>AR Fashion</name>
+        <name>Concealability</name>
+        <name>Concealed Faraday Pocket</name>
+        <name>Custom Fit</name>
+        <name>Electrochromic Clothing</name>
+        <name>Environmental Adaptation (Hot)</name>
+        <name rating="6">Fire Resistance</name>
+        <name>YNT Softweave Armor</name>
+      </mods>
+      <gears>
+        <usegear>Holster</usegear>
+      </gears>
+      <source>SR5</source>
+      <page>5</page>
+    </armor>  
+    <!-- Accessories -->
+    <armor>
+      <id>0b0efdb5-c80c-4a97-9b9a-c1bee1d1593b</id>
+      <name>Arenreich Pillow Book</name>
+      <category>High-Fashion Armor Clothing</category>
+      <armor>8</armor>
+      <armorcapacity>8</armorcapacity>
+      <avail>12R</avail>
+      <cost>8500</cost>
+      <bonus>
+        <limitmodifier>
+          <limit>Social</limit>
+          <value>1</value>
+          <condition>LimitCondition_Visible</condition>
+        </limitmodifier>
+      </bonus>
+      <wirelessbonus>
+        <skillcategory>
+          <name>Social Active</name>
+          <bonus>1</bonus>
+        </skillcategory>
+      </wirelessbonus>
+      <mods>
+        <name>AR Fashion</name>
+        <name>Electrochromic Clothing</name>
+        <name>Concealability</name>
+        <name>Internal Armored Shell</name>
+        <name rating="6">Fresnel Fabric</name>
+        <name>Concealed Faraday Pocket</name>
+      </mods>
+      <gears>
+        <usegear>Data Tap</usegear>
+        <usegear>Induction Receiver</usegear>
+        <usegear qty="5">Universal Connector Cord (Meter)</usegear>
+      </gears>
+      <source>SR5</source>
+      <page>5</page>
+    </armor>  
+    <armor>
+      <id>08f264bd-00f4-433f-bcb0-e626f1da05fb</id>
+      <name>Arenreich Secret</name>
+      <category>High-Fashion Armor Clothing</category>
+      <armor>5</armor>
+      <armorcapacity>4</armorcapacity>
+      <avail>12R</avail>
+      <cost>2450</cost>
+      <bonus>
+        <limitmodifier>
+          <limit>Social</limit>
+          <value>1</value>
+          <condition>LimitCondition_Visible</condition>
+        </limitmodifier>
+      </bonus>
+      <wirelessbonus>
+        <skillcategory>
+          <name>Social Active</name>
+          <bonus>1</bonus>
+        </skillcategory>
+      </wirelessbonus>
+      <mods>
+        <name>AR Fashion</name>
+        <name>Electrochromic Clothing</name>
+        <name>Concealability</name>
+        <name>Concealed Faraday Pocket</name>
+        <name>Two-Charge Shockmesh</name>
+      </mods>
+      <gears>
+        <usegear rating="12">Hard-Shell Briefcase</usegear>
+      </gears>
+      <source>SR5</source>
+      <page>5</page>
+    </armor>  
+  </armors>
+  <mods> 
+    <mod>
+      <id>981a3e4b-18ca-48a2-8183-669be3b31ac2</id>
+      <name>Internal Armored Shell</name>
+      <category>General</category>
+      <armor>0</armor>
+      <maxrating>1</maxrating>
+      <armorcapacity>[0]</armorcapacity>
+      <addoncategory>Cyberdecks</addoncategory>
+      <addoncategory>Commlinks</addoncategory>
+      <addoncategory>Rigger Command Consoles</addoncategory>
+      <avail>4</avail>
+      <cost>0</cost>
+      <source>KC</source>
+      <page>73</page>
+      <hide />
+    </mod>
+    <mod>
+      <id>aaa6e667-c6e2-402c-9922-20dac536157b</id>
+      <name>Concealed Faraday Pocket</name>
+      <category>General</category>
+      <armor>0</armor>
+      <maxrating>1</maxrating>
+      <armorcapacity>[1]</armorcapacity>
+      <avail>7R</avail>
+      <cost>50</cost>
+      <source>HT</source>
+      <page>185</page>
+      <hide />
+    </mod>
+    <mod>
+      <id>bba35016-2778-4803-963f-a1e49c6cb1b4</id>
+      <name>Two-Charge Shockmesh</name>
+      <category>General</category>
+      <armor>0</armor>
+      <maxrating>1</maxrating>
+      <armorcapacity>[1]</armorcapacity>
+      <avail>6R</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>5</page>
+      <hide />
+    </mod>
+    <mod>
+      <id>a1249484-31a6-4da4-b97c-cb8817718fa1</id>
+      <name>Environmental Adaptation (Hot)</name>
+      <category>General</category>
+      <armor>0</armor>
+      <maxrating>1</maxrating>
+      <armorcapacity>[1]</armorcapacity>
+      <avail>6R</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>5</page>
+      <hide />
+    </mod>
+  </mods>
+</chummer>

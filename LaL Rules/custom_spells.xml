@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<spells>
+	
+	<!-- Combat -->
+	
+    <spell>
+      <id>ee81c12e-e00b-417a-a643-a96ac39afc55</id>
+      <name>Shock Wave</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Elemental</descriptor>
+      <duration>I</duration>
+      <dv>F-2</dv>
+      <range>LOS (A)</range>
+      <type>P</type>
+    </spell>
+	
+    <spell>
+      <id>07e27d20-6e61-4f24-96a5-337e209327ce</id>
+      <name>Mana Burst</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Elemental</descriptor>
+      <duration>I</duration>
+      <dv>F-2</dv>
+      <range>LOS</range>
+      <type>P</type>
+    </spell>	
+	
+    <spell>
+      <id>2ff02ce1-7aff-4bfe-bd05-5f58a6c34931</id>
+      <name>Mana Wave</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Elemental</descriptor>
+      <duration>I</duration>
+      <dv>F-1</dv>
+      <range>LOS (A)</range>
+      <type>P</type>
+    </spell>	
+	
+    <spell>
+      <id>69d8857e-9320-4dde-a1e1-33c32f5c2fc4</id>
+      <name>Mana Flood</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Elemental</descriptor>
+      <duration>I</duration>
+      <dv>F</dv>
+      <range>LOS (A)</range>
+      <type>P</type>
+    </spell>
+
+    <spell>
+      <id>f240e604-e01f-44db-825c-d65da9ed929f</id>
+      <name>Kilonova</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Elemental</descriptor>
+      <duration>I</duration>
+      <dv>F</dv>
+      <range>T</range>
+      <type>P</type>
+    </spell>
+
+    <spell>
+      <id>d26a0927-773d-41c8-b610-59493f308c42</id>
+      <name>Supernova</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Elemental</descriptor>
+      <duration>I</duration>
+      <dv>F+3</dv>
+      <range>LOS</range>
+      <type>P</type>
+    </spell>
+
+    <spell>
+      <id>2c97cb5e-33f2-4f43-909d-d724ea14fd4a</id>
+      <name>Big Bang</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Elemental</descriptor>
+      <duration>I</duration>
+      <dv>F+6</dv>
+      <range>LOS (A)</range>
+      <type>P</type>
+    </spell>	
+
+    <spell>
+      <id>5536e275-99b8-45f4-a840-0172ca2d6152</id>
+      <name>Plasma Discharge</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Elemental</descriptor>
+      <duration>I</duration>
+      <dv>F-2</dv>
+      <range>LOS</range>
+      <type>P</type>
+    </spell>	
+	
+    <spell>
+      <id>dc5db160-88d3-4eb7-b55d-f070f10bd959</id>
+      <name>Positronic Wave</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Elemental</descriptor>
+      <duration>I</duration>
+      <dv>F-1</dv>
+      <range>LOS (A)</range>
+      <type>P</type>
+    </spell>	
+	
+    <spell>
+      <id>65a4eca1-8b94-45b7-8479-be568a9b0967</id>
+      <name>Corona</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Elemental</descriptor>
+      <duration>I</duration>
+      <dv>F</dv>
+      <range>LOS (A)</range>
+      <type>P</type>
+    </spell>
+	
+    <spell>
+      <id>50868e27-116c-451d-9d54-5b00bf47184c</id>
+      <name>Moonbeam</name>
+      <page>17</page>
+      <source>SSP</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect</descriptor>
+      <duration>I</duration>
+      <dv>F-1</dv>
+      <range>LOS</range>
+      <type>P</type>
+    </spell>	
+	
+    <spell>
+      <id>cadd274d-16db-4e0a-83f2-c246b76ad66a</id>
+      <name>Sedate</name>
+      <page>284</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>S</damage>
+      <descriptor>Direct</descriptor>
+      <duration>I</duration>
+      <dv>F-6</dv>
+      <range>T</range>
+      <type>P</type>
+    </spell>
+	
+    <spell>
+      <id>ceac41eb-5e91-4532-b748-bf265346490a</id>
+      <name>Migraine</name>
+      <page>284</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>S</damage>
+      <descriptor>Direct</descriptor>
+      <duration>I</duration>
+      <dv>F-3</dv>
+      <range>LOS</range>
+      <type>P</type>
+    </spell>
+	
+    <spell>
+      <id>d9931882-5f95-4787-83e5-1981062f8d02</id>
+      <name>Collapse</name>
+      <page>284</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>S</damage>
+      <descriptor>Direct, Area</descriptor>
+      <duration>I</duration>
+      <dv>F</dv>
+      <range>LOS (A)</range>
+      <type>P</type>
+    </spell>
+
+    <spell>
+      <id>00c636b0-7572-4723-9fb9-434c0ae9f640</id>
+      <name>Stream</name>
+      <page>284</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>S</damage>
+      <descriptor>Indirect, Elemental</descriptor>
+      <duration>I</duration>
+      <dv>F-3</dv>
+      <range>LOS</range>
+      <type>P</type>
+    </spell>
+	
+    <spell>
+      <id>a4744424-725d-4e1b-a1b1-870f461406af</id>
+      <name>Tsunami</name>
+      <page>284</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>S</damage>
+      <descriptor>Indirect, Elemental, Area</descriptor>
+      <duration>I</duration>
+      <dv>F</dv>
+      <range>LOS (A)</range>
+      <type>P</type>
+    </spell>	
+<!-- Detection -->	
+
+    <spell>
+      <id>9e603c0c-fc1c-4c0a-bc47-980db06461cf</id>
+      <name>Astral Wiretap</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Detection</category>
+      <descriptor>Mana</descriptor>
+      <duration>S</duration>
+      <dv>F-3</dv>
+      <range>LOS</range>
+      <type>M</type>
+    </spell>
+
+<!-- Manipulation -->
+
+    <spell>
+      <id>91853209-2af8-458f-a67b-a559aa5f93a7</id>
+      <name>Accelerate</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Manipulation</category>
+      <descriptor>Physical</descriptor>
+      <duration>S</duration>
+      <dv>F</dv>
+      <range>T</range>
+      <type>P</type>
+    </spell>
+	
+    <spell>
+      <id>73a1ec38-0c28-45e8-8e3a-e83f415216fb</id>
+      <name>Decelerate</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Manipulation</category>
+      <descriptor>Physical</descriptor>
+      <duration>S</duration>
+      <dv>F</dv>
+      <range>T</range>
+      <type>P</type>
+    </spell>
+	
+    <spell>
+      <id>3a76fcf2-87a5-4e37-8161-8ad444a30b33</id>
+      <name>Flight</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Manipulation</category>
+      <descriptor>Physical</descriptor>
+      <duration>S</duration>
+      <dv>F-1</dv>
+      <range>T</range>
+      <type>P</type>
+    </spell>
+	
+    <spell>
+      <id>6838876e-0d33-4574-a3d4-7445a7a23f2a</id>
+      <name>Metahuman Trait Adjustment</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Manipulation</category>
+      <descriptor>Physical</descriptor>
+      <duration>S</duration>
+      <dv>F-4</dv>
+      <range>Self</range>
+      <type>P</type>
+    </spell>
+
+    <spell>
+      <id>62a530aa-9091-466d-bcac-3241579c5b1e</id>
+      <name>Shrink</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Manipulation</category>
+      <descriptor>Physical</descriptor>
+      <duration>S</duration>
+      <dv>F+3</dv>
+      <range>LoS</range>
+      <type>P</type>
+    </spell>
+
+    <spell>
+      <id>792e6705-b1ac-438d-8144-910233a54c66</id>
+      <name>Glare</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Manipulation</category>
+      <descriptor>Physical</descriptor>
+      <duration>S</duration>
+      <dv>F-2</dv>
+      <range>Self</range>
+      <type>P</type>
+    </spell>
+
+    <spell>
+      <id>cc6526bf-8afb-44d8-a819-36272084b5c7</id>
+      <name>Radiance</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Manipulation</category>
+      <descriptor>Physical</descriptor>
+      <duration>S</duration>
+      <dv>F-1</dv>
+      <range>Self</range>
+      <type>P</type>
+    </spell>	
+	
+	</spells>
+</chummer>

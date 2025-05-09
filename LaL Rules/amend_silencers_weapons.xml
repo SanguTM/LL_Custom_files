@@ -1,0 +1,9 @@
+<!-- This file allows the use of silencers on shotguns and revolvers. -->
+
+<chummer>
+  <accessories>
+    <accessory xpathfilter="id='0da6149e-982f-4051-825b-52c1b79c7e52'" amendoperation="recurse">
+      <forbidden amendoperation="remove" />
+    </accessory>
+  </accessories>
+</chummer>

@@ -139,5 +139,22 @@
       <page>5</page>
     </cyberware>
 		
+		<cyberware>
+      <id>a6076d07-6297-4bfd-b107-e462295a3773</id>
+      <name>Smuggling Compartment Shielding</name>
+      <limit>False</limit>
+      <category>Bodyware</category>
+      <ess>0</ess>
+      <capacity>[0]</capacity>
+      <avail>12F</avail>
+      <cost>3000</cost>
+      <source>SR5</source>
+      <page>5</page>
+      <allowgear />
+			<bonus>
+        <selecttext />
+      </bonus>
+    </cyberware>
+		
 	</cyberwares>	
 </chummer>

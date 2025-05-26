@@ -34,12 +34,77 @@
         </specificskill>
       </bonus>
 			<adeptway>0.125</adeptway>
-			<adeptwayrequires>
+			<adeptwayrequires amendoperation="addnode">
         <required>
           <oneof>
 						<quality>The Beast's Way</quality>
           </oneof>
         </required>
+      </adeptwayrequires>
+    </power>
+		
+		<power>
+      <id>f1e8a618-ba12-4972-91f0-974500387893</id>
+      <name>Kinesics</name>
+      <points>0.25</points>
+      <levels>True</levels>
+      <limit>1</limit>
+      <source>SR5</source>
+      <page>310</page>
+      <bonus>
+        <judgeintentionsdefense>Rating</judgeintentionsdefense>
+      </bonus>
+			<adeptway>0.125</adeptway>
+			<adeptwayrequires amendoperation="addnode">
+        <required>
+          <oneof>
+						<quality>The Speaker's Way</quality>
+						<quality>The Artist's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+    </power>
+		
+		<power>
+      <id>1ec402f1-6139-4f94-8e86-92aa463bf536</id>
+      <name>Nimble Fingers</name>
+      <points>0.25</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>SG</source>
+      <page>173</page>
+			<adeptway>0.125</adeptway>
+      <adeptwayrequires amendoperation="addnode">
+        <required>
+          <oneof>
+            <quality>The Artist's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <bonus>
+        <specificskill>
+          <name>Palming</name>
+          <bonus>1</bonus>
+        </specificskill>
+      </bonus>
+    </power>
+		
+		<power>
+      <id>ce7df757-792e-4fac-a86e-6b587586deb2</id>
+      <name>Light Body</name>
+      <points>0.25</points>
+      <levels>True</levels>
+      <limit>1</limit>
+      <source>SR5</source>
+      <page>310</page>
+			<adeptway>0.125</adeptway>			
+			<adeptwayrequires amendoperation="addnode">
+				<required>
+					<oneof>
+						<quality>The Athlete's Way</quality>
+						<quality>The Invisible Way</quality>
+					</oneof>
+				</required>
       </adeptwayrequires>
     </power>
 	</powers>

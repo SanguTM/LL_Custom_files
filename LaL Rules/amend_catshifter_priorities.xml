@@ -22,6 +22,12 @@
               <value>8</value>
               <karma>0</karma>
             </metavariant>
+						<metavariant>
+							<id>eb45af0f-b9ea-4daa-bab1-2cf58df1bae1</id>
+              <name>Valkyrie</name>
+              <value>8</value>
+              <karma>0</karma>
+            </metavariant>
             <metavariant>
               <name>Elf</name>
               <value>8</value>
@@ -145,6 +151,12 @@
               <value>6</value>
               <karma>0</karma>
             </metavariant>
+						<metavariant>
+							<id>eb45af0f-b9ea-4daa-bab1-2cf58df1bae1</id>
+              <name>Valkyrie</name>
+              <value>6</value>
+              <karma>0</karma>
+            </metavariant>
             <metavariant>
               <name>Elf</name>
               <value>6</value>
@@ -265,6 +277,12 @@
             </metavariant>
             <metavariant>
               <name>Nartaki</name>
+              <value>4</value>
+              <karma>0</karma>
+            </metavariant>
+						<metavariant>
+							<id>eb45af0f-b9ea-4daa-bab1-2cf58df1bae1</id>
+              <name>Valkyrie</name>
               <value>4</value>
               <karma>0</karma>
             </metavariant>

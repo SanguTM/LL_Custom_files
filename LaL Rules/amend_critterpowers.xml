@@ -38,7 +38,11 @@
       <category amendoperation="remove">Drake</category>
       <category amendoperation="append">Naga</category>
     </power>
+		<!-- Changes Transcend Form's Cost to 15 Karma. -->
+    <power>
+      <id>5a08fa16-afcb-4fc9-b772-12a8f3dc96a8</id>
+      <name>Transcend Form</name>
+      <karma amendoperation="replace">15</karma>
+    </power>
   </powers>
 </chummer>
-
-<!-- Changes Transcend Form's Cost to 15 Karma. -->

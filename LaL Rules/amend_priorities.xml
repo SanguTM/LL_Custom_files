@@ -1,0 +1,586 @@
+<chummer>
+	<priorities>
+	<!--Valkirie-->
+		<priority>
+			<name>A - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Human</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+							<value>8</value>
+							<karma>0</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>B - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Human</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+							<value>6</value>
+							<karma>0</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>C - Human, Elf, Dwarf, Ork, or A.I.</name>
+			<metatypes>
+				<metatype>
+					<name>Human</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+							<value>4</value>
+							<karma>0</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>D - Human or Elf</name>
+			<metatypes>
+				<metatype>
+					<name>Human</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+							<value>2</value>
+							<karma>0</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>E - Human</name>
+			<metatypes>
+				<metatype>
+					<name>Human</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+							<value>1</value>
+							<karma>0</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		
+		<priority>
+			<name>A - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Bovine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>8</value>
+              <karma>5</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>B - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Bovine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>6</value>
+              <karma>5</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>C - Human, Elf, Dwarf, Ork, or A.I.</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Bovine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>4</value>
+              <karma>5</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		
+		<priority>
+			<name>A - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Canine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>7</value>
+              <karma>10</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>B - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Canine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>7</value>
+              <karma>10</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>C - Human, Elf, Dwarf, Ork, or A.I.</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Canine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>7</value>
+              <karma>10</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		
+		<priority>
+			<name>A - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Equine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>6</value>
+              <karma>15</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>B - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Equine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>6</value>
+              <karma>15</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>C - Human, Elf, Dwarf, Ork, or A.I.</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Equine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>6</value>
+              <karma>15</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		
+		<priority>
+			<name>A - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Falconine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>6</value>
+              <karma>15</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>B - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Falconine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>5</value>
+              <karma>10</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>C - Human, Elf, Dwarf, Ork, or A.I.</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Falconine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>5</value>
+              <karma>10</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		
+		<priority>
+			<name>A - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Leonine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>2</value>
+              <karma>20</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>B - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Leonine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>2</value>
+              <karma>20</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>C - Human, Elf, Dwarf, Ork, or A.I.</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Leonine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>2</value>
+              <karma>20</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		
+		<priority>
+			<name>A - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Lupine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>2</value>
+              <karma>15</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>B - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Leonine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>2</value>
+              <karma>15</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>C - Human, Elf, Dwarf, Ork, or A.I.</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Leonine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>2</value>
+              <karma>15</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		
+		<priority>
+			<name>A - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Pantherine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>0</value>
+              <karma>25</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>B - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Pantherine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>0</value>
+              <karma>25</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>C - Human, Elf, Dwarf, Ork, or A.I.</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Pantherine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>0</value>
+              <karma>25</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		
+		<priority>
+			<name>A - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Phocine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>6</value>
+              <karma>20</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>B - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Phocine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>6</value>
+              <karma>20</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>C - Human, Elf, Dwarf, Ork, or A.I.</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Phocine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>6</value>
+              <karma>20</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		
+		<priority>
+			<name>A - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Tigrine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>4</value>
+              <karma>25</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>B - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Tigrine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>4</value>
+              <karma>25</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>C - Human, Elf, Dwarf, Ork, or A.I.</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Tigrine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>4</value>
+              <karma>25</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		
+		<priority>
+			<name>A - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Ursine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>2</value>
+              <karma>20</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>B - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Ursine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>2</value>
+              <karma>20</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>C - Human, Elf, Dwarf, Ork, or A.I.</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Ursine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>2</value>
+              <karma>20</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		
+		<priority>
+			<name>A - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Vulpine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>4</value>
+              <karma>5</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>B - Any metatype</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Vulpine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>4</value>
+              <karma>5</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+		<priority>
+			<name>C - Human, Elf, Dwarf, Ork, or A.I.</name>
+			<metatypes>
+				<metatype>
+					<name>Shapeshifter: Vulpine</name>
+					<metavariants>
+						<metavariant amendoperation="addnode">
+							<name>Valkyrie</name>
+              <value>4</value>
+              <karma>5</karma>
+						</metavariant>
+					</metavariants>
+				</metatype>
+			</metatypes>
+		</priority>
+	</priorities>
+</chummer>

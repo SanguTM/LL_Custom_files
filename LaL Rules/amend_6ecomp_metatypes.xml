@@ -1,65 +1,1094 @@
 <chummer>
 <metatypes>
 	<metatype>
-	<id>a53d885d-a4a4-443d-b6a6-b0a55b0a96c7</id>
-	<metavariants>
-		<metavariant amendoperation="addnode">
-			<id>0b2dd6af-a231-45d2-bf4d-e62c33525d85</id>
-			<name>Valkyrie</name>
-			<category>Metavariant</category>
-			<karma>60</karma>
-			<bodmin>2</bodmin>
-			<bodmax>7</bodmax>
-			<bodaug>11</bodaug>
-			<agimin>1</agimin>
-			<agimax>6</agimax>
-			<agiaug>10</agiaug>
-			<reamin>1</reamin>
-			<reamax>6</reamax>
-			<reaaug>10</reaaug>
-			<strmin>2</strmin>
-			<strmax>7</strmax>
-			<straug>11</straug>
-			<chamin>1</chamin>
-			<chamax>6</chamax>
- 			<chaaug>10</chaaug>
-			<intmin>1</intmin>
-			<intmax>6</intmax>
-			<intaug>10</intaug>
-			<logmin>1</logmin>
-			<logmax>6</logmax>
-			<logaug>10</logaug>
-			<wilmin>1</wilmin>
- 			<wilmax>6</wilmax>
-			<wilaug>10</wilaug>
- 			<inimin>2</inimin>
-			<inimax>12</inimax>
-			<iniaug>20</iniaug>
-			<edgmin>1</edgmin>
-			<edgmax>6</edgmax>
-			<edgaug>6</edgaug>
-			<magmin>1</magmin>
-			<magmax>6</magmax>
-			<magaug>6</magaug>
-			<resmin>1</resmin>
-			<resmax>6</resmax>
-			<resaug>6</resaug>
-			<essmin>0</essmin>
-			<essmax>6</essmax>
-			<essaug>6</essaug>
-			<depmin>0</depmin>
-			<depmax>0</depmax>
-			<depaug>0</depaug>
-			<qualities>
-				<positive>
-					<quality>Wings II</quality>
-				</positive>
-			</qualities>
-			<bonus />
-			<source>SR5</source>
-			<page>5</page>
-		</metavariant>
-	</metavariants>
-	</metatype>
-</metatypes>
+		<id>a53d885d-a4a4-443d-b6a6-b0a55b0a96c7</id>
+		<metavariants>
+			<metavariant amendoperation="addnode">
+				<id>0b2dd6af-a231-45d2-bf4d-e62c33525d85</id>
+				<name>Valkyrie</name>
+				<category>Metavariant</category>
+				<karma>60</karma>
+				<bodmin>2</bodmin>
+				<bodmax>7</bodmax>
+				<bodaug>11</bodaug>
+				<agimin>1</agimin>
+				<agimax>6</agimax>
+				<agiaug>10</agiaug>
+				<reamin>1</reamin>
+				<reamax>6</reamax>
+				<reaaug>10</reaaug>
+				<strmin>2</strmin>
+				<strmax>7</strmax>
+				<straug>11</straug>
+				<chamin>1</chamin>
+				<chamax>6</chamax>
+				<chaaug>10</chaaug>
+				<intmin>1</intmin>
+				<intmax>6</intmax>
+				<intaug>10</intaug>
+				<logmin>1</logmin>
+				<logmax>6</logmax>
+				<logaug>10</logaug>
+				<wilmin>1</wilmin>
+				<wilmax>6</wilmax>
+				<wilaug>10</wilaug>
+				<inimin>2</inimin>
+				<inimax>12</inimax>
+				<iniaug>20</iniaug>
+				<edgmin>1</edgmin>
+				<edgmax>6</edgmax>
+				<edgaug>6</edgaug>
+				<magmin>1</magmin>
+				<magmax>6</magmax>
+				<magaug>6</magaug>
+				<resmin>1</resmin>
+				<resmax>6</resmax>
+				<resaug>6</resaug>
+				<essmin>0</essmin>
+				<essmax>6</essmax>
+				<essaug>6</essaug>
+				<depmin>0</depmin>
+				<depmax>0</depmax>
+				<depaug>0</depaug>
+				<qualities>
+					<positive>
+						<quality>Wings II</quality>
+					</positive>
+				</qualities>
+				<bonus />
+				<source>SR5</source>
+				<page>5</page>
+			</metavariant>
+		</metavariants>
+		</metatype>
+		<!-- Region Shapeshifter -->
+		<metatype>
+      <id>5f618c01-e149-4dc6-8fcd-22f548a9f155</id>
+			<name>Shapeshifter: Bovine</name>
+      <metavariants>
+        <metavariant amendoperation="addnode">
+          <id>855835ba-10c1-4392-86c8-411242c14d59</id>
+          <name>Valkyrie</name>
+					<karma>100</karma>
+					<bodmin>2</bodmin>
+					<bodmax>7</bodmax>
+					<bodaug>11</bodaug>
+					<agimin>1</agimin>
+					<agimax>6</agimax>
+					<agiaug>10</agiaug>
+					<reamin>1</reamin>
+					<reamax>6</reamax>
+					<reaaug>10</reaaug>
+					<strmin>2</strmin>
+					<strmax>7</strmax>
+					<straug>11</straug>
+					<chamin>1</chamin>
+					<chamax>6</chamax>
+					<chaaug>10</chaaug>
+					<intmin>1</intmin>
+					<intmax>6</intmax>
+					<intaug>10</intaug>
+					<logmin>1</logmin>
+					<logmax>6</logmax>
+					<logaug>10</logaug>
+					<wilmin>1</wilmin>
+					<wilmax>6</wilmax>
+					<wilaug>10</wilaug>
+					<inimin>2</inimin>
+					<inimax>12</inimax>
+					<iniaug>20</iniaug>
+					<edgmin>1</edgmin>
+					<edgmax>6</edgmax>
+					<edgaug>6</edgaug>
+					<magmin>1</magmin>
+					<magmax>6</magmax>
+					<magaug>6</magaug>
+					<resmin>1</resmin>
+					<resmax>6</resmax>
+					<resaug>6</resaug>
+					<essmin>0</essmin>
+					<essmax>6</essmax>
+					<essaug>6</essaug>
+					<depmin>0</depmin>
+					<depmax>0</depmax>
+					<depaug>0</depaug>
+					<walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="2/1/0">1/1/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+          </powers>
+          <qualities>
+            <positive>
+              <quality select="Shapeshifter Form Only">Goring Horns</quality>
+							<quality select="Metahuman Form Only">Wings II</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <source>SR5</source>
+          <page>5</page>
+				</metavariant>
+			</metavariants>
+		</metatype>
+		
+		<metatype>
+      <id>5abf92b8-3d95-478c-8ebf-9ebc988cbcf4</id>
+      <name>Shapeshifter: Canine</name>
+      <metavariants>
+        <metavariant amendoperation="addnode">
+          <id>f62e8d0c-cd9b-48b4-a044-6f3758916640</id>
+          <name>Valkyrie</name>
+					<karma>110</karma>
+					<bodmin>2</bodmin>
+					<bodmax>7</bodmax>
+					<bodaug>11</bodaug>
+					<agimin>1</agimin>
+					<agimax>6</agimax>
+					<agiaug>10</agiaug>
+					<reamin>1</reamin>
+					<reamax>6</reamax>
+					<reaaug>10</reaaug>
+					<strmin>2</strmin>
+					<strmax>7</strmax>
+					<straug>11</straug>
+					<chamin>1</chamin>
+					<chamax>6</chamax>
+					<chaaug>10</chaaug>
+					<intmin>1</intmin>
+					<intmax>6</intmax>
+					<intaug>10</intaug>
+					<logmin>1</logmin>
+					<logmax>6</logmax>
+					<logaug>10</logaug>
+					<wilmin>1</wilmin>
+					<wilmax>6</wilmax>
+					<wilaug>10</wilaug>
+					<inimin>2</inimin>
+					<inimax>12</inimax>
+					<iniaug>20</iniaug>
+					<edgmin>1</edgmin>
+					<edgmax>6</edgmax>
+					<edgaug>6</edgaug>
+					<magmin>1</magmin>
+					<magmax>6</magmax>
+					<magaug>6</magaug>
+					<resmin>1</resmin>
+					<resmax>6</resmax>
+					<resaug>6</resaug>
+					<essmin>0</essmin>
+					<essmax>6</essmax>
+					<essaug>6</essaug>
+					<depmin>0</depmin>
+					<depmax>0</depmax>
+					<depaug>0</depaug>
+					<walk alt="2/1/0">2/1/0</walk>
+          <run alt="4/1/0">6/1/0</run>
+          <sprint alt="2/1/0">3/1/0</sprint>
+				  <powers>
+					 <power>Shift (Metahuman Form)</power>
+					</powers>
+					<qualities>
+						<positive>
+							<quality>Low-Light Vision</quality>
+							<quality>Broadened Auditory System (Ultrasound)</quality>
+							<quality>Vomeronasal Organ</quality>
+							<quality select="Metahuman Form Only">Wings II</quality>
+						</positive>
+					</qualities>
+					<bonus>
+						<naturalweapon>
+							<name>Bite (Canine Form)</name>
+							<reach>0</reach>
+							<damage>({STR}+1)P</damage>
+							<ap>-1</ap>
+							<useskill>Unarmed Combat</useskill>
+							<accuracy>Physical</accuracy>
+							<source>RF</source>
+							<page>104</page>
+						</naturalweapon>
+						<enableattribute>
+							<name>MAG</name>
+						</enableattribute>
+						<enabletab>
+							<name>critter</name>
+						</enabletab>
+					</bonus>
+          <source>SR5</source>
+          <page>5</page>
+				</metavariant>
+			</metavariants>
+		</metatype>
+		
+		<metatype>
+      <id>4286946f-7078-41a6-9b70-0f73f4f1db9d</id>
+      <name>Shapeshifter: Equine</name>
+      <metavariants>
+        <metavariant amendoperation="addnode">
+          <id>ed7f0cd9-9945-4caf-b575-201806feeea5</id>
+          <name>Valkyrie</name>
+					<karma>120</karma>
+					<bodmin>2</bodmin>
+					<bodmax>7</bodmax>
+					<bodaug>11</bodaug>
+					<agimin>1</agimin>
+					<agimax>6</agimax>
+					<agiaug>10</agiaug>
+					<reamin>1</reamin>
+					<reamax>6</reamax>
+					<reaaug>10</reaaug>
+					<strmin>2</strmin>
+					<strmax>7</strmax>
+					<straug>11</straug>
+					<chamin>1</chamin>
+					<chamax>6</chamax>
+					<chaaug>10</chaaug>
+					<intmin>1</intmin>
+					<intmax>6</intmax>
+					<intaug>10</intaug>
+					<logmin>1</logmin>
+					<logmax>6</logmax>
+					<logaug>10</logaug>
+					<wilmin>1</wilmin>
+					<wilmax>6</wilmax>
+					<wilaug>10</wilaug>
+					<inimin>2</inimin>
+					<inimax>12</inimax>
+					<iniaug>20</iniaug>
+					<edgmin>1</edgmin>
+					<edgmax>6</edgmax>
+					<edgaug>6</edgaug>
+					<magmin>1</magmin>
+					<magmax>6</magmax>
+					<magaug>6</magaug>
+					<resmin>1</resmin>
+					<resmax>6</resmax>
+					<resaug>6</resaug>
+					<essmin>0</essmin>
+					<essmax>6</essmax>
+					<essaug>6</essaug>
+					<depmin>0</depmin>
+					<depmax>0</depmax>
+					<depaug>0</depaug>
+					<walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">4/1/0</run>
+          <sprint alt="2/1/0">4/1/0</sprint>
+				  <qualities>
+            <positive>
+							<quality select="Metahuman Form Only">Wings II</quality>
+              <quality>Keen-Eared</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+          </bonus>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+          </powers>
+          <source>SR5</source>
+          <page>5</page>
+				</metavariant>
+			</metavariants>
+		</metatype>
+		
+		<metatype>
+      <id>4f5d2d05-bccd-45d4-9d2e-e8904b1f255a</id>
+      <name>Shapeshifter: Falconine</name>
+      <metavariants>
+        <metavariant amendoperation="addnode">
+          <id>c604cd90-99d1-4fa9-8fcf-fbfd717fe882</id>
+          <name>Valkyrie</name>
+					<karma>110</karma>
+					<bodmin>2</bodmin>
+					<bodmax>7</bodmax>
+					<bodaug>11</bodaug>
+					<agimin>1</agimin>
+					<agimax>6</agimax>
+					<agiaug>10</agiaug>
+					<reamin>1</reamin>
+					<reamax>6</reamax>
+					<reaaug>10</reaaug>
+					<strmin>2</strmin>
+					<strmax>7</strmax>
+					<straug>11</straug>
+					<chamin>1</chamin>
+					<chamax>6</chamax>
+					<chaaug>10</chaaug>
+					<intmin>1</intmin>
+					<intmax>6</intmax>
+					<intaug>10</intaug>
+					<logmin>1</logmin>
+					<logmax>6</logmax>
+					<logaug>10</logaug>
+					<wilmin>1</wilmin>
+					<wilmax>6</wilmax>
+					<wilaug>10</wilaug>
+					<inimin>2</inimin>
+					<inimax>12</inimax>
+					<iniaug>20</iniaug>
+					<edgmin>1</edgmin>
+					<edgmax>6</edgmax>
+					<edgaug>6</edgaug>
+					<magmin>1</magmin>
+					<magmax>6</magmax>
+					<magaug>6</magaug>
+					<resmin>1</resmin>
+					<resmax>6</resmax>
+					<resaug>6</resaug>
+					<essmin>0</essmin>
+					<essmax>6</essmax>
+					<essaug>6</essaug>
+					<depmin>0</depmin>
+					<depmax>0</depmax>
+					<depaug>0</depaug>
+					<walk alt="2/1/0">1/1/2</walk>
+          <run alt="4/1/0">2/1/6</run>
+          <sprint alt="2/1/0">0.5/1/2</sprint>
+					<powers>
+            <power>Shift (Metahuman Form)</power>
+          </powers>
+          <qualities>
+            <positive>
+							<quality select="Metahuman Form Only">Wings II</quality>
+              <quality>Hawk Eye</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <naturalweapon>
+              <name>Bite (Falconine Form)</name>
+              <reach>0</reach>
+              <damage>({STR}+2)P</damage>
+              <ap>-1</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>RF</source>
+              <page>105</page>
+            </naturalweapon>
+            <naturalweapon>
+              <name>Talons (Falconine Form)</name>
+              <reach>-1</reach>
+              <damage>({STR}+1)P</damage>
+              <ap>-1</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>RF</source>
+              <page>105</page>
+            </naturalweapon>
+          </bonus>
+          <source>SR5</source>
+          <page>5</page>
+				</metavariant>
+			</metavariants>
+		</metatype>
+		
+		<metatype>
+      <id>addc3f0f-5a61-44d0-b980-a1db52256faa</id>
+      <name>Shapeshifter: Leonine</name>
+      <metavariants>
+        <metavariant amendoperation="addnode">
+          <id>6e908f6e-ec20-4a9b-a998-4deaeb5536c8</id>
+          <name>Valkyrie</name>
+					<karma>160</karma>
+					<bodmin>2</bodmin>
+					<bodmax>7</bodmax>
+					<bodaug>11</bodaug>
+					<agimin>1</agimin>
+					<agimax>6</agimax>
+					<agiaug>10</agiaug>
+					<reamin>1</reamin>
+					<reamax>6</reamax>
+					<reaaug>10</reaaug>
+					<strmin>2</strmin>
+					<strmax>7</strmax>
+					<straug>11</straug>
+					<chamin>1</chamin>
+					<chamax>6</chamax>
+					<chaaug>10</chaaug>
+					<intmin>1</intmin>
+					<intmax>6</intmax>
+					<intaug>10</intaug>
+					<logmin>1</logmin>
+					<logmax>6</logmax>
+					<logaug>10</logaug>
+					<wilmin>1</wilmin>
+					<wilmax>6</wilmax>
+					<wilaug>10</wilaug>
+					<inimin>2</inimin>
+					<inimax>12</inimax>
+					<iniaug>20</iniaug>
+					<edgmin>1</edgmin>
+					<edgmax>6</edgmax>
+					<edgaug>6</edgaug>
+					<magmin>1</magmin>
+					<magmax>6</magmax>
+					<magaug>6</magaug>
+					<resmin>1</resmin>
+					<resmax>6</resmax>
+					<resaug>6</resaug>
+					<essmin>0</essmin>
+					<essmax>6</essmax>
+					<essaug>6</essaug>
+					<depmin>0</depmin>
+					<depmax>0</depmax>
+					<depaug>0</depaug>
+					<walk alt="2/1/0">2/1/0</walk>
+          <run alt="4/1/0">5/1/0</run>
+          <sprint alt="2/1/0">2/1/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+          </powers>
+          <qualities>
+            <positive>
+							<quality select="Metahuman Form Only">Wings II</quality>
+              <quality>Balance Receptor</quality>
+              <quality>Low-Light Vision</quality>
+              <quality>Broadened Auditory System (Ultrasound)</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <naturalweapon>
+              <name>Bite (Leonine Form)</name>
+              <reach>0</reach>
+              <damage>({STR}+2)P</damage>
+              <ap>-1</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>RF</source>
+              <page>105</page>
+            </naturalweapon>
+            <naturalweapon>
+              <name>Claws</name>
+              <reach>1</reach>
+              <damage>({STR}+1)P</damage>
+              <ap>-1</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>RF</source>
+              <page>105</page>
+            </naturalweapon>
+          </bonus>
+          <source>SR5</source>
+          <page>5</page>
+				</metavariant>
+			</metavariants>
+		</metatype>
+		
+		<metatype>
+      <id>5bc6b1d8-8772-41f9-8c45-6f9abbd42cb1</id>
+      <name>Shapeshifter: Lupine</name>
+      <metavariants>
+        <metavariant amendoperation="addnode">
+          <id>195b4505-64be-4ba2-9809-a30e9e61ee3d</id>
+          <name>Valkyrie</name>
+					<karma>120</karma>
+					<bodmin>2</bodmin>
+					<bodmax>7</bodmax>
+					<bodaug>11</bodaug>
+					<agimin>1</agimin>
+					<agimax>6</agimax>
+					<agiaug>10</agiaug>
+					<reamin>1</reamin>
+					<reamax>6</reamax>
+					<reaaug>10</reaaug>
+					<strmin>2</strmin>
+					<strmax>7</strmax>
+					<straug>11</straug>
+					<chamin>1</chamin>
+					<chamax>6</chamax>
+					<chaaug>10</chaaug>
+					<intmin>1</intmin>
+					<intmax>6</intmax>
+					<intaug>10</intaug>
+					<logmin>1</logmin>
+					<logmax>6</logmax>
+					<logaug>10</logaug>
+					<wilmin>1</wilmin>
+					<wilmax>6</wilmax>
+					<wilaug>10</wilaug>
+					<inimin>2</inimin>
+					<inimax>12</inimax>
+					<iniaug>20</iniaug>
+					<edgmin>1</edgmin>
+					<edgmax>6</edgmax>
+					<edgaug>6</edgaug>
+					<magmin>1</magmin>
+					<magmax>6</magmax>
+					<magaug>6</magaug>
+					<resmin>1</resmin>
+					<resmax>6</resmax>
+					<resaug>6</resaug>
+					<essmin>0</essmin>
+					<essmax>6</essmax>
+					<essaug>6</essaug>
+					<depmin>0</depmin>
+					<depmax>0</depmax>
+					<depaug>0</depaug>
+					<walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">5/1/0</run>
+          <sprint alt="2/1/0">3/1/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+          </powers>
+          <qualities>
+            <positive>
+							<quality select="Metahuman Form Only">Wings II</quality>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Low-Light Vision</quality>
+              <quality>Broadened Auditory System (Ultrasound)</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <naturalweapon>
+              <name>Bite (Lupine Form)</name>
+              <reach>0</reach>
+              <damage>({STR}+2)P</damage>
+              <ap>-1</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>RF</source>
+              <page>105</page>
+            </naturalweapon>
+          </bonus>
+          <source>SR5</source>
+          <page>5</page>
+				</metavariant>
+			</metavariants>
+		</metatype>
+		
+		<metatype>
+      <id>6b9844d0-3e17-442f-a34d-f12f52b1c291</id>
+      <name>Shapeshifter: Pantherine</name>
+      <metavariants>
+        <metavariant amendoperation="addnode">
+          <id>beffa8fb-9abe-4142-a595-21eb7f04c8bb</id>
+          <name>Valkyrie</name>
+					<karma>150</karma>
+					<bodmin>2</bodmin>
+					<bodmax>7</bodmax>
+					<bodaug>11</bodaug>
+					<agimin>1</agimin>
+					<agimax>6</agimax>
+					<agiaug>10</agiaug>
+					<reamin>1</reamin>
+					<reamax>6</reamax>
+					<reaaug>10</reaaug>
+					<strmin>2</strmin>
+					<strmax>7</strmax>
+					<straug>11</straug>
+					<chamin>1</chamin>
+					<chamax>6</chamax>
+					<chaaug>10</chaaug>
+					<intmin>1</intmin>
+					<intmax>6</intmax>
+					<intaug>10</intaug>
+					<logmin>1</logmin>
+					<logmax>6</logmax>
+					<logaug>10</logaug>
+					<wilmin>1</wilmin>
+					<wilmax>6</wilmax>
+					<wilaug>10</wilaug>
+					<inimin>2</inimin>
+					<inimax>12</inimax>
+					<iniaug>20</iniaug>
+					<edgmin>1</edgmin>
+					<edgmax>6</edgmax>
+					<edgaug>6</edgaug>
+					<magmin>1</magmin>
+					<magmax>6</magmax>
+					<magaug>6</magaug>
+					<resmin>1</resmin>
+					<resmax>6</resmax>
+					<resaug>6</resaug>
+					<essmin>0</essmin>
+					<essmax>6</essmax>
+					<essaug>6</essaug>
+					<depmin>0</depmin>
+					<depmax>0</depmax>
+					<depaug>0</depaug>
+					<walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">5/1/0</run>
+          <sprint alt="2/1/0">2/1/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+          </powers>
+          <qualities>
+            <positive>
+							<quality select="Metahuman Form Only">Wings II</quality>
+              <quality>Balance Receptor</quality>
+              <quality>Broadened Auditory System (Ultrasound)</quality>
+              <quality>Low-Light Vision</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <naturalweapon>
+              <name>Bite (Pantherine Form)</name>
+              <reach>0</reach>
+              <damage>({STR}+2)P</damage>
+              <ap>-3</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>RF</source>
+              <page>105</page>
+            </naturalweapon>
+            <naturalweapon>
+              <name>Claws</name>
+              <reach>0</reach>
+              <damage>({STR}+2)P</damage>
+              <ap>0</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>RF</source>
+              <page>105</page>
+            </naturalweapon>
+          </bonus>
+          <source>SR5</source>
+          <page>5</page>
+				</metavariant>
+			</metavariants>
+		</metatype>
+		
+		<metatype>
+      <id>32c183be-74c8-403e-bcae-a5c4baadc3ec</id>
+      <name>Shapeshifter: Phocine</name>
+      <metavariants>
+        <metavariant amendoperation="addnode">
+          <id>28cb80b0-6660-4668-b6d4-3160bafffb44</id>
+          <name>Valkyrie</name>
+					<karma>140</karma>
+					<bodmin>2</bodmin>
+					<bodmax>7</bodmax>
+					<bodaug>11</bodaug>
+					<agimin>1</agimin>
+					<agimax>6</agimax>
+					<agiaug>10</agiaug>
+					<reamin>1</reamin>
+					<reamax>6</reamax>
+					<reaaug>10</reaaug>
+					<strmin>2</strmin>
+					<strmax>7</strmax>
+					<straug>11</straug>
+					<chamin>1</chamin>
+					<chamax>6</chamax>
+					<chaaug>10</chaaug>
+					<intmin>1</intmin>
+					<intmax>6</intmax>
+					<intaug>10</intaug>
+					<logmin>1</logmin>
+					<logmax>6</logmax>
+					<logaug>10</logaug>
+					<wilmin>1</wilmin>
+					<wilmax>6</wilmax>
+					<wilaug>10</wilaug>
+					<inimin>2</inimin>
+					<inimax>12</inimax>
+					<iniaug>20</iniaug>
+					<edgmin>1</edgmin>
+					<edgmax>6</edgmax>
+					<edgaug>6</edgaug>
+					<magmin>1</magmin>
+					<magmax>6</magmax>
+					<magaug>6</magaug>
+					<resmin>1</resmin>
+					<resmax>6</resmax>
+					<resaug>6</resaug>
+					<essmin>0</essmin>
+					<essmax>6</essmax>
+					<essaug>6</essaug>
+					<depmin>0</depmin>
+					<depmax>0</depmax>
+					<depaug>0</depaug>
+					<walk alt="2/1/0">1/3/0</walk>
+          <run alt="4/1/0">2/8/0</run>
+          <sprint alt="2/1/0">1/4/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+          </powers>
+          <qualities>
+            <positive>
+              <!-- It is mentioned explicitly that the webbed digits and the senses of smell/hearing carry over to metahuman form-->
+              <quality>Keen-Eared</quality>
+              <quality>Vomeronasal Organ</quality>
+              <quality>Low-Light Vision</quality>
+              <quality>Webbed Digits</quality>
+              <quality select="Shapeshifter Form Only">Animal Pelage (Insulating Pelt)</quality>
+              <quality select="Shapeshifter Form Only">Underwater Vision</quality>
+							<quality select="Metahuman Form Only">Wings II</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <naturalweapon>
+              <name>Bite (Phocine Form)</name>
+              <reach>-1</reach>
+              <damage>({STR}+1)P</damage>
+              <ap>-1</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>SAG</source>
+              <page>147</page>
+            </naturalweapon>
+          </bonus>
+          <source>SR5</source>
+          <page>5</page>
+				</metavariant>
+			</metavariants>
+		</metatype>
+		
+		<metatype>
+      <id>8be9315f-c790-4900-b6b1-5ebacdb0b1df</id>
+      <name>Shapeshifter: Tigrine</name>
+      <metavariants>
+        <metavariant amendoperation="addnode">
+          <id>1322ea53-5b1b-4e8c-baf6-0cf6c0317de4</id>
+          <name>Valkyrie</name>
+					<karma>150</karma>
+					<bodmin>2</bodmin>
+					<bodmax>7</bodmax>
+					<bodaug>11</bodaug>
+					<agimin>1</agimin>
+					<agimax>6</agimax>
+					<agiaug>10</agiaug>
+					<reamin>1</reamin>
+					<reamax>6</reamax>
+					<reaaug>10</reaaug>
+					<strmin>2</strmin>
+					<strmax>7</strmax>
+					<straug>11</straug>
+					<chamin>1</chamin>
+					<chamax>6</chamax>
+					<chaaug>10</chaaug>
+					<intmin>1</intmin>
+					<intmax>6</intmax>
+					<intaug>10</intaug>
+					<logmin>1</logmin>
+					<logmax>6</logmax>
+					<logaug>10</logaug>
+					<wilmin>1</wilmin>
+					<wilmax>6</wilmax>
+					<wilaug>10</wilaug>
+					<inimin>2</inimin>
+					<inimax>12</inimax>
+					<iniaug>20</iniaug>
+					<edgmin>1</edgmin>
+					<edgmax>6</edgmax>
+					<edgaug>6</edgaug>
+					<magmin>1</magmin>
+					<magmax>6</magmax>
+					<magaug>6</magaug>
+					<resmin>1</resmin>
+					<resmax>6</resmax>
+					<resaug>6</resaug>
+					<essmin>0</essmin>
+					<essmax>6</essmax>
+					<essaug>6</essaug>
+					<depmin>0</depmin>
+					<depmax>0</depmax>
+					<depaug>0</depaug>
+					<walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">5/1/0</run>
+          <sprint alt="2/1/0">2/1/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+          </powers>
+          <qualities>
+            <positive>
+              <quality>Balance Receptor</quality>
+              <quality>Broadened Auditory System (Ultrasound)</quality>
+              <quality>Low-Light Vision</quality>
+							<quality select="Metahuman Form Only">Wings II</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <naturalweapon>
+              <name>Bite (Tigrine Form)</name>
+              <reach>0</reach>
+              <damage>({STR}+2)P</damage>
+              <ap>-2</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>RF</source>
+              <page>105</page>
+            </naturalweapon>
+            <naturalweapon>
+              <name>Claws</name>
+              <reach>1</reach>
+              <damage>({STR}+1)P</damage>
+              <ap>0</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>RF</source>
+              <page>105</page>
+            </naturalweapon>
+          </bonus>
+          <source>SR5</source>
+          <page>5</page>
+				</metavariant>
+			</metavariants>
+		</metatype>
+		
+		<metatype>
+      <id>9ebede5b-b693-4cab-9469-e72f625c485c</id>
+      <name>Shapeshifter: Ursine</name>
+      <metavariants>
+        <metavariant amendoperation="addnode">
+          <id>0f616102-73fe-428b-95bf-ed5163f849f7</id>
+          <name>Valkyrie</name>
+					<karma>160</karma>
+					<bodmin>2</bodmin>
+					<bodmax>7</bodmax>
+					<bodaug>11</bodaug>
+					<agimin>1</agimin>
+					<agimax>6</agimax>
+					<agiaug>10</agiaug>
+					<reamin>1</reamin>
+					<reamax>6</reamax>
+					<reaaug>10</reaaug>
+					<strmin>2</strmin>
+					<strmax>7</strmax>
+					<straug>11</straug>
+					<chamin>1</chamin>
+					<chamax>6</chamax>
+					<chaaug>10</chaaug>
+					<intmin>1</intmin>
+					<intmax>6</intmax>
+					<intaug>10</intaug>
+					<logmin>1</logmin>
+					<logmax>6</logmax>
+					<logaug>10</logaug>
+					<wilmin>1</wilmin>
+					<wilmax>6</wilmax>
+					<wilaug>10</wilaug>
+					<inimin>2</inimin>
+					<inimax>12</inimax>
+					<iniaug>20</iniaug>
+					<edgmin>1</edgmin>
+					<edgmax>6</edgmax>
+					<edgaug>6</edgaug>
+					<magmin>1</magmin>
+					<magmax>6</magmax>
+					<magaug>6</magaug>
+					<resmin>1</resmin>
+					<resmax>6</resmax>
+					<resaug>6</resaug>
+					<essmin>0</essmin>
+					<essmax>6</essmax>
+					<essaug>6</essaug>
+					<depmin>0</depmin>
+					<depmax>0</depmax>
+					<depaug>0</depaug>
+					<walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">3/1/0</run>
+          <sprint alt="2/1/0">2/1/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+          </powers>
+          <qualities>
+            <positive>
+              <quality>Broadened Auditory System (Ultrasound)</quality>
+              <quality>Keen-Eared</quality>
+              <quality>Low-Light Vision</quality>
+              <quality>Vomeronasal Organ</quality>
+							<quality select="Metahuman Form Only">Wings II</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <naturalweapon>
+              <name>Bite (Ursine Form)</name>
+              <reach>0</reach>
+              <damage>({STR}+2)P</damage>
+              <ap>-2</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>RF</source>
+              <page>105</page>
+            </naturalweapon>
+            <naturalweapon>
+              <name>Claws</name>
+              <reach>1</reach>
+              <damage>({STR}+3)P</damage>
+              <ap>-1</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>RF</source>
+              <page>105</page>
+            </naturalweapon>
+          </bonus>
+          <source>SR5</source>
+          <page>5</page>
+				</metavariant>
+			</metavariants>
+		</metatype>
+		
+		<metatype>
+      <id>6c0cdaff-65a1-4b30-8a44-a43f8c7abcd0</id>
+      <name>Shapeshifter: Vulpine</name>
+      <metavariants>
+        <metavariant amendoperation="addnode">
+          <id>6baeb15b-1049-423e-8911-d427498319ba</id>
+          <name>Valkyrie</name>
+					<karma>100</karma>
+					<bodmin>2</bodmin>
+					<bodmax>7</bodmax>
+					<bodaug>11</bodaug>
+					<agimin>1</agimin>
+					<agimax>6</agimax>
+					<agiaug>10</agiaug>
+					<reamin>1</reamin>
+					<reamax>6</reamax>
+					<reaaug>10</reaaug>
+					<strmin>2</strmin>
+					<strmax>7</strmax>
+					<straug>11</straug>
+					<chamin>1</chamin>
+					<chamax>6</chamax>
+					<chaaug>10</chaaug>
+					<intmin>1</intmin>
+					<intmax>6</intmax>
+					<intaug>10</intaug>
+					<logmin>1</logmin>
+					<logmax>6</logmax>
+					<logaug>10</logaug>
+					<wilmin>1</wilmin>
+					<wilmax>6</wilmax>
+					<wilaug>10</wilaug>
+					<inimin>2</inimin>
+					<inimax>12</inimax>
+					<iniaug>20</iniaug>
+					<edgmin>1</edgmin>
+					<edgmax>6</edgmax>
+					<edgaug>6</edgaug>
+					<magmin>1</magmin>
+					<magmax>6</magmax>
+					<magaug>6</magaug>
+					<resmin>1</resmin>
+					<resmax>6</resmax>
+					<resaug>6</resaug>
+					<essmin>0</essmin>
+					<essmax>6</essmax>
+					<essaug>6</essaug>
+					<depmin>0</depmin>
+					<depmax>0</depmax>
+					<depaug>0</depaug>
+					<walk alt="2/1/0">1/1/0</walk>
+          <run alt="4/1/0">3/1/0</run>
+          <sprint alt="2/1/0">2/1/0</sprint>
+          <powers>
+            <power>Shift (Metahuman Form)</power>
+          </powers>
+          <qualities>
+            <positive>
+              <quality>Broadened Auditory System (Ultrasound)</quality>
+              <quality>Keen-Eared</quality>
+              <quality>Low-Light Vision</quality>
+              <quality>Vomeronasal Organ</quality>
+							<quality select="Metahuman Form Only">Wings II</quality>
+            </positive>
+            <negative>
+              <quality removable="True">Uneducated</quality>
+            </negative>
+          </qualities>
+          <bonus>
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>critter</name>
+            </enabletab>
+            <naturalweapon>
+              <name>Bite (Vulpine Form)</name>
+              <reach>0</reach>
+              <damage>({STR}+1)P</damage>
+              <ap>-</ap>
+              <useskill>Unarmed Combat</useskill>
+              <accuracy>Physical</accuracy>
+              <source>RF</source>
+              <page>105</page>
+            </naturalweapon>
+          </bonus>
+          <source>SR5</source>
+          <page>5</page>
+				</metavariant>
+			</metavariants>
+		</metatype>
+		
+	</metatypes>
 </chummer>

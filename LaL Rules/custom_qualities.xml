@@ -123,9 +123,26 @@
 						<name>Unarmed Combat</name>
 						<val>8</val>
 					</skill>
-				</group>				
+				</group>
 			</oneof>
 		</required>		
+      <source>SR5</source>
+    <page>5</page>
+</quality>
+
+<quality>
+    <id>56bee176-2b64-4d5b-828a-42a7ce624eca</id>
+      <name>Immortal Blade Mastery - Exotic Weapons</name>
+      <karma>15</karma>
+      <category>Positive</category>
+	  <doublecareer>False</doublecareer>
+		<forbidden>
+			<oneof>
+				<magenabled />
+				<resenabled />
+				<depenabled />
+			</oneof>
+		</forbidden>
       <source>SR5</source>
     <page>5</page>
 </quality>

@@ -23,8 +23,8 @@
               <karma>20</karma>
             </metavariant>
 						<metavariant>
-							<id>bd5c41c5-f3ac-450a-807d-3b427a1e9aa5</id>
-              <name>Valkyrie</name>
+							<!--<id>bd5c41c5-f3ac-450a-807d-3b427a1e9aa5</id>-->
+              <name>Valkirie (Gorilline shifter)</name>
               <value>8</value>
               <karma>20</karma>
             </metavariant>
@@ -152,7 +152,7 @@
               <karma>20</karma>
             </metavariant>
 						<metavariant>
-							<id>bd5c41c5-f3ac-450a-807d-3b427a1e9aa5</id>
+							<!--<id>bd5c41c5-f3ac-450a-807d-3b427a1e9aa5</id>-->
               <name>Valkyrie</name>
               <value>6</value>
               <karma>20</karma>
@@ -281,7 +281,7 @@
               <karma>20</karma>
             </metavariant>
 						<metavariant>
-							<id>bd5c41c5-f3ac-450a-807d-3b427a1e9aa5</id>
+							<!--<id>bd5c41c5-f3ac-450a-807d-3b427a1e9aa5</id>-->
               <name>Valkyrie</name>
               <value>4</value>
               <karma>20</karma>

@@ -190,7 +190,6 @@
             </positive>
             <negative>
               <quality select="Metahuman Form Only">Striking Skin Pigmentation</quality>
-							<quality removable="True">Uneducated</quality>
             </negative>
           </qualities>
           <bonus>
@@ -209,7 +208,7 @@
         </metavariant>
 				<metavariant>
           <id>eb45af0f-b9ea-4daa-bab1-2cf58df1bae1</id>
-          <name>Valkirie</name>
+          <name>Valkirie (Feline shifter)</name>
 					<karma>100</karma>
 					<bodmin>2</bodmin>
 					<bodmax>7</bodmax>
@@ -269,9 +268,6 @@
 							<quality>Low-Light Vision</quality>
 							<quality select="Metahuman Form Only">Wings II</quality>	
             </positive>
-            <negative>
-              <quality removable="True">Uneducated</quality>
-            </negative>
           </qualities>
           <bonus>
             <enableattribute>
@@ -348,9 +344,6 @@
 	      <quality>Balance Receptor</quality>
 			  <quality>Low-Light Vision</quality>
             </positive>
-						<negative>
-							<quality removable="True">Uneducated</quality>
-						</negative>
           </qualities>
           <bonus>
             <enableattribute>
@@ -427,10 +420,6 @@
 	      <quality>Balance Receptor</quality>
 			  <quality>Low-Light Vision</quality>
             </positive>
-            <negative>
-              <quality>Symbiosis</quality>
-							<quality removable="True">Uneducated</quality>
-            </negative>
           </qualities>
           <bonus>
             <enableattribute>
@@ -509,7 +498,6 @@
               <quality select="Sunlight">Allergy (Common, Mild)</quality>
               <quality select="Metahuman Form Only">Nocturnal</quality>
               <quality select="Colored Fur; Metahuman Form Only">Unusual Hair</quality>
-							<quality removable="True">Uneducated</quality>
             </negative>
           </qualities>
           <bonus>
@@ -586,7 +574,6 @@
 	    </positive>
             <negative>
               <quality select="Pollution">Allergy (Common, Mild)</quality>
-							<quality removable="True">Uneducated</quality>
             </negative>
           </qualities>
           <bonus>
@@ -661,9 +648,6 @@
               <quality select="Metahuman Form Only">Celerity</quality>
 			  <quality>Low-Light Vision</quality>
             </positive>
-						<negative>
-							<quality removable="True">Uneducated</quality>
-						</negative>
           </qualities>
           <bonus>
             <enableattribute>
@@ -740,9 +724,6 @@
               <quality select="Metahuman Form Only">Resistance to Pathogens/Toxins</quality>
 			  <quality>Low-Light Vision</quality>
             </positive>
-						<negative>
-						<quality removable="True">Uneducated</quality>
-						</negative>
           </qualities>
           <bonus>
             <enableattribute>
@@ -829,7 +810,6 @@
             </positive>
             <negative>
               <quality select="Metahuman Form Only">Neoteny</quality>
-							<quality removable="True">Uneducated</quality>
             </negative>
           </qualities>
           <source>RF</source>
@@ -909,7 +889,6 @@
             </positive>
             <negative>
               <quality select="Body; Metahuman Form Only">Unusual Hair</quality>
-							<quality removable="True">Uneducated</quality>
             </negative>
           </qualities>
           <source>RF</source>
@@ -990,7 +969,6 @@
             </positive>
             <negative>
               <quality select="Metahuman Form Only">Unusual Hair</quality>
-							<quality removable="True">Uneducated</quality>
             </negative>
           </qualities>
           <source>RF</source>
@@ -1057,9 +1035,6 @@
               <quality select="Metahuman Form Only">Webbed Digits</quality>
 			  <quality>Low-Light Vision</quality>
             </positive>
-						<negative>
-							<quality removable="True">Uneducated</quality>
-						</negative>
           </qualities>
           <bonus>
             <enableattribute>
@@ -1134,9 +1109,6 @@
 	      <quality>Balance Receptor</quality>
 			  <quality>Low-Light Vision</quality>
             </positive>	
-						<negative>
-							<quality removable="True">Uneducated</quality>
-						</negative>
           </qualities>
           <bonus>
             <enableattribute>
@@ -1212,9 +1184,6 @@
               <quality select="Metahuman Form Only">Keen-Eared</quality>
 			  <quality>Low-Light Vision</quality>
             </positive>	
-						<negative>
-							<quality removable="True">Uneducated</quality>
-						</negative>
           </qualities>
           <bonus>
             <enableattribute>
@@ -1288,9 +1257,6 @@
 	      <quality>Balance Receptor</quality>
 			  <quality>Low-Light Vision</quality>
             </positive>
-						<negative>
-						<quality removable="True">Uneducated</quality>
-						</negative>
           </qualities>
           <bonus>
             <enableattribute>
@@ -1366,7 +1332,6 @@
             </positive>
             <negative>
               <quality select="Metahuman Form Only">Striking Skin Pigmentation</quality>
-							<quality removable="True">Uneducated</quality>
             </negative>
           </qualities>
           <bonus>
@@ -1441,9 +1406,6 @@
               <quality select="Metahuman Form Only">Satyr Legs</quality>
 			  <quality>Low-Light Vision</quality>
             </positive>
-						<negative>
-							<quality removable="True">Uneducated</quality>
-						</negative>
           </qualities>
 	  <karma>120</karma>
           <bonus>
@@ -1519,9 +1481,6 @@
               <quality select="Metahuman Form Only">Thermographic Vision</quality>
 			  <quality>Low-Light Vision</quality>
             </positive>
-						<negative>
-							<quality removable="True">Uneducated</quality>
-						</negative>
           </qualities>
           <bonus>
             <armor group="0">1</armor>
@@ -1602,7 +1561,6 @@
             </positive>
             <negative>
               <quality select="Metahuman Form Only">Cyclopean Eye</quality>
-							<quality removable="True">Uneducated</quality>
             </negative>
           </qualities>
           <bonus>
@@ -1680,9 +1638,6 @@
               <quality select="Metahuman Form Only">Thermographic Vision</quality>
 			  <quality>Low-Light Vision</quality>
             </positive>
-						<negative>
-							<quality removable="True">Uneducated</quality>
-						</negative>
           </qualities>
           <bonus>
             <reach>1</reach>
@@ -1759,9 +1714,6 @@
               <quality select="Metahuman Form Only">Thermographic Vision</quality>
 			  <quality>Low-Light Vision</quality>
             </positive>
-						<negative>
-							<quality removable="True">Uneducated</quality>
-						</negative>
           </qualities>
           <bonus>
             <reach>1</reach>
@@ -1838,9 +1790,6 @@
               <quality select="Metahuman Form Only">Thermographic Vision</quality>
 			  <quality>Low-Light Vision</quality>
             </positive>
-						<negative>
-							<quality removable="True">Uneducated</quality>
-						</negative>
           </qualities>
           <karma>2</karma>
           <bonus>

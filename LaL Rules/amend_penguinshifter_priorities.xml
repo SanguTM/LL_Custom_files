@@ -23,8 +23,8 @@
               <karma>0</karma>
             </metavariant>
 						<metavariant>
-							<id>ab5273cf-cdea-4e2a-8466-b447b6b9a770</id>
-              <name>Valkyrie</name>
+							<!--<id>ab5273cf-cdea-4e2a-8466-b447b6b9a770</id>-->
+              <name>Valkirie (Penguine shifter)</name>
               <value>8</value>
               <karma>0</karma>
             </metavariant>
@@ -152,7 +152,7 @@
               <karma>0</karma>
             </metavariant>
 						<metavariant>
-							<id>ab5273cf-cdea-4e2a-8466-b447b6b9a770</id>
+							<!--<id>ab5273cf-cdea-4e2a-8466-b447b6b9a770</id>-->
               <name>Valkyrie</name>
               <value>6</value>
               <karma>0</karma>
@@ -281,7 +281,7 @@
               <karma>0</karma>
             </metavariant>
 						<metavariant>
-							<id>ab5273cf-cdea-4e2a-8466-b447b6b9a770</id>
+							<!--<id>ab5273cf-cdea-4e2a-8466-b447b6b9a770</id>-->
               <name>Valkyrie</name>
               <value>4</value>
               <karma>0</karma>
